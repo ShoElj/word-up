@@ -1,0 +1,2927 @@
+{
+  "generatedAt": "2026-09-07T11:54:05.371Z",
+  "source": "phase-3-first-year-curriculum",
+  "totalDays": 365,
+  "records": [
+    {
+      "day_number": 1,
+      "normalized_word": "concise",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 2,
+      "normalized_word": "articulate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 3,
+      "normalized_word": "clarify",
+      "theme": "communication",
+      "lesson_type": "review",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 4,
+      "normalized_word": "context",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 5,
+      "normalized_word": "subtle",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 6,
+      "normalized_word": "empathy",
+      "theme": "relationships",
+      "lesson_type": "emotional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 7,
+      "normalized_word": "resilient",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 8,
+      "normalized_word": "candid",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 9,
+      "normalized_word": "assertive",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 10,
+      "normalized_word": "perspective",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 11,
+      "normalized_word": "coherent",
+      "theme": "academic_language",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 12,
+      "normalized_word": "evidence",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 13,
+      "normalized_word": "evaluate",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 14,
+      "normalized_word": "efficient",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 15,
+      "normalized_word": "prioritize",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 16,
+      "normalized_word": "collaborate",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 17,
+      "normalized_word": "constructive",
+      "theme": "relationships",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 18,
+      "normalized_word": "pragmatic",
+      "theme": "nuance_and_precision",
+      "lesson_type": "advanced",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 19,
+      "normalized_word": "ambiguous",
+      "theme": "nuance_and_precision",
+      "lesson_type": "advanced",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 20,
+      "normalized_word": "meticulous",
+      "theme": "professional_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 21,
+      "normalized_word": "compelling",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 22,
+      "normalized_word": "imply",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 23,
+      "normalized_word": "relevant",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 24,
+      "normalized_word": "precise",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 25,
+      "normalized_word": "explicit",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 26,
+      "normalized_word": "summarize",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 27,
+      "normalized_word": "fluent",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 28,
+      "normalized_word": "persuade",
+      "theme": "everyday_expression",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 29,
+      "normalized_word": "emphasize",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 30,
+      "normalized_word": "convey",
+      "theme": "everyday_expression",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 31,
+      "normalized_word": "nuance",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 32,
+      "normalized_word": "diplomatic",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 33,
+      "normalized_word": "elaborate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 34,
+      "normalized_word": "resonate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 35,
+      "normalized_word": "accurate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 36,
+      "normalized_word": "detail",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 37,
+      "normalized_word": "direct",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 38,
+      "normalized_word": "formal",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 39,
+      "normalized_word": "inform",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 40,
+      "normalized_word": "specific",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 41,
+      "normalized_word": "accurately",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 42,
+      "normalized_word": "acknowledge",
+      "theme": "communication",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 43,
+      "normalized_word": "affirm",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 44,
+      "normalized_word": "appropriate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 45,
+      "normalized_word": "communicate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 46,
+      "normalized_word": "confirm",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 47,
+      "normalized_word": "convince",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 48,
+      "normalized_word": "engage",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 49,
+      "normalized_word": "illustrate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 50,
+      "normalized_word": "indicate",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 51,
+      "normalized_word": "informal",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 52,
+      "normalized_word": "recommend",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 53,
+      "normalized_word": "respond",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 54,
+      "normalized_word": "reveal",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 55,
+      "normalized_word": "suggest",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 56,
+      "normalized_word": "analogy",
+      "theme": "communication",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 57,
+      "normalized_word": "brevity",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 58,
+      "normalized_word": "cohesive",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 59,
+      "normalized_word": "concrete",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 60,
+      "normalized_word": "contextual",
+      "theme": "communication",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 61,
+      "normalized_word": "tactful",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 62,
+      "normalized_word": "genuine",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 63,
+      "normalized_word": "sincere",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 64,
+      "normalized_word": "discreet",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 65,
+      "normalized_word": "foster",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 66,
+      "normalized_word": "integrity",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 67,
+      "normalized_word": "dependable",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 68,
+      "normalized_word": "flexible",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 69,
+      "normalized_word": "meaningful",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 70,
+      "normalized_word": "thoughtful",
+      "theme": "relationships",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 71,
+      "normalized_word": "boundary",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 72,
+      "normalized_word": "commitment",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 73,
+      "normalized_word": "compassion",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 74,
+      "normalized_word": "confidence",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 75,
+      "normalized_word": "considerate",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 76,
+      "normalized_word": "interaction",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 77,
+      "normalized_word": "mutual",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 78,
+      "normalized_word": "resolve",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 79,
+      "normalized_word": "authentic",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 80,
+      "normalized_word": "dependent",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 81,
+      "normalized_word": "mediate",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 82,
+      "normalized_word": "undermine",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 83,
+      "normalized_word": "accommodate",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 84,
+      "normalized_word": "affection",
+      "theme": "relationships",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 85,
+      "normalized_word": "ambition",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 86,
+      "normalized_word": "aspiration",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 87,
+      "normalized_word": "attentive",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 88,
+      "normalized_word": "authenticity",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 89,
+      "normalized_word": "conflict",
+      "theme": "personality",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 90,
+      "normalized_word": "courteous",
+      "theme": "relationships",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 91,
+      "normalized_word": "reluctant",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 92,
+      "normalized_word": "composure",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 93,
+      "normalized_word": "anxious",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 94,
+      "normalized_word": "overwhelmed",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 95,
+      "normalized_word": "motivated",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 96,
+      "normalized_word": "curious",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 97,
+      "normalized_word": "appreciate",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 98,
+      "normalized_word": "gratitude",
+      "theme": "emotions",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 99,
+      "normalized_word": "restraint",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 100,
+      "normalized_word": "capable",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 101,
+      "normalized_word": "confident",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 102,
+      "normalized_word": "depend",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 103,
+      "normalized_word": "encourage",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 104,
+      "normalized_word": "generous",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 105,
+      "normalized_word": "influence",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 106,
+      "normalized_word": "patient",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 107,
+      "normalized_word": "responsible",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 108,
+      "normalized_word": "willing",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 109,
+      "normalized_word": "concern",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 110,
+      "normalized_word": "connect",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 111,
+      "normalized_word": "react",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 112,
+      "normalized_word": "tension",
+      "theme": "emotions",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 113,
+      "normalized_word": "adversity",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 114,
+      "normalized_word": "appreciation",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 115,
+      "normalized_word": "burden",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 116,
+      "normalized_word": "decisive",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 117,
+      "normalized_word": "dependence",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 118,
+      "normalized_word": "earnest",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 119,
+      "normalized_word": "emotional",
+      "theme": "emotions",
+      "lesson_type": "emotional",
+      "difficulty_level": "elementary",
+      "status": "approved"
+    },
+    {
+      "day_number": 120,
+      "normalized_word": "endure",
+      "theme": "emotions",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 121,
+      "normalized_word": "inevitable",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 122,
+      "normalized_word": "skeptical",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 123,
+      "normalized_word": "plausible",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 124,
+      "normalized_word": "credible",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 125,
+      "normalized_word": "insight",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 126,
+      "normalized_word": "infer",
+      "theme": "thinking",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 127,
+      "normalized_word": "objective",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 128,
+      "normalized_word": "subjective",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 129,
+      "normalized_word": "significant",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 130,
+      "normalized_word": "assumption",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 131,
+      "normalized_word": "interpret",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 132,
+      "normalized_word": "perceptive",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 133,
+      "normalized_word": "scrutinize",
+      "theme": "thinking",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 134,
+      "normalized_word": "synthesize",
+      "theme": "thinking",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 135,
+      "normalized_word": "assess",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 136,
+      "normalized_word": "criteria",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 137,
+      "normalized_word": "contrast",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 138,
+      "normalized_word": "logical",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 139,
+      "normalized_word": "analyze",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 140,
+      "normalized_word": "anticipate",
+      "theme": "thinking",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 141,
+      "normalized_word": "bias",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 142,
+      "normalized_word": "complex",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 143,
+      "normalized_word": "comprehensive",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 144,
+      "normalized_word": "conclude",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 145,
+      "normalized_word": "consequence",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 146,
+      "normalized_word": "critical",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 147,
+      "normalized_word": "deliberate",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 148,
+      "normalized_word": "derive",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 149,
+      "normalized_word": "determine",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 150,
+      "normalized_word": "emerge",
+      "theme": "thinking",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 151,
+      "normalized_word": "versatile",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 152,
+      "normalized_word": "diligent",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 153,
+      "normalized_word": "viable",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 154,
+      "normalized_word": "adaptable",
+      "theme": "professional_language",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 155,
+      "normalized_word": "allocate",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 156,
+      "normalized_word": "initiative",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 157,
+      "normalized_word": "consistent",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 158,
+      "normalized_word": "transparent",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 159,
+      "normalized_word": "accountable",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 160,
+      "normalized_word": "resourceful",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 161,
+      "normalized_word": "thorough",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 162,
+      "normalized_word": "mitigate",
+      "theme": "professional_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 163,
+      "normalized_word": "refine",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 164,
+      "normalized_word": "effective",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 165,
+      "normalized_word": "organized",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 166,
+      "normalized_word": "reliable",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 167,
+      "normalized_word": "strategic",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 168,
+      "normalized_word": "capacity",
+      "theme": "professional_language",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 169,
+      "normalized_word": "collaboration",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 170,
+      "normalized_word": "competent",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 171,
+      "normalized_word": "contribute",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 172,
+      "normalized_word": "coordinate",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 173,
+      "normalized_word": "enhance",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 174,
+      "normalized_word": "ensure",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 175,
+      "normalized_word": "estimate",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 176,
+      "normalized_word": "facilitate",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 177,
+      "normalized_word": "feasible",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 178,
+      "normalized_word": "implement",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 179,
+      "normalized_word": "maintain",
+      "theme": "work",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 180,
+      "normalized_word": "potential",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 181,
+      "normalized_word": "cultivate",
+      "theme": "education",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 182,
+      "normalized_word": "comprehend",
+      "theme": "academic_language",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 183,
+      "normalized_word": "retain",
+      "theme": "education",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 184,
+      "normalized_word": "concept",
+      "theme": "academic_language",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 185,
+      "normalized_word": "demonstrate",
+      "theme": "education",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 186,
+      "normalized_word": "examine",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 187,
+      "normalized_word": "expand",
+      "theme": "education",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 188,
+      "normalized_word": "experience",
+      "theme": "academic_language",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 189,
+      "normalized_word": "foundation",
+      "theme": "education",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 190,
+      "normalized_word": "fundamental",
+      "theme": "academic_language",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 191,
+      "normalized_word": "proportion",
+      "theme": "education",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 192,
+      "normalized_word": "reinforce",
+      "theme": "academic_language",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 193,
+      "normalized_word": "significance",
+      "theme": "education",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 194,
+      "normalized_word": "valid",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 195,
+      "normalized_word": "abstract",
+      "theme": "education",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 196,
+      "normalized_word": "criterion",
+      "theme": "academic_language",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 197,
+      "normalized_word": "definitive",
+      "theme": "education",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 198,
+      "normalized_word": "differentiate",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 199,
+      "normalized_word": "empirical",
+      "theme": "education",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 200,
+      "normalized_word": "exemplify",
+      "theme": "academic_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 201,
+      "normalized_word": "interpretation",
+      "theme": "education",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 202,
+      "normalized_word": "justify",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 203,
+      "normalized_word": "marginal",
+      "theme": "education",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 204,
+      "normalized_word": "proficient",
+      "theme": "academic_language",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 205,
+      "normalized_word": "qualitative",
+      "theme": "education",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 206,
+      "normalized_word": "quantify",
+      "theme": "academic_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 207,
+      "normalized_word": "rigorous",
+      "theme": "education",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 208,
+      "normalized_word": "substantial",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 209,
+      "normalized_word": "theoretical",
+      "theme": "education",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 210,
+      "normalized_word": "validate",
+      "theme": "academic_language",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 211,
+      "normalized_word": "sustainable",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 212,
+      "normalized_word": "ethical",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 213,
+      "normalized_word": "inclusive",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 214,
+      "normalized_word": "equitable",
+      "theme": "culture",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 215,
+      "normalized_word": "advocate",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 216,
+      "normalized_word": "diverse",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 217,
+      "normalized_word": "participate",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 218,
+      "normalized_word": "autonomy",
+      "theme": "culture",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 219,
+      "normalized_word": "beneficiary",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 220,
+      "normalized_word": "fragmented",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 221,
+      "normalized_word": "infrastructure",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 222,
+      "normalized_word": "intervene",
+      "theme": "culture",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 223,
+      "normalized_word": "legacy",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 224,
+      "normalized_word": "obligation",
+      "theme": "culture",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 225,
+      "normalized_word": "precedent",
+      "theme": "society",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 226,
+      "normalized_word": "aesthetic",
+      "theme": "culture",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 227,
+      "normalized_word": "artistry",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 228,
+      "normalized_word": "communal",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 229,
+      "normalized_word": "consensus",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 230,
+      "normalized_word": "controversial",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 231,
+      "normalized_word": "conventional",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 232,
+      "normalized_word": "cultured",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 233,
+      "normalized_word": "demographic",
+      "theme": "society",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 234,
+      "normalized_word": "displacement",
+      "theme": "culture",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 235,
+      "normalized_word": "eligible",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 236,
+      "normalized_word": "embody",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 237,
+      "normalized_word": "exclude",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 238,
+      "normalized_word": "impartial",
+      "theme": "culture",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 239,
+      "normalized_word": "inclusion",
+      "theme": "society",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 240,
+      "normalized_word": "memorable",
+      "theme": "culture",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 241,
+      "normalized_word": "peculiar",
+      "theme": "descriptive_language",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 242,
+      "normalized_word": "implicit",
+      "theme": "nuance_and_precision",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 243,
+      "normalized_word": "distinct",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 244,
+      "normalized_word": "moderate",
+      "theme": "nuance_and_precision",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 245,
+      "normalized_word": "vary",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 246,
+      "normalized_word": "diminish",
+      "theme": "nuance_and_precision",
+      "lesson_type": "descriptive",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 247,
+      "normalized_word": "emphasis",
+      "theme": "descriptive_language",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 248,
+      "normalized_word": "explicitly",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 249,
+      "normalized_word": "paradox",
+      "theme": "descriptive_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 250,
+      "normalized_word": "respective",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 251,
+      "normalized_word": "symmetry",
+      "theme": "descriptive_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 252,
+      "normalized_word": "tangible",
+      "theme": "nuance_and_precision",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 253,
+      "normalized_word": "abrupt",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 254,
+      "normalized_word": "adjacent",
+      "theme": "nuance_and_precision",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 255,
+      "normalized_word": "amplify",
+      "theme": "descriptive_language",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 256,
+      "normalized_word": "anchor",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 257,
+      "normalized_word": "assurance",
+      "theme": "descriptive_language",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 258,
+      "normalized_word": "clarity",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 259,
+      "normalized_word": "complement",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 260,
+      "normalized_word": "conceal",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 261,
+      "normalized_word": "contradict",
+      "theme": "descriptive_language",
+      "lesson_type": "communication",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 262,
+      "normalized_word": "delicate",
+      "theme": "nuance_and_precision",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 263,
+      "normalized_word": "dense",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 264,
+      "normalized_word": "dialogue",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 265,
+      "normalized_word": "dynamic",
+      "theme": "descriptive_language",
+      "lesson_type": "descriptive",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 266,
+      "normalized_word": "eloquent",
+      "theme": "nuance_and_precision",
+      "lesson_type": "review",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 267,
+      "normalized_word": "engagement",
+      "theme": "descriptive_language",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 268,
+      "normalized_word": "evident",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 269,
+      "normalized_word": "expressive",
+      "theme": "descriptive_language",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 270,
+      "normalized_word": "frank",
+      "theme": "nuance_and_precision",
+      "lesson_type": "communication",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 271,
+      "normalized_word": "innovate",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 272,
+      "normalized_word": "ecosystem",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 273,
+      "normalized_word": "hypothesis",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 274,
+      "normalized_word": "prototype",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 275,
+      "normalized_word": "interface",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 276,
+      "normalized_word": "accessible",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 277,
+      "normalized_word": "wellbeing",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 278,
+      "normalized_word": "beneficial",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 279,
+      "normalized_word": "function",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 280,
+      "normalized_word": "integrate",
+      "theme": "science_and_technology",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 281,
+      "normalized_word": "observe",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 282,
+      "normalized_word": "predict",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 283,
+      "normalized_word": "restore",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 284,
+      "normalized_word": "strengthen",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 285,
+      "normalized_word": "transform",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 286,
+      "normalized_word": "adaptation",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 287,
+      "normalized_word": "compatible",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 288,
+      "normalized_word": "disrupt",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 289,
+      "normalized_word": "evolve",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 290,
+      "normalized_word": "generate",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 291,
+      "normalized_word": "mechanism",
+      "theme": "science_and_technology",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 292,
+      "normalized_word": "parameter",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 293,
+      "normalized_word": "simulate",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 294,
+      "normalized_word": "accelerate",
+      "theme": "science_and_technology",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 295,
+      "normalized_word": "alleviate",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 296,
+      "normalized_word": "catalyst",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 297,
+      "normalized_word": "correlate",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 298,
+      "normalized_word": "deficiency",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 299,
+      "normalized_word": "ecological",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 300,
+      "normalized_word": "equilibrium",
+      "theme": "science_and_technology",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 301,
+      "normalized_word": "factor",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 302,
+      "normalized_word": "framework",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 303,
+      "normalized_word": "identify",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 304,
+      "normalized_word": "judgment",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 305,
+      "normalized_word": "pattern",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 306,
+      "normalized_word": "recognize",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 307,
+      "normalized_word": "reflect",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 308,
+      "normalized_word": "structure",
+      "theme": "communication",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 309,
+      "normalized_word": "underlying",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 310,
+      "normalized_word": "alternative",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 311,
+      "normalized_word": "arbitrary",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 312,
+      "normalized_word": "hypothetical",
+      "theme": "communication",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 313,
+      "normalized_word": "ideally",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 314,
+      "normalized_word": "inconsistency",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 315,
+      "normalized_word": "inherent",
+      "theme": "nuance_and_precision",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 316,
+      "normalized_word": "notion",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 317,
+      "normalized_word": "presume",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 318,
+      "normalized_word": "rationale",
+      "theme": "communication",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 319,
+      "normalized_word": "reciprocal",
+      "theme": "nuance_and_precision",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 320,
+      "normalized_word": "scenario",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 321,
+      "normalized_word": "speculate",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 322,
+      "normalized_word": "analytical",
+      "theme": "communication",
+      "lesson_type": "review",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 323,
+      "normalized_word": "caution",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 324,
+      "normalized_word": "coincide",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 325,
+      "normalized_word": "compound",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 326,
+      "normalized_word": "deduction",
+      "theme": "communication",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 327,
+      "normalized_word": "dimension",
+      "theme": "nuance_and_precision",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 328,
+      "normalized_word": "discern",
+      "theme": "communication",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 329,
+      "normalized_word": "foresight",
+      "theme": "nuance_and_precision",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 330,
+      "normalized_word": "friction",
+      "theme": "communication",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 331,
+      "normalized_word": "advantage",
+      "theme": "interesting_words",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 332,
+      "normalized_word": "applicable",
+      "theme": "academic_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 333,
+      "normalized_word": "delegate",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 334,
+      "normalized_word": "endeavor",
+      "theme": "interesting_words",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 335,
+      "normalized_word": "hierarchy",
+      "theme": "academic_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 336,
+      "normalized_word": "leverage",
+      "theme": "professional_language",
+      "lesson_type": "review",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 337,
+      "normalized_word": "utility",
+      "theme": "interesting_words",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 338,
+      "normalized_word": "advancement",
+      "theme": "academic_language",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 339,
+      "normalized_word": "agile",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 340,
+      "normalized_word": "baseline",
+      "theme": "interesting_words",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 341,
+      "normalized_word": "conditional",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 342,
+      "normalized_word": "credibility",
+      "theme": "professional_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 343,
+      "normalized_word": "designate",
+      "theme": "interesting_words",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 344,
+      "normalized_word": "distinction",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 345,
+      "normalized_word": "elevate",
+      "theme": "professional_language",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 346,
+      "normalized_word": "extent",
+      "theme": "interesting_words",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 347,
+      "normalized_word": "factual",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 348,
+      "normalized_word": "indicator",
+      "theme": "professional_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 349,
+      "normalized_word": "inference",
+      "theme": "interesting_words",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 350,
+      "normalized_word": "intention",
+      "theme": "academic_language",
+      "lesson_type": "review",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 351,
+      "normalized_word": "intuitive",
+      "theme": "professional_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 352,
+      "normalized_word": "investment",
+      "theme": "interesting_words",
+      "lesson_type": "professional",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 353,
+      "normalized_word": "latent",
+      "theme": "academic_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "advanced",
+      "status": "approved"
+    },
+    {
+      "day_number": 354,
+      "normalized_word": "obscure",
+      "theme": "professional_language",
+      "lesson_type": "learn",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 355,
+      "normalized_word": "optimal",
+      "theme": "interesting_words",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 356,
+      "normalized_word": "outcome",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 357,
+      "normalized_word": "overlap",
+      "theme": "professional_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 358,
+      "normalized_word": "polished",
+      "theme": "interesting_words",
+      "lesson_type": "professional",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 359,
+      "normalized_word": "preliminary",
+      "theme": "academic_language",
+      "lesson_type": "thinking",
+      "difficulty_level": "upper_intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 360,
+      "normalized_word": "principle",
+      "theme": "professional_language",
+      "lesson_type": "learn",
+      "difficulty_level": "intermediate",
+      "status": "approved"
+    },
+    {
+      "day_number": 361,
+      "normalized_word": "delineate",
+      "theme": "interesting_words",
+      "lesson_type": "advanced",
+      "difficulty_level": "expert",
+      "status": "approved"
+    },
+    {
+      "day_number": 362,
+      "normalized_word": "erudite",
+      "theme": "academic_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "expert",
+      "status": "approved"
+    },
+    {
+      "day_number": 363,
+      "normalized_word": "extrapolate",
+      "theme": "professional_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "expert",
+      "status": "approved"
+    },
+    {
+      "day_number": 364,
+      "normalized_word": "inferential",
+      "theme": "interesting_words",
+      "lesson_type": "review",
+      "difficulty_level": "expert",
+      "status": "approved"
+    },
+    {
+      "day_number": 365,
+      "normalized_word": "interdependence",
+      "theme": "academic_language",
+      "lesson_type": "advanced",
+      "difficulty_level": "expert",
+      "status": "approved"
+    }
+  ]
+}
