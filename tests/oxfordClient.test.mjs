@@ -233,6 +233,23 @@ test('compareWithWordUp flags when WordUp has no audio but Oxford does', () => {
   );
 });
 
+test('compareWithWordUp reports partOfSpeechMatches as null (not false) when Oxford has no data to compare', () => {
+  const emptyFields = { audioFiles: [], partsOfSpeech: [], pronunciations: [], definitions: [] };
+  const comparison = compareWithWordUp(emptyFields, {
+    definition: 'Able to recover after difficulty or change.',
+    part_of_speech: 'adjective',
+    pronunciation: '/ri-zil-yunt/',
+    pronunciation_audio_url: null,
+    example_sentence: 'The resilient team adjusted quickly after the setback.',
+  });
+
+  assert.equal(comparison.partOfSpeechMatches, null);
+  assert.equal(
+    comparison.notes.some((note) => note.includes('Part of speech differs')),
+    false
+  );
+});
+
 test('compareWithWordUp reports when the word has no existing WordUp record', () => {
   const fields = mapOxfordEntryToFields(SAMPLE_OXFORD_RESPONSE);
   const comparison = compareWithWordUp(fields, null);

@@ -227,9 +227,10 @@ export function compareWithWordUp(oxfordFields, wordUpRecord) {
   const wordUpAudioUrl = wordUpRecord.pronunciation_audio_url ?? null;
   const oxfordAudioFiles = oxfordFields.audioFiles;
   const wordUpPartOfSpeech = wordUpRecord.part_of_speech ?? null;
-  const partOfSpeechMatches = Boolean(
-    wordUpPartOfSpeech && oxfordFields.partsOfSpeech.some((pos) => pos.toLowerCase() === wordUpPartOfSpeech.toLowerCase())
-  );
+  const partOfSpeechMatches =
+    wordUpPartOfSpeech && oxfordFields.partsOfSpeech.length > 0
+      ? oxfordFields.partsOfSpeech.some((pos) => pos.toLowerCase() === wordUpPartOfSpeech.toLowerCase())
+      : null;
 
   const notes = [];
   if (!wordUpAudioUrl && oxfordAudioFiles.length > 0) {
@@ -241,7 +242,7 @@ export function compareWithWordUp(oxfordFields, wordUpRecord) {
   if (wordUpRecord.pronunciation && oxfordFields.pronunciations.length > 0) {
     notes.push('WordUp pronunciation is a hand-written respelling; Oxford pronunciation uses phonetic notation (see phoneticNotation/phoneticSpelling) — formats are not directly comparable.');
   }
-  if (wordUpPartOfSpeech && oxfordFields.partsOfSpeech.length > 0 && !partOfSpeechMatches) {
+  if (partOfSpeechMatches === false) {
     notes.push(`Part of speech differs: WordUp has "${wordUpPartOfSpeech}", Oxford returned ${JSON.stringify(oxfordFields.partsOfSpeech)}.`);
   }
   if (oxfordFields.definitions.length > 1) {
