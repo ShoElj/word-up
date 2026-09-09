@@ -61,6 +61,41 @@ const FIXTURE_OXFORD_DATA = {
         ],
       },
     },
+    // Real production data: part_of_speech "verb", definition is the figurative sense
+    // ("To hold an idea or plan steady"), but Oxford's only verb sense is literal/nautical.
+    {
+      word: 'anchor',
+      found: true,
+      raw: {
+        results: [
+          {
+            lexicalEntries: [
+              {
+                lexicalCategory: { text: 'Verb' },
+                entries: [
+                  {
+                    pronunciations: [
+                      { phoneticNotation: 'respell', phoneticSpelling: 'ˈaNGkər' },
+                      {
+                        phoneticNotation: 'IPA',
+                        phoneticSpelling: 'ˈæŋkər',
+                        audioFile: 'https://audio.oxforddictionaries.com/en/mp3/anker__us_1.mp3',
+                      },
+                    ],
+                    senses: [
+                      {
+                        definitions: ['moor (a ship) to the sea bottom with an anchor'],
+                        examples: [{ text: 'the ship was anchored in the lee of the island' }],
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    },
     { word: 'zzznotfound', found: false },
   ],
 };
@@ -82,7 +117,7 @@ test('word-bank-enrichment-proposals selects the verb sense for advocate and nev
   assert.equal(advocate.changes.definition, undefined, 'definitions must never be proposed for change');
 
   assert.equal(advocate.changes.pronunciation.from, '/advocate/');
-  assert.equal(advocate.changes.pronunciation.to, '/ˈadvəˌkāt/');
+  assert.equal(advocate.changes.pronunciation.to, '/advuh-kayt/', 'pronunciation should be converted to WordUp house style, not raw Oxford respell');
 
   assert.equal(advocate.changes.example_sentence.from, 'They used the word advocate while explaining how to handle the situation.');
   assert.equal(advocate.changes.example_sentence.to, 'a group that advocates the rights of prisoners');
@@ -92,4 +127,26 @@ test('word-bank-enrichment-proposals selects the verb sense for advocate and nev
 
   const notFound = report.skipped.find((s) => s.word === 'zzznotfound');
   assert.deepEqual(notFound, { word: 'zzznotfound', reason: 'not_found_on_oxford' });
+});
+
+test('word-bank-enrichment-proposals overrides the anchor example instead of using Oxford\'s literal/nautical one', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'wordup-enrichment-'));
+  const fixturePath = join(dir, 'oxford-fixture.json');
+  await writeFile(fixturePath, JSON.stringify(FIXTURE_OXFORD_DATA), 'utf8');
+
+  await run('node', ['scripts/word-bank-enrichment-proposals.mjs', fixturePath]);
+
+  const raw = await readFile('data/word-bank-enrichment-proposals.json', 'utf8');
+  const report = JSON.parse(raw);
+
+  const anchor = report.proposals.find((p) => p.normalized_word === 'anchor');
+  assert.ok(anchor, 'expected a proposal for anchor');
+  assert.equal(anchor.currentDefinition, 'To hold an idea or plan steady.');
+  assert.equal(
+    anchor.changes.example_sentence.to,
+    "The company's mission statement anchors every decision the team makes.",
+    'must use the manual override, never Oxford\'s literal nautical example'
+  );
+  assert.notEqual(anchor.changes.example_sentence.to, 'the ship was anchored in the lee of the island');
+  assert.ok(anchor.notes?.some((n) => n.includes('manually overridden')));
 });
