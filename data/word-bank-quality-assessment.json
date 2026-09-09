@@ -1,0 +1,5541 @@
+{
+  "generatedAt": "2026-09-09T12:45:19.454Z",
+  "purpose": "Local content-quality audit of existing WordUp word_bank candidates — no Oxford API calls, no writes to Supabase.",
+  "totalApproved": 500,
+  "summary": {
+    "placeholderExampleCount": 125,
+    "trivialPronunciationCount": 402,
+    "noAudioCount": 500,
+    "flaggedTotal": 500,
+    "flaggedInLiveCurriculum": 365
+  },
+  "flagged": [
+    {
+      "word": "Concise",
+      "normalized_word": "concise",
+      "curriculumDay": 1,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Please keep the update concise and practical.",
+      "pronunciation": "/kun-sys/"
+    },
+    {
+      "word": "Articulate",
+      "normalized_word": "articulate",
+      "curriculumDay": 2,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Her articulate summary helped the team understand the plan.",
+      "pronunciation": "/ar-tik-yuh-lit/"
+    },
+    {
+      "word": "Clarify",
+      "normalized_word": "clarify",
+      "curriculumDay": 3,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The diagram helped clarify the process.",
+      "pronunciation": "/klar-uh-fy/"
+    },
+    {
+      "word": "Context",
+      "normalized_word": "context",
+      "curriculumDay": 4,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Without context, the number is misleading.",
+      "pronunciation": "/kon-tekst/"
+    },
+    {
+      "word": "Subtle",
+      "normalized_word": "subtle",
+      "curriculumDay": 5,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The speaker made a subtle point about trust.",
+      "pronunciation": "/sut-l/"
+    },
+    {
+      "word": "Empathy",
+      "normalized_word": "empathy",
+      "curriculumDay": 6,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Empathy helped the manager respond with care.",
+      "pronunciation": "/em-puh-thee/"
+    },
+    {
+      "word": "Resilient",
+      "normalized_word": "resilient",
+      "curriculumDay": 7,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The resilient team adjusted quickly after the setback.",
+      "pronunciation": "/ri-zil-yunt/"
+    },
+    {
+      "word": "Candid",
+      "normalized_word": "candid",
+      "curriculumDay": 8,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "His candid feedback helped improve the design.",
+      "pronunciation": "/kan-did/"
+    },
+    {
+      "word": "Assertive",
+      "normalized_word": "assertive",
+      "curriculumDay": 9,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She was assertive without being dismissive.",
+      "pronunciation": "/uh-sur-tiv/"
+    },
+    {
+      "word": "Perspective",
+      "normalized_word": "perspective",
+      "curriculumDay": 10,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A different perspective changed the discussion.",
+      "pronunciation": "/pur-spek-tiv/"
+    },
+    {
+      "word": "Coherent",
+      "normalized_word": "coherent",
+      "curriculumDay": 11,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The proposal became coherent after one more revision.",
+      "pronunciation": "/koh-heer-unt/"
+    },
+    {
+      "word": "Evidence",
+      "normalized_word": "evidence",
+      "curriculumDay": 12,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Strong evidence should guide the decision.",
+      "pronunciation": "/ev-i-duns/"
+    },
+    {
+      "word": "Evaluate",
+      "normalized_word": "evaluate",
+      "curriculumDay": 13,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "We evaluate each option against the same criteria.",
+      "pronunciation": "/ih-val-yoo-ayt/"
+    },
+    {
+      "word": "Efficient",
+      "normalized_word": "efficient",
+      "curriculumDay": 14,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The new process is faster and more efficient.",
+      "pronunciation": "/ih-fish-unt/"
+    },
+    {
+      "word": "Prioritize",
+      "normalized_word": "prioritize",
+      "curriculumDay": 15,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Prioritize the tasks that reduce the largest risk.",
+      "pronunciation": "/pry-or-uh-tyz/"
+    },
+    {
+      "word": "Collaborate",
+      "normalized_word": "collaborate",
+      "curriculumDay": 16,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The teams collaborate on product decisions.",
+      "pronunciation": "/kuh-lab-uh-rayt/"
+    },
+    {
+      "word": "Constructive",
+      "normalized_word": "constructive",
+      "curriculumDay": 17,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Constructive feedback focuses on what can improve.",
+      "pronunciation": "/kun-struk-tiv/"
+    },
+    {
+      "word": "Pragmatic",
+      "normalized_word": "pragmatic",
+      "curriculumDay": 18,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "They chose a pragmatic solution that could ship quickly.",
+      "pronunciation": "/prag-mat-ik/"
+    },
+    {
+      "word": "Ambiguous",
+      "normalized_word": "ambiguous",
+      "curriculumDay": 19,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The ambiguous message caused confusion.",
+      "pronunciation": "/am-big-yoo-us/"
+    },
+    {
+      "word": "Meticulous",
+      "normalized_word": "meticulous",
+      "curriculumDay": 20,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Her meticulous notes made the handoff easier.",
+      "pronunciation": "/muh-tik-yuh-lus/"
+    },
+    {
+      "word": "Compelling",
+      "normalized_word": "compelling",
+      "curriculumDay": 21,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The report made a compelling case for change.",
+      "pronunciation": "/kum-pel-ing/"
+    },
+    {
+      "word": "Imply",
+      "normalized_word": "imply",
+      "curriculumDay": 22,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The data may imply a change in behavior.",
+      "pronunciation": "/im-ply/"
+    },
+    {
+      "word": "Relevant",
+      "normalized_word": "relevant",
+      "curriculumDay": 23,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Please share only the relevant details.",
+      "pronunciation": "/rel-uh-vunt/"
+    },
+    {
+      "word": "Precise",
+      "normalized_word": "precise",
+      "curriculumDay": 24,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Use precise language when writing instructions.",
+      "pronunciation": "/pri-sys/"
+    },
+    {
+      "word": "Explicit",
+      "normalized_word": "explicit",
+      "curriculumDay": 25,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The agreement needs explicit approval.",
+      "pronunciation": "/ik-splis-it/"
+    },
+    {
+      "word": "Summarize",
+      "normalized_word": "summarize",
+      "curriculumDay": 26,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Summarize the article in three sentences.",
+      "pronunciation": "/sum-uh-ryz/"
+    },
+    {
+      "word": "Fluent",
+      "normalized_word": "fluent",
+      "curriculumDay": 27,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Practice helped her become fluent in formal writing.",
+      "pronunciation": "/floo-unt/"
+    },
+    {
+      "word": "Persuade",
+      "normalized_word": "persuade",
+      "curriculumDay": 28,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Clear evidence can persuade a cautious audience.",
+      "pronunciation": "/pur-swayd/"
+    },
+    {
+      "word": "Emphasize",
+      "normalized_word": "emphasize",
+      "curriculumDay": 29,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The coach emphasized steady practice.",
+      "pronunciation": "/em-fuh-syz/"
+    },
+    {
+      "word": "Convey",
+      "normalized_word": "convey",
+      "curriculumDay": 30,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Tone can convey respect even in a short note.",
+      "pronunciation": "/kun-vay/"
+    },
+    {
+      "word": "Nuance",
+      "normalized_word": "nuance",
+      "curriculumDay": 31,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The translation missed an important nuance.",
+      "pronunciation": "/noo-ahns/"
+    },
+    {
+      "word": "Diplomatic",
+      "normalized_word": "diplomatic",
+      "curriculumDay": 32,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She gave a diplomatic answer to a tense question.",
+      "pronunciation": "/dip-luh-mat-ik/"
+    },
+    {
+      "word": "Elaborate",
+      "normalized_word": "elaborate",
+      "curriculumDay": 33,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Could you elaborate on the second point?",
+      "pronunciation": "/ih-lab-uh-rayt/"
+    },
+    {
+      "word": "Resonate",
+      "normalized_word": "resonate",
+      "curriculumDay": 34,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The story may resonate with many readers.",
+      "pronunciation": "/rez-uh-nayt/"
+    },
+    {
+      "word": "Accurate",
+      "normalized_word": "accurate",
+      "curriculumDay": 35,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The accurate response made the conversation easier to understand.",
+      "pronunciation": "/accurate/"
+    },
+    {
+      "word": "Detail",
+      "normalized_word": "detail",
+      "curriculumDay": 36,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of detail appears often in communication discussions.",
+      "pronunciation": "/detail/"
+    },
+    {
+      "word": "Direct",
+      "normalized_word": "direct",
+      "curriculumDay": 37,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The direct response made the conversation easier to understand.",
+      "pronunciation": "/direct/"
+    },
+    {
+      "word": "Formal",
+      "normalized_word": "formal",
+      "curriculumDay": 38,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The formal response made the conversation easier to understand.",
+      "pronunciation": "/formal/"
+    },
+    {
+      "word": "Inform",
+      "normalized_word": "inform",
+      "curriculumDay": 39,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word inform while explaining how to handle the situation.",
+      "pronunciation": "/inform/"
+    },
+    {
+      "word": "Specific",
+      "normalized_word": "specific",
+      "curriculumDay": 40,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The specific response made the conversation easier to understand.",
+      "pronunciation": "/specific/"
+    },
+    {
+      "word": "Accurately",
+      "normalized_word": "accurately",
+      "curriculumDay": 41,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "She explained the result accurately so the team could trust it.",
+      "pronunciation": "/accurately/"
+    },
+    {
+      "word": "Acknowledge",
+      "normalized_word": "acknowledge",
+      "curriculumDay": 42,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word acknowledge while explaining how to handle the situation.",
+      "pronunciation": "/acknowledge/"
+    },
+    {
+      "word": "Affirm",
+      "normalized_word": "affirm",
+      "curriculumDay": 43,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word affirm while explaining how to handle the situation.",
+      "pronunciation": "/affirm/"
+    },
+    {
+      "word": "Appropriate",
+      "normalized_word": "appropriate",
+      "curriculumDay": 44,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The appropriate response made the conversation easier to understand.",
+      "pronunciation": "/appropriate/"
+    },
+    {
+      "word": "Communicate",
+      "normalized_word": "communicate",
+      "curriculumDay": 45,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word communicate while explaining how to handle the situation.",
+      "pronunciation": "/communicate/"
+    },
+    {
+      "word": "Confirm",
+      "normalized_word": "confirm",
+      "curriculumDay": 46,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word confirm while explaining how to handle the situation.",
+      "pronunciation": "/confirm/"
+    },
+    {
+      "word": "Convince",
+      "normalized_word": "convince",
+      "curriculumDay": 47,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word convince while explaining how to handle the situation.",
+      "pronunciation": "/convince/"
+    },
+    {
+      "word": "Engage",
+      "normalized_word": "engage",
+      "curriculumDay": 48,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word engage while explaining how to handle the situation.",
+      "pronunciation": "/engage/"
+    },
+    {
+      "word": "Illustrate",
+      "normalized_word": "illustrate",
+      "curriculumDay": 49,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word illustrate while explaining how to handle the situation.",
+      "pronunciation": "/illustrate/"
+    },
+    {
+      "word": "Indicate",
+      "normalized_word": "indicate",
+      "curriculumDay": 50,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word indicate while explaining how to handle the situation.",
+      "pronunciation": "/indicate/"
+    },
+    {
+      "word": "Informal",
+      "normalized_word": "informal",
+      "curriculumDay": 51,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The informal response made the conversation easier to understand.",
+      "pronunciation": "/informal/"
+    },
+    {
+      "word": "Recommend",
+      "normalized_word": "recommend",
+      "curriculumDay": 52,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word recommend while explaining how to handle the situation.",
+      "pronunciation": "/recommend/"
+    },
+    {
+      "word": "Respond",
+      "normalized_word": "respond",
+      "curriculumDay": 53,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word respond while explaining how to handle the situation.",
+      "pronunciation": "/respond/"
+    },
+    {
+      "word": "Reveal",
+      "normalized_word": "reveal",
+      "curriculumDay": 54,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word reveal while explaining how to handle the situation.",
+      "pronunciation": "/reveal/"
+    },
+    {
+      "word": "Suggest",
+      "normalized_word": "suggest",
+      "curriculumDay": 55,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word suggest while explaining how to handle the situation.",
+      "pronunciation": "/suggest/"
+    },
+    {
+      "word": "Analogy",
+      "normalized_word": "analogy",
+      "curriculumDay": 56,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of analogy appears often in communication discussions.",
+      "pronunciation": "/analogy/"
+    },
+    {
+      "word": "Brevity",
+      "normalized_word": "brevity",
+      "curriculumDay": 57,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of brevity appears often in communication discussions.",
+      "pronunciation": "/brevity/"
+    },
+    {
+      "word": "Cohesive",
+      "normalized_word": "cohesive",
+      "curriculumDay": 58,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The cohesive response made the conversation easier to understand.",
+      "pronunciation": "/cohesive/"
+    },
+    {
+      "word": "Concrete",
+      "normalized_word": "concrete",
+      "curriculumDay": 59,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The concrete response made the conversation easier to understand.",
+      "pronunciation": "/concrete/"
+    },
+    {
+      "word": "Contextual",
+      "normalized_word": "contextual",
+      "curriculumDay": 60,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The contextual response made the conversation easier to understand.",
+      "pronunciation": "/contextual/"
+    },
+    {
+      "word": "Tactful",
+      "normalized_word": "tactful",
+      "curriculumDay": 61,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A tactful reply can calm a difficult conversation.",
+      "pronunciation": "/takt-ful/"
+    },
+    {
+      "word": "Genuine",
+      "normalized_word": "genuine",
+      "curriculumDay": 62,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "His genuine interest made the conversation easier.",
+      "pronunciation": "/jen-yoo-in/"
+    },
+    {
+      "word": "Sincere",
+      "normalized_word": "sincere",
+      "curriculumDay": 63,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She offered a sincere apology.",
+      "pronunciation": "/sin-seer/"
+    },
+    {
+      "word": "Discreet",
+      "normalized_word": "discreet",
+      "curriculumDay": 64,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Be discreet when discussing sensitive details.",
+      "pronunciation": "/dis-kreet/"
+    },
+    {
+      "word": "Foster",
+      "normalized_word": "foster",
+      "curriculumDay": 65,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Good mentors foster confidence in learners.",
+      "pronunciation": "/faw-stur/"
+    },
+    {
+      "word": "Integrity",
+      "normalized_word": "integrity",
+      "curriculumDay": 66,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Integrity matters most when no one is watching.",
+      "pronunciation": "/in-teg-ri-tee/"
+    },
+    {
+      "word": "Dependable",
+      "normalized_word": "dependable",
+      "curriculumDay": 67,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The dependable response made the conversation easier to understand.",
+      "pronunciation": "/dependable/"
+    },
+    {
+      "word": "Flexible",
+      "normalized_word": "flexible",
+      "curriculumDay": 68,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The flexible response made the conversation easier to understand.",
+      "pronunciation": "/flexible/"
+    },
+    {
+      "word": "Meaningful",
+      "normalized_word": "meaningful",
+      "curriculumDay": 69,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The meaningful response made the conversation easier to understand.",
+      "pronunciation": "/meaningful/"
+    },
+    {
+      "word": "Thoughtful",
+      "normalized_word": "thoughtful",
+      "curriculumDay": 70,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The thoughtful response made the conversation easier to understand.",
+      "pronunciation": "/thoughtful/"
+    },
+    {
+      "word": "Boundary",
+      "normalized_word": "boundary",
+      "curriculumDay": 71,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of boundary appears often in relationships discussions.",
+      "pronunciation": "/boundary/"
+    },
+    {
+      "word": "Commitment",
+      "normalized_word": "commitment",
+      "curriculumDay": 72,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of commitment appears often in relationships discussions.",
+      "pronunciation": "/commitment/"
+    },
+    {
+      "word": "Compassion",
+      "normalized_word": "compassion",
+      "curriculumDay": 73,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of compassion appears often in relationships discussions.",
+      "pronunciation": "/compassion/"
+    },
+    {
+      "word": "Confidence",
+      "normalized_word": "confidence",
+      "curriculumDay": 74,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of confidence appears often in personality discussions.",
+      "pronunciation": "/confidence/"
+    },
+    {
+      "word": "Considerate",
+      "normalized_word": "considerate",
+      "curriculumDay": 75,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The considerate response made the conversation easier to understand.",
+      "pronunciation": "/considerate/"
+    },
+    {
+      "word": "Interaction",
+      "normalized_word": "interaction",
+      "curriculumDay": 76,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of interaction appears often in relationships discussions.",
+      "pronunciation": "/interaction/"
+    },
+    {
+      "word": "Mutual",
+      "normalized_word": "mutual",
+      "curriculumDay": 77,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The mutual response made the conversation easier to understand.",
+      "pronunciation": "/mutual/"
+    },
+    {
+      "word": "Resolve",
+      "normalized_word": "resolve",
+      "curriculumDay": 78,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word resolve while explaining how to handle the situation.",
+      "pronunciation": "/resolve/"
+    },
+    {
+      "word": "Authentic",
+      "normalized_word": "authentic",
+      "curriculumDay": 79,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The authentic response made the conversation easier to understand.",
+      "pronunciation": "/authentic/"
+    },
+    {
+      "word": "Dependent",
+      "normalized_word": "dependent",
+      "curriculumDay": 80,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The dependent response made the conversation easier to understand.",
+      "pronunciation": "/dependent/"
+    },
+    {
+      "word": "Mediate",
+      "normalized_word": "mediate",
+      "curriculumDay": 81,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word mediate while explaining how to handle the situation.",
+      "pronunciation": "/mediate/"
+    },
+    {
+      "word": "Undermine",
+      "normalized_word": "undermine",
+      "curriculumDay": 82,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word undermine while explaining how to handle the situation.",
+      "pronunciation": "/undermine/"
+    },
+    {
+      "word": "Accommodate",
+      "normalized_word": "accommodate",
+      "curriculumDay": 83,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word accommodate while explaining how to handle the situation.",
+      "pronunciation": "/accommodate/"
+    },
+    {
+      "word": "Affection",
+      "normalized_word": "affection",
+      "curriculumDay": 84,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of affection appears often in relationships discussions.",
+      "pronunciation": "/affection/"
+    },
+    {
+      "word": "Ambition",
+      "normalized_word": "ambition",
+      "curriculumDay": 85,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of ambition appears often in personality discussions.",
+      "pronunciation": "/ambition/"
+    },
+    {
+      "word": "Aspiration",
+      "normalized_word": "aspiration",
+      "curriculumDay": 86,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of aspiration appears often in personality discussions.",
+      "pronunciation": "/aspiration/"
+    },
+    {
+      "word": "Attentive",
+      "normalized_word": "attentive",
+      "curriculumDay": 87,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The attentive response made the conversation easier to understand.",
+      "pronunciation": "/attentive/"
+    },
+    {
+      "word": "Authenticity",
+      "normalized_word": "authenticity",
+      "curriculumDay": 88,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of authenticity appears often in personality discussions.",
+      "pronunciation": "/authenticity/"
+    },
+    {
+      "word": "Conflict",
+      "normalized_word": "conflict",
+      "curriculumDay": 89,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of conflict appears often in relationships discussions.",
+      "pronunciation": "/conflict/"
+    },
+    {
+      "word": "Courteous",
+      "normalized_word": "courteous",
+      "curriculumDay": 90,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The courteous response made the conversation easier to understand.",
+      "pronunciation": "/courteous/"
+    },
+    {
+      "word": "Reluctant",
+      "normalized_word": "reluctant",
+      "curriculumDay": 91,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "He was reluctant to accept the offer without more details.",
+      "pronunciation": "/ri-luk-tunt/"
+    },
+    {
+      "word": "Composure",
+      "normalized_word": "composure",
+      "curriculumDay": 92,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "He kept his composure during the interview.",
+      "pronunciation": "/kum-poh-zhur/"
+    },
+    {
+      "word": "Anxious",
+      "normalized_word": "anxious",
+      "curriculumDay": 93,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She felt anxious before the presentation.",
+      "pronunciation": "/angk-shus/"
+    },
+    {
+      "word": "Overwhelmed",
+      "normalized_word": "overwhelmed",
+      "curriculumDay": 94,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "He felt overwhelmed by the number of choices.",
+      "pronunciation": "/oh-vur-welmd/"
+    },
+    {
+      "word": "Motivated",
+      "normalized_word": "motivated",
+      "curriculumDay": 95,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A motivated learner practices every day.",
+      "pronunciation": "/moh-tuh-vay-tid/"
+    },
+    {
+      "word": "Curious",
+      "normalized_word": "curious",
+      "curriculumDay": 96,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Curious readers often ask better questions.",
+      "pronunciation": "/kyoor-ee-us/"
+    },
+    {
+      "word": "Appreciate",
+      "normalized_word": "appreciate",
+      "curriculumDay": 97,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "I appreciate the care you put into the work.",
+      "pronunciation": "/uh-pree-shee-ayt/"
+    },
+    {
+      "word": "Gratitude",
+      "normalized_word": "gratitude",
+      "curriculumDay": 98,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She expressed gratitude for the support.",
+      "pronunciation": "/grat-i-tood/"
+    },
+    {
+      "word": "Restraint",
+      "normalized_word": "restraint",
+      "curriculumDay": 99,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She showed restraint during the tense exchange.",
+      "pronunciation": "/ri-straynt/"
+    },
+    {
+      "word": "Capable",
+      "normalized_word": "capable",
+      "curriculumDay": 100,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The capable response made the conversation easier to understand.",
+      "pronunciation": "/capable/"
+    },
+    {
+      "word": "Confident",
+      "normalized_word": "confident",
+      "curriculumDay": 101,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The confident response made the conversation easier to understand.",
+      "pronunciation": "/confident/"
+    },
+    {
+      "word": "Depend",
+      "normalized_word": "depend",
+      "curriculumDay": 102,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word depend while explaining how to handle the situation.",
+      "pronunciation": "/depend/"
+    },
+    {
+      "word": "Encourage",
+      "normalized_word": "encourage",
+      "curriculumDay": 103,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word encourage while explaining how to handle the situation.",
+      "pronunciation": "/encourage/"
+    },
+    {
+      "word": "Generous",
+      "normalized_word": "generous",
+      "curriculumDay": 104,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The generous response made the conversation easier to understand.",
+      "pronunciation": "/generous/"
+    },
+    {
+      "word": "Influence",
+      "normalized_word": "influence",
+      "curriculumDay": 105,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of influence appears often in relationships discussions.",
+      "pronunciation": "/influence/"
+    },
+    {
+      "word": "Patient",
+      "normalized_word": "patient",
+      "curriculumDay": 106,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The patient response made the conversation easier to understand.",
+      "pronunciation": "/patient/"
+    },
+    {
+      "word": "Responsible",
+      "normalized_word": "responsible",
+      "curriculumDay": 107,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The responsible response made the conversation easier to understand.",
+      "pronunciation": "/responsible/"
+    },
+    {
+      "word": "Willing",
+      "normalized_word": "willing",
+      "curriculumDay": 108,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The willing response made the conversation easier to understand.",
+      "pronunciation": "/willing/"
+    },
+    {
+      "word": "Concern",
+      "normalized_word": "concern",
+      "curriculumDay": 109,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of concern appears often in emotions discussions.",
+      "pronunciation": "/concern/"
+    },
+    {
+      "word": "Connect",
+      "normalized_word": "connect",
+      "curriculumDay": 110,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word connect while explaining how to handle the situation.",
+      "pronunciation": "/connect/"
+    },
+    {
+      "word": "React",
+      "normalized_word": "react",
+      "curriculumDay": 111,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word react while explaining how to handle the situation.",
+      "pronunciation": "/react/"
+    },
+    {
+      "word": "Tension",
+      "normalized_word": "tension",
+      "curriculumDay": 112,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of tension appears often in emotions discussions.",
+      "pronunciation": "/tension/"
+    },
+    {
+      "word": "Adversity",
+      "normalized_word": "adversity",
+      "curriculumDay": 113,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of adversity appears often in emotions discussions.",
+      "pronunciation": "/adversity/"
+    },
+    {
+      "word": "Appreciation",
+      "normalized_word": "appreciation",
+      "curriculumDay": 114,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of appreciation appears often in emotions discussions.",
+      "pronunciation": "/appreciation/"
+    },
+    {
+      "word": "Burden",
+      "normalized_word": "burden",
+      "curriculumDay": 115,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of burden appears often in emotions discussions.",
+      "pronunciation": "/burden/"
+    },
+    {
+      "word": "Decisive",
+      "normalized_word": "decisive",
+      "curriculumDay": 116,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The decisive response made the conversation easier to understand.",
+      "pronunciation": "/decisive/"
+    },
+    {
+      "word": "Dependence",
+      "normalized_word": "dependence",
+      "curriculumDay": 117,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of dependence appears often in relationships discussions.",
+      "pronunciation": "/dependence/"
+    },
+    {
+      "word": "Earnest",
+      "normalized_word": "earnest",
+      "curriculumDay": 118,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The earnest response made the conversation easier to understand.",
+      "pronunciation": "/earnest/"
+    },
+    {
+      "word": "Emotional",
+      "normalized_word": "emotional",
+      "curriculumDay": 119,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The emotional response made the conversation easier to understand.",
+      "pronunciation": "/emotional/"
+    },
+    {
+      "word": "Endure",
+      "normalized_word": "endure",
+      "curriculumDay": 120,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word endure while explaining how to handle the situation.",
+      "pronunciation": "/endure/"
+    },
+    {
+      "word": "Inevitable",
+      "normalized_word": "inevitable",
+      "curriculumDay": 121,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "After weeks of delays, the decision felt inevitable.",
+      "pronunciation": "/in-ev-i-tuh-bul/"
+    },
+    {
+      "word": "Skeptical",
+      "normalized_word": "skeptical",
+      "curriculumDay": 122,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "She remained skeptical until the results were repeated.",
+      "pronunciation": "/skep-ti-kul/"
+    },
+    {
+      "word": "Plausible",
+      "normalized_word": "plausible",
+      "curriculumDay": 123,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Her explanation was plausible, but we needed proof.",
+      "pronunciation": "/plaw-zuh-bul/"
+    },
+    {
+      "word": "Credible",
+      "normalized_word": "credible",
+      "curriculumDay": 124,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Use credible evidence to support the claim.",
+      "pronunciation": "/kred-uh-bul/"
+    },
+    {
+      "word": "Insight",
+      "normalized_word": "insight",
+      "curriculumDay": 125,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The interview gave us insight into user needs.",
+      "pronunciation": "/in-syt/"
+    },
+    {
+      "word": "Infer",
+      "normalized_word": "infer",
+      "curriculumDay": 126,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "From the results, we can infer steady demand.",
+      "pronunciation": "/in-fur/"
+    },
+    {
+      "word": "Objective",
+      "normalized_word": "objective",
+      "curriculumDay": 127,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "An objective review focuses on evidence.",
+      "pronunciation": "/ub-jek-tiv/"
+    },
+    {
+      "word": "Subjective",
+      "normalized_word": "subjective",
+      "curriculumDay": 128,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Taste is often subjective, even with expert advice.",
+      "pronunciation": "/sub-jek-tiv/"
+    },
+    {
+      "word": "Significant",
+      "normalized_word": "significant",
+      "curriculumDay": 129,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The update made a significant difference.",
+      "pronunciation": "/sig-nif-i-kunt/"
+    },
+    {
+      "word": "Assumption",
+      "normalized_word": "assumption",
+      "curriculumDay": 130,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The forecast depends on one risky assumption.",
+      "pronunciation": "/uh-sump-shun/"
+    },
+    {
+      "word": "Interpret",
+      "normalized_word": "interpret",
+      "curriculumDay": 131,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Analysts interpret the results with caution.",
+      "pronunciation": "/in-tur-prit/"
+    },
+    {
+      "word": "Perceptive",
+      "normalized_word": "perceptive",
+      "curriculumDay": 132,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Her perceptive question changed the meeting.",
+      "pronunciation": "/pur-sep-tiv/"
+    },
+    {
+      "word": "Scrutinize",
+      "normalized_word": "scrutinize",
+      "curriculumDay": 133,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Reviewers scrutinize the proposal before approval.",
+      "pronunciation": "/skroo-tuh-nyz/"
+    },
+    {
+      "word": "Synthesize",
+      "normalized_word": "synthesize",
+      "curriculumDay": 134,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The article synthesizes findings from several studies.",
+      "pronunciation": "/sin-thuh-syz/"
+    },
+    {
+      "word": "Assess",
+      "normalized_word": "assess",
+      "curriculumDay": 135,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The teacher will assess each project fairly.",
+      "pronunciation": "/uh-ses/"
+    },
+    {
+      "word": "Criteria",
+      "normalized_word": "criteria",
+      "curriculumDay": 136,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The proposal meets all three criteria.",
+      "pronunciation": "/kry-teer-ee-uh/"
+    },
+    {
+      "word": "Contrast",
+      "normalized_word": "contrast",
+      "curriculumDay": 137,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Contrast the two examples before choosing one.",
+      "pronunciation": "/kun-trast/"
+    },
+    {
+      "word": "Logical",
+      "normalized_word": "logical",
+      "curriculumDay": 138,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The logical response made the conversation easier to understand.",
+      "pronunciation": "/logical/"
+    },
+    {
+      "word": "Analyze",
+      "normalized_word": "analyze",
+      "curriculumDay": 139,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word analyze while explaining how to handle the situation.",
+      "pronunciation": "/analyze/"
+    },
+    {
+      "word": "Anticipate",
+      "normalized_word": "anticipate",
+      "curriculumDay": 140,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word anticipate while explaining how to handle the situation.",
+      "pronunciation": "/anticipate/"
+    },
+    {
+      "word": "Bias",
+      "normalized_word": "bias",
+      "curriculumDay": 141,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of bias appears often in thinking discussions.",
+      "pronunciation": "/bias/"
+    },
+    {
+      "word": "Complex",
+      "normalized_word": "complex",
+      "curriculumDay": 142,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The complex response made the conversation easier to understand.",
+      "pronunciation": "/complex/"
+    },
+    {
+      "word": "Comprehensive",
+      "normalized_word": "comprehensive",
+      "curriculumDay": 143,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The comprehensive response made the conversation easier to understand.",
+      "pronunciation": "/comprehensive/"
+    },
+    {
+      "word": "Conclude",
+      "normalized_word": "conclude",
+      "curriculumDay": 144,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word conclude while explaining how to handle the situation.",
+      "pronunciation": "/conclude/"
+    },
+    {
+      "word": "Consequence",
+      "normalized_word": "consequence",
+      "curriculumDay": 145,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of consequence appears often in thinking discussions.",
+      "pronunciation": "/consequence/"
+    },
+    {
+      "word": "Critical",
+      "normalized_word": "critical",
+      "curriculumDay": 146,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The critical response made the conversation easier to understand.",
+      "pronunciation": "/critical/"
+    },
+    {
+      "word": "Deliberate",
+      "normalized_word": "deliberate",
+      "curriculumDay": 147,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The deliberate response made the conversation easier to understand.",
+      "pronunciation": "/deliberate/"
+    },
+    {
+      "word": "Derive",
+      "normalized_word": "derive",
+      "curriculumDay": 148,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word derive while explaining how to handle the situation.",
+      "pronunciation": "/derive/"
+    },
+    {
+      "word": "Determine",
+      "normalized_word": "determine",
+      "curriculumDay": 149,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word determine while explaining how to handle the situation.",
+      "pronunciation": "/determine/"
+    },
+    {
+      "word": "Emerge",
+      "normalized_word": "emerge",
+      "curriculumDay": 150,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word emerge while explaining how to handle the situation.",
+      "pronunciation": "/emerge/"
+    },
+    {
+      "word": "Versatile",
+      "normalized_word": "versatile",
+      "curriculumDay": 151,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A versatile skill is useful across many roles.",
+      "pronunciation": "/vur-suh-tl/"
+    },
+    {
+      "word": "Diligent",
+      "normalized_word": "diligent",
+      "curriculumDay": 152,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The diligent researcher checked every source.",
+      "pronunciation": "/dil-i-junt/"
+    },
+    {
+      "word": "Viable",
+      "normalized_word": "viable",
+      "curriculumDay": 153,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The team tested whether the idea was viable.",
+      "pronunciation": "/vy-uh-bul/"
+    },
+    {
+      "word": "Adaptable",
+      "normalized_word": "adaptable",
+      "curriculumDay": 154,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Adaptable people often learn new tools quickly.",
+      "pronunciation": "/uh-dap-tuh-bul/"
+    },
+    {
+      "word": "Allocate",
+      "normalized_word": "allocate",
+      "curriculumDay": 155,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "We need to allocate more time for testing.",
+      "pronunciation": "/al-uh-kayt/"
+    },
+    {
+      "word": "Initiative",
+      "normalized_word": "initiative",
+      "curriculumDay": 156,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Taking initiative helped her grow into the role.",
+      "pronunciation": "/ih-nish-uh-tiv/"
+    },
+    {
+      "word": "Consistent",
+      "normalized_word": "consistent",
+      "curriculumDay": 157,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Consistent practice improves vocabulary.",
+      "pronunciation": "/kun-sis-tunt/"
+    },
+    {
+      "word": "Transparent",
+      "normalized_word": "transparent",
+      "curriculumDay": 158,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Transparent communication builds trust.",
+      "pronunciation": "/trans-pair-unt/"
+    },
+    {
+      "word": "Accountable",
+      "normalized_word": "accountable",
+      "curriculumDay": 159,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Leaders should be accountable for their decisions.",
+      "pronunciation": "/uh-kown-tuh-bul/"
+    },
+    {
+      "word": "Resourceful",
+      "normalized_word": "resourceful",
+      "curriculumDay": 160,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The resourceful assistant found a simple workaround.",
+      "pronunciation": "/ri-sors-ful/"
+    },
+    {
+      "word": "Thorough",
+      "normalized_word": "thorough",
+      "curriculumDay": 161,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A thorough review catches hidden problems.",
+      "pronunciation": "/thur-oh/"
+    },
+    {
+      "word": "Mitigate",
+      "normalized_word": "mitigate",
+      "curriculumDay": 162,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The backup plan helped mitigate the risk.",
+      "pronunciation": "/mit-i-gayt/"
+    },
+    {
+      "word": "Refine",
+      "normalized_word": "refine",
+      "curriculumDay": 163,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "They refine the draft before sending it.",
+      "pronunciation": "/ri-fyn/"
+    },
+    {
+      "word": "Effective",
+      "normalized_word": "effective",
+      "curriculumDay": 164,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The effective response made the conversation easier to understand.",
+      "pronunciation": "/effective/"
+    },
+    {
+      "word": "Organized",
+      "normalized_word": "organized",
+      "curriculumDay": 165,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The organized response made the conversation easier to understand.",
+      "pronunciation": "/organized/"
+    },
+    {
+      "word": "Reliable",
+      "normalized_word": "reliable",
+      "curriculumDay": 166,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The reliable response made the conversation easier to understand.",
+      "pronunciation": "/reliable/"
+    },
+    {
+      "word": "Strategic",
+      "normalized_word": "strategic",
+      "curriculumDay": 167,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The strategic response made the conversation easier to understand.",
+      "pronunciation": "/strategic/"
+    },
+    {
+      "word": "Capacity",
+      "normalized_word": "capacity",
+      "curriculumDay": 168,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of capacity appears often in work discussions.",
+      "pronunciation": "/capacity/"
+    },
+    {
+      "word": "Collaboration",
+      "normalized_word": "collaboration",
+      "curriculumDay": 169,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of collaboration appears often in work discussions.",
+      "pronunciation": "/collaboration/"
+    },
+    {
+      "word": "Competent",
+      "normalized_word": "competent",
+      "curriculumDay": 170,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The competent response made the conversation easier to understand.",
+      "pronunciation": "/competent/"
+    },
+    {
+      "word": "Contribute",
+      "normalized_word": "contribute",
+      "curriculumDay": 171,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word contribute while explaining how to handle the situation.",
+      "pronunciation": "/contribute/"
+    },
+    {
+      "word": "Coordinate",
+      "normalized_word": "coordinate",
+      "curriculumDay": 172,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word coordinate while explaining how to handle the situation.",
+      "pronunciation": "/coordinate/"
+    },
+    {
+      "word": "Enhance",
+      "normalized_word": "enhance",
+      "curriculumDay": 173,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word enhance while explaining how to handle the situation.",
+      "pronunciation": "/enhance/"
+    },
+    {
+      "word": "Ensure",
+      "normalized_word": "ensure",
+      "curriculumDay": 174,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word ensure while explaining how to handle the situation.",
+      "pronunciation": "/ensure/"
+    },
+    {
+      "word": "Estimate",
+      "normalized_word": "estimate",
+      "curriculumDay": 175,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word estimate while explaining how to handle the situation.",
+      "pronunciation": "/estimate/"
+    },
+    {
+      "word": "Facilitate",
+      "normalized_word": "facilitate",
+      "curriculumDay": 176,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word facilitate while explaining how to handle the situation.",
+      "pronunciation": "/facilitate/"
+    },
+    {
+      "word": "Feasible",
+      "normalized_word": "feasible",
+      "curriculumDay": 177,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The feasible response made the conversation easier to understand.",
+      "pronunciation": "/feasible/"
+    },
+    {
+      "word": "Implement",
+      "normalized_word": "implement",
+      "curriculumDay": 178,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word implement while explaining how to handle the situation.",
+      "pronunciation": "/implement/"
+    },
+    {
+      "word": "Maintain",
+      "normalized_word": "maintain",
+      "curriculumDay": 179,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word maintain while explaining how to handle the situation.",
+      "pronunciation": "/maintain/"
+    },
+    {
+      "word": "Potential",
+      "normalized_word": "potential",
+      "curriculumDay": 180,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of potential appears often in professional discussions.",
+      "pronunciation": "/potential/"
+    },
+    {
+      "word": "Cultivate",
+      "normalized_word": "cultivate",
+      "curriculumDay": 181,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Daily reading can cultivate stronger vocabulary.",
+      "pronunciation": "/kul-tuh-vayt/"
+    },
+    {
+      "word": "Comprehend",
+      "normalized_word": "comprehend",
+      "curriculumDay": 182,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "It took time to comprehend the whole argument.",
+      "pronunciation": "/kom-pri-hend/"
+    },
+    {
+      "word": "Retain",
+      "normalized_word": "retain",
+      "curriculumDay": 183,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Short reviews help learners retain new words.",
+      "pronunciation": "/ri-tayn/"
+    },
+    {
+      "word": "Concept",
+      "normalized_word": "concept",
+      "curriculumDay": 184,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of concept appears often in education discussions.",
+      "pronunciation": "/concept/"
+    },
+    {
+      "word": "Demonstrate",
+      "normalized_word": "demonstrate",
+      "curriculumDay": 185,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word demonstrate while explaining how to handle the situation.",
+      "pronunciation": "/demonstrate/"
+    },
+    {
+      "word": "Examine",
+      "normalized_word": "examine",
+      "curriculumDay": 186,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word examine while explaining how to handle the situation.",
+      "pronunciation": "/examine/"
+    },
+    {
+      "word": "Expand",
+      "normalized_word": "expand",
+      "curriculumDay": 187,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word expand while explaining how to handle the situation.",
+      "pronunciation": "/expand/"
+    },
+    {
+      "word": "Experience",
+      "normalized_word": "experience",
+      "curriculumDay": 188,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of experience appears often in education discussions.",
+      "pronunciation": "/experience/"
+    },
+    {
+      "word": "Foundation",
+      "normalized_word": "foundation",
+      "curriculumDay": 189,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of foundation appears often in education discussions.",
+      "pronunciation": "/foundation/"
+    },
+    {
+      "word": "Fundamental",
+      "normalized_word": "fundamental",
+      "curriculumDay": 190,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The fundamental response made the conversation easier to understand.",
+      "pronunciation": "/fundamental/"
+    },
+    {
+      "word": "Proportion",
+      "normalized_word": "proportion",
+      "curriculumDay": 191,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of proportion appears often in academic discussions.",
+      "pronunciation": "/proportion/"
+    },
+    {
+      "word": "Reinforce",
+      "normalized_word": "reinforce",
+      "curriculumDay": 192,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word reinforce while explaining how to handle the situation.",
+      "pronunciation": "/reinforce/"
+    },
+    {
+      "word": "Significance",
+      "normalized_word": "significance",
+      "curriculumDay": 193,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of significance appears often in academic discussions.",
+      "pronunciation": "/significance/"
+    },
+    {
+      "word": "Valid",
+      "normalized_word": "valid",
+      "curriculumDay": 194,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The valid response made the conversation easier to understand.",
+      "pronunciation": "/valid/"
+    },
+    {
+      "word": "Abstract",
+      "normalized_word": "abstract",
+      "curriculumDay": 195,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The abstract response made the conversation easier to understand.",
+      "pronunciation": "/abstract/"
+    },
+    {
+      "word": "Criterion",
+      "normalized_word": "criterion",
+      "curriculumDay": 196,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of criterion appears often in academic discussions.",
+      "pronunciation": "/criterion/"
+    },
+    {
+      "word": "Definitive",
+      "normalized_word": "definitive",
+      "curriculumDay": 197,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The definitive response made the conversation easier to understand.",
+      "pronunciation": "/definitive/"
+    },
+    {
+      "word": "Differentiate",
+      "normalized_word": "differentiate",
+      "curriculumDay": 198,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word differentiate while explaining how to handle the situation.",
+      "pronunciation": "/differentiate/"
+    },
+    {
+      "word": "Empirical",
+      "normalized_word": "empirical",
+      "curriculumDay": 199,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The empirical response made the conversation easier to understand.",
+      "pronunciation": "/empirical/"
+    },
+    {
+      "word": "Exemplify",
+      "normalized_word": "exemplify",
+      "curriculumDay": 200,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word exemplify while explaining how to handle the situation.",
+      "pronunciation": "/exemplify/"
+    },
+    {
+      "word": "Interpretation",
+      "normalized_word": "interpretation",
+      "curriculumDay": 201,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of interpretation appears often in academic discussions.",
+      "pronunciation": "/interpretation/"
+    },
+    {
+      "word": "Justify",
+      "normalized_word": "justify",
+      "curriculumDay": 202,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word justify while explaining how to handle the situation.",
+      "pronunciation": "/justify/"
+    },
+    {
+      "word": "Marginal",
+      "normalized_word": "marginal",
+      "curriculumDay": 203,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The marginal response made the conversation easier to understand.",
+      "pronunciation": "/marginal/"
+    },
+    {
+      "word": "Proficient",
+      "normalized_word": "proficient",
+      "curriculumDay": 204,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The proficient response made the conversation easier to understand.",
+      "pronunciation": "/proficient/"
+    },
+    {
+      "word": "Qualitative",
+      "normalized_word": "qualitative",
+      "curriculumDay": 205,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The qualitative response made the conversation easier to understand.",
+      "pronunciation": "/qualitative/"
+    },
+    {
+      "word": "Quantify",
+      "normalized_word": "quantify",
+      "curriculumDay": 206,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word quantify while explaining how to handle the situation.",
+      "pronunciation": "/quantify/"
+    },
+    {
+      "word": "Rigorous",
+      "normalized_word": "rigorous",
+      "curriculumDay": 207,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The rigorous response made the conversation easier to understand.",
+      "pronunciation": "/rigorous/"
+    },
+    {
+      "word": "Substantial",
+      "normalized_word": "substantial",
+      "curriculumDay": 208,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The substantial response made the conversation easier to understand.",
+      "pronunciation": "/substantial/"
+    },
+    {
+      "word": "Theoretical",
+      "normalized_word": "theoretical",
+      "curriculumDay": 209,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The theoretical response made the conversation easier to understand.",
+      "pronunciation": "/theoretical/"
+    },
+    {
+      "word": "Validate",
+      "normalized_word": "validate",
+      "curriculumDay": 210,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word validate while explaining how to handle the situation.",
+      "pronunciation": "/validate/"
+    },
+    {
+      "word": "Sustainable",
+      "normalized_word": "sustainable",
+      "curriculumDay": 211,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The city needs a sustainable transport plan.",
+      "pronunciation": "/suh-stay-nuh-bul/"
+    },
+    {
+      "word": "Ethical",
+      "normalized_word": "ethical",
+      "curriculumDay": 212,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Ethical design respects people using the product.",
+      "pronunciation": "/eth-i-kul/"
+    },
+    {
+      "word": "Inclusive",
+      "normalized_word": "inclusive",
+      "curriculumDay": 213,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "An inclusive classroom helps students feel respected.",
+      "pronunciation": "/in-kloo-siv/"
+    },
+    {
+      "word": "Equitable",
+      "normalized_word": "equitable",
+      "curriculumDay": 214,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The policy aims for an equitable distribution of resources.",
+      "pronunciation": "/ek-wi-tuh-bul/"
+    },
+    {
+      "word": "Advocate",
+      "normalized_word": "advocate",
+      "curriculumDay": 215,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word advocate while explaining how to handle the situation.",
+      "pronunciation": "/advocate/"
+    },
+    {
+      "word": "Diverse",
+      "normalized_word": "diverse",
+      "curriculumDay": 216,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The diverse response made the conversation easier to understand.",
+      "pronunciation": "/diverse/"
+    },
+    {
+      "word": "Participate",
+      "normalized_word": "participate",
+      "curriculumDay": 217,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word participate while explaining how to handle the situation.",
+      "pronunciation": "/participate/"
+    },
+    {
+      "word": "Autonomy",
+      "normalized_word": "autonomy",
+      "curriculumDay": 218,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of autonomy appears often in society discussions.",
+      "pronunciation": "/autonomy/"
+    },
+    {
+      "word": "Beneficiary",
+      "normalized_word": "beneficiary",
+      "curriculumDay": 219,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of beneficiary appears often in society discussions.",
+      "pronunciation": "/beneficiary/"
+    },
+    {
+      "word": "Fragmented",
+      "normalized_word": "fragmented",
+      "curriculumDay": 220,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The fragmented response made the conversation easier to understand.",
+      "pronunciation": "/fragmented/"
+    },
+    {
+      "word": "Infrastructure",
+      "normalized_word": "infrastructure",
+      "curriculumDay": 221,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of infrastructure appears often in society discussions.",
+      "pronunciation": "/infrastructure/"
+    },
+    {
+      "word": "Intervene",
+      "normalized_word": "intervene",
+      "curriculumDay": 222,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word intervene while explaining how to handle the situation.",
+      "pronunciation": "/intervene/"
+    },
+    {
+      "word": "Legacy",
+      "normalized_word": "legacy",
+      "curriculumDay": 223,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of legacy appears often in culture discussions.",
+      "pronunciation": "/legacy/"
+    },
+    {
+      "word": "Obligation",
+      "normalized_word": "obligation",
+      "curriculumDay": 224,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of obligation appears often in society discussions.",
+      "pronunciation": "/obligation/"
+    },
+    {
+      "word": "Precedent",
+      "normalized_word": "precedent",
+      "curriculumDay": 225,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of precedent appears often in society discussions.",
+      "pronunciation": "/precedent/"
+    },
+    {
+      "word": "Aesthetic",
+      "normalized_word": "aesthetic",
+      "curriculumDay": 226,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The aesthetic response made the conversation easier to understand.",
+      "pronunciation": "/aesthetic/"
+    },
+    {
+      "word": "Artistry",
+      "normalized_word": "artistry",
+      "curriculumDay": 227,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of artistry appears often in culture discussions.",
+      "pronunciation": "/artistry/"
+    },
+    {
+      "word": "Communal",
+      "normalized_word": "communal",
+      "curriculumDay": 228,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The communal response made the conversation easier to understand.",
+      "pronunciation": "/communal/"
+    },
+    {
+      "word": "Consensus",
+      "normalized_word": "consensus",
+      "curriculumDay": 229,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of consensus appears often in society discussions.",
+      "pronunciation": "/consensus/"
+    },
+    {
+      "word": "Controversial",
+      "normalized_word": "controversial",
+      "curriculumDay": 230,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The controversial response made the conversation easier to understand.",
+      "pronunciation": "/controversial/"
+    },
+    {
+      "word": "Conventional",
+      "normalized_word": "conventional",
+      "curriculumDay": 231,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The conventional response made the conversation easier to understand.",
+      "pronunciation": "/conventional/"
+    },
+    {
+      "word": "Cultured",
+      "normalized_word": "cultured",
+      "curriculumDay": 232,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The cultured response made the conversation easier to understand.",
+      "pronunciation": "/cultured/"
+    },
+    {
+      "word": "Demographic",
+      "normalized_word": "demographic",
+      "curriculumDay": 233,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The demographic response made the conversation easier to understand.",
+      "pronunciation": "/demographic/"
+    },
+    {
+      "word": "Displacement",
+      "normalized_word": "displacement",
+      "curriculumDay": 234,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of displacement appears often in society discussions.",
+      "pronunciation": "/displacement/"
+    },
+    {
+      "word": "Eligible",
+      "normalized_word": "eligible",
+      "curriculumDay": 235,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The eligible response made the conversation easier to understand.",
+      "pronunciation": "/eligible/"
+    },
+    {
+      "word": "Embody",
+      "normalized_word": "embody",
+      "curriculumDay": 236,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word embody while explaining how to handle the situation.",
+      "pronunciation": "/embody/"
+    },
+    {
+      "word": "Exclude",
+      "normalized_word": "exclude",
+      "curriculumDay": 237,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word exclude while explaining how to handle the situation.",
+      "pronunciation": "/exclude/"
+    },
+    {
+      "word": "Impartial",
+      "normalized_word": "impartial",
+      "curriculumDay": 238,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The impartial response made the conversation easier to understand.",
+      "pronunciation": "/impartial/"
+    },
+    {
+      "word": "Inclusion",
+      "normalized_word": "inclusion",
+      "curriculumDay": 239,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of inclusion appears often in society discussions.",
+      "pronunciation": "/inclusion/"
+    },
+    {
+      "word": "Memorable",
+      "normalized_word": "memorable",
+      "curriculumDay": 240,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The memorable response made the conversation easier to understand.",
+      "pronunciation": "/memorable/"
+    },
+    {
+      "word": "Peculiar",
+      "normalized_word": "peculiar",
+      "curriculumDay": 241,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "There was a peculiar silence after the announcement.",
+      "pronunciation": "/pi-kyool-yur/"
+    },
+    {
+      "word": "Implicit",
+      "normalized_word": "implicit",
+      "curriculumDay": 242,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The note carried an implicit request for help.",
+      "pronunciation": "/im-plis-it/"
+    },
+    {
+      "word": "Distinct",
+      "normalized_word": "distinct",
+      "curriculumDay": 243,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The distinct response made the conversation easier to understand.",
+      "pronunciation": "/distinct/"
+    },
+    {
+      "word": "Moderate",
+      "normalized_word": "moderate",
+      "curriculumDay": 244,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The moderate response made the conversation easier to understand.",
+      "pronunciation": "/moderate/"
+    },
+    {
+      "word": "Vary",
+      "normalized_word": "vary",
+      "curriculumDay": 245,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word vary while explaining how to handle the situation.",
+      "pronunciation": "/vary/"
+    },
+    {
+      "word": "Diminish",
+      "normalized_word": "diminish",
+      "curriculumDay": 246,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word diminish while explaining how to handle the situation.",
+      "pronunciation": "/diminish/"
+    },
+    {
+      "word": "Emphasis",
+      "normalized_word": "emphasis",
+      "curriculumDay": 247,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of emphasis appears often in communication discussions.",
+      "pronunciation": "/emphasis/"
+    },
+    {
+      "word": "Explicitly",
+      "normalized_word": "explicitly",
+      "curriculumDay": 248,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "She explained the result explicitly so the team could trust it.",
+      "pronunciation": "/explicitly/"
+    },
+    {
+      "word": "Paradox",
+      "normalized_word": "paradox",
+      "curriculumDay": 249,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of paradox appears often in interesting words discussions.",
+      "pronunciation": "/paradox/"
+    },
+    {
+      "word": "Respective",
+      "normalized_word": "respective",
+      "curriculumDay": 250,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The respective response made the conversation easier to understand.",
+      "pronunciation": "/respective/"
+    },
+    {
+      "word": "Symmetry",
+      "normalized_word": "symmetry",
+      "curriculumDay": 251,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of symmetry appears often in descriptive discussions.",
+      "pronunciation": "/symmetry/"
+    },
+    {
+      "word": "Tangible",
+      "normalized_word": "tangible",
+      "curriculumDay": 252,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The tangible response made the conversation easier to understand.",
+      "pronunciation": "/tangible/"
+    },
+    {
+      "word": "Abrupt",
+      "normalized_word": "abrupt",
+      "curriculumDay": 253,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The abrupt response made the conversation easier to understand.",
+      "pronunciation": "/abrupt/"
+    },
+    {
+      "word": "Adjacent",
+      "normalized_word": "adjacent",
+      "curriculumDay": 254,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The adjacent response made the conversation easier to understand.",
+      "pronunciation": "/adjacent/"
+    },
+    {
+      "word": "Amplify",
+      "normalized_word": "amplify",
+      "curriculumDay": 255,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word amplify while explaining how to handle the situation.",
+      "pronunciation": "/amplify/"
+    },
+    {
+      "word": "Anchor",
+      "normalized_word": "anchor",
+      "curriculumDay": 256,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word anchor while explaining how to handle the situation.",
+      "pronunciation": "/anchor/"
+    },
+    {
+      "word": "Assurance",
+      "normalized_word": "assurance",
+      "curriculumDay": 257,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of assurance appears often in communication discussions.",
+      "pronunciation": "/assurance/"
+    },
+    {
+      "word": "Clarity",
+      "normalized_word": "clarity",
+      "curriculumDay": 258,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of clarity appears often in communication discussions.",
+      "pronunciation": "/clarity/"
+    },
+    {
+      "word": "Complement",
+      "normalized_word": "complement",
+      "curriculumDay": 259,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word complement while explaining how to handle the situation.",
+      "pronunciation": "/complement/"
+    },
+    {
+      "word": "Conceal",
+      "normalized_word": "conceal",
+      "curriculumDay": 260,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word conceal while explaining how to handle the situation.",
+      "pronunciation": "/conceal/"
+    },
+    {
+      "word": "Contradict",
+      "normalized_word": "contradict",
+      "curriculumDay": 261,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word contradict while explaining how to handle the situation.",
+      "pronunciation": "/contradict/"
+    },
+    {
+      "word": "Delicate",
+      "normalized_word": "delicate",
+      "curriculumDay": 262,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The delicate response made the conversation easier to understand.",
+      "pronunciation": "/delicate/"
+    },
+    {
+      "word": "Dense",
+      "normalized_word": "dense",
+      "curriculumDay": 263,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The dense response made the conversation easier to understand.",
+      "pronunciation": "/dense/"
+    },
+    {
+      "word": "Dialogue",
+      "normalized_word": "dialogue",
+      "curriculumDay": 264,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of dialogue appears often in communication discussions.",
+      "pronunciation": "/dialogue/"
+    },
+    {
+      "word": "Dynamic",
+      "normalized_word": "dynamic",
+      "curriculumDay": 265,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The dynamic response made the conversation easier to understand.",
+      "pronunciation": "/dynamic/"
+    },
+    {
+      "word": "Eloquent",
+      "normalized_word": "eloquent",
+      "curriculumDay": 266,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The eloquent response made the conversation easier to understand.",
+      "pronunciation": "/eloquent/"
+    },
+    {
+      "word": "Engagement",
+      "normalized_word": "engagement",
+      "curriculumDay": 267,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of engagement appears often in communication discussions.",
+      "pronunciation": "/engagement/"
+    },
+    {
+      "word": "Evident",
+      "normalized_word": "evident",
+      "curriculumDay": 268,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The evident response made the conversation easier to understand.",
+      "pronunciation": "/evident/"
+    },
+    {
+      "word": "Expressive",
+      "normalized_word": "expressive",
+      "curriculumDay": 269,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The expressive response made the conversation easier to understand.",
+      "pronunciation": "/expressive/"
+    },
+    {
+      "word": "Frank",
+      "normalized_word": "frank",
+      "curriculumDay": 270,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The frank response made the conversation easier to understand.",
+      "pronunciation": "/frank/"
+    },
+    {
+      "word": "Innovate",
+      "normalized_word": "innovate",
+      "curriculumDay": 271,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Small teams can innovate when they understand the problem.",
+      "pronunciation": "/in-uh-vayt/"
+    },
+    {
+      "word": "Ecosystem",
+      "normalized_word": "ecosystem",
+      "curriculumDay": 272,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Pollution can damage an entire ecosystem.",
+      "pronunciation": "/ee-koh-sis-tum/"
+    },
+    {
+      "word": "Hypothesis",
+      "normalized_word": "hypothesis",
+      "curriculumDay": 273,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The scientist formed a hypothesis before collecting data.",
+      "pronunciation": "/hy-poth-uh-sis/"
+    },
+    {
+      "word": "Prototype",
+      "normalized_word": "prototype",
+      "curriculumDay": 274,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The prototype revealed a problem in the workflow.",
+      "pronunciation": "/proh-tuh-typ/"
+    },
+    {
+      "word": "Interface",
+      "normalized_word": "interface",
+      "curriculumDay": 275,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A simple interface reduces user confusion.",
+      "pronunciation": "/in-tur-fays/"
+    },
+    {
+      "word": "Accessible",
+      "normalized_word": "accessible",
+      "curriculumDay": 276,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Accessible design benefits many kinds of users.",
+      "pronunciation": "/ak-ses-uh-bul/"
+    },
+    {
+      "word": "Wellbeing",
+      "normalized_word": "wellbeing",
+      "curriculumDay": 277,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Sleep has a strong effect on wellbeing.",
+      "pronunciation": "/wel-bee-ing/"
+    },
+    {
+      "word": "Beneficial",
+      "normalized_word": "beneficial",
+      "curriculumDay": 278,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The beneficial response made the conversation easier to understand.",
+      "pronunciation": "/beneficial/"
+    },
+    {
+      "word": "Function",
+      "normalized_word": "function",
+      "curriculumDay": 279,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of function appears often in technology discussions.",
+      "pronunciation": "/function/"
+    },
+    {
+      "word": "Integrate",
+      "normalized_word": "integrate",
+      "curriculumDay": 280,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word integrate while explaining how to handle the situation.",
+      "pronunciation": "/integrate/"
+    },
+    {
+      "word": "Observe",
+      "normalized_word": "observe",
+      "curriculumDay": 281,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word observe while explaining how to handle the situation.",
+      "pronunciation": "/observe/"
+    },
+    {
+      "word": "Predict",
+      "normalized_word": "predict",
+      "curriculumDay": 282,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word predict while explaining how to handle the situation.",
+      "pronunciation": "/predict/"
+    },
+    {
+      "word": "Restore",
+      "normalized_word": "restore",
+      "curriculumDay": 283,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word restore while explaining how to handle the situation.",
+      "pronunciation": "/restore/"
+    },
+    {
+      "word": "Strengthen",
+      "normalized_word": "strengthen",
+      "curriculumDay": 284,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word strengthen while explaining how to handle the situation.",
+      "pronunciation": "/strengthen/"
+    },
+    {
+      "word": "Transform",
+      "normalized_word": "transform",
+      "curriculumDay": 285,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word transform while explaining how to handle the situation.",
+      "pronunciation": "/transform/"
+    },
+    {
+      "word": "Adaptation",
+      "normalized_word": "adaptation",
+      "curriculumDay": 286,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of adaptation appears often in science discussions.",
+      "pronunciation": "/adaptation/"
+    },
+    {
+      "word": "Compatible",
+      "normalized_word": "compatible",
+      "curriculumDay": 287,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The compatible response made the conversation easier to understand.",
+      "pronunciation": "/compatible/"
+    },
+    {
+      "word": "Disrupt",
+      "normalized_word": "disrupt",
+      "curriculumDay": 288,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word disrupt while explaining how to handle the situation.",
+      "pronunciation": "/disrupt/"
+    },
+    {
+      "word": "Evolve",
+      "normalized_word": "evolve",
+      "curriculumDay": 289,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word evolve while explaining how to handle the situation.",
+      "pronunciation": "/evolve/"
+    },
+    {
+      "word": "Generate",
+      "normalized_word": "generate",
+      "curriculumDay": 290,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word generate while explaining how to handle the situation.",
+      "pronunciation": "/generate/"
+    },
+    {
+      "word": "Mechanism",
+      "normalized_word": "mechanism",
+      "curriculumDay": 291,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of mechanism appears often in science discussions.",
+      "pronunciation": "/mechanism/"
+    },
+    {
+      "word": "Parameter",
+      "normalized_word": "parameter",
+      "curriculumDay": 292,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of parameter appears often in technology discussions.",
+      "pronunciation": "/parameter/"
+    },
+    {
+      "word": "Simulate",
+      "normalized_word": "simulate",
+      "curriculumDay": 293,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word simulate while explaining how to handle the situation.",
+      "pronunciation": "/simulate/"
+    },
+    {
+      "word": "Accelerate",
+      "normalized_word": "accelerate",
+      "curriculumDay": 294,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word accelerate while explaining how to handle the situation.",
+      "pronunciation": "/accelerate/"
+    },
+    {
+      "word": "Alleviate",
+      "normalized_word": "alleviate",
+      "curriculumDay": 295,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word alleviate while explaining how to handle the situation.",
+      "pronunciation": "/alleviate/"
+    },
+    {
+      "word": "Catalyst",
+      "normalized_word": "catalyst",
+      "curriculumDay": 296,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of catalyst appears often in science discussions.",
+      "pronunciation": "/catalyst/"
+    },
+    {
+      "word": "Correlate",
+      "normalized_word": "correlate",
+      "curriculumDay": 297,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word correlate while explaining how to handle the situation.",
+      "pronunciation": "/correlate/"
+    },
+    {
+      "word": "Deficiency",
+      "normalized_word": "deficiency",
+      "curriculumDay": 298,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of deficiency appears often in health discussions.",
+      "pronunciation": "/deficiency/"
+    },
+    {
+      "word": "Ecological",
+      "normalized_word": "ecological",
+      "curriculumDay": 299,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The ecological response made the conversation easier to understand.",
+      "pronunciation": "/ecological/"
+    },
+    {
+      "word": "Equilibrium",
+      "normalized_word": "equilibrium",
+      "curriculumDay": 300,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of equilibrium appears often in science discussions.",
+      "pronunciation": "/equilibrium/"
+    },
+    {
+      "word": "Factor",
+      "normalized_word": "factor",
+      "curriculumDay": 301,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of factor appears often in thinking discussions.",
+      "pronunciation": "/factor/"
+    },
+    {
+      "word": "Framework",
+      "normalized_word": "framework",
+      "curriculumDay": 302,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of framework appears often in thinking discussions.",
+      "pronunciation": "/framework/"
+    },
+    {
+      "word": "Identify",
+      "normalized_word": "identify",
+      "curriculumDay": 303,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word identify while explaining how to handle the situation.",
+      "pronunciation": "/identify/"
+    },
+    {
+      "word": "Judgment",
+      "normalized_word": "judgment",
+      "curriculumDay": 304,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of judgment appears often in thinking discussions.",
+      "pronunciation": "/judgment/"
+    },
+    {
+      "word": "Pattern",
+      "normalized_word": "pattern",
+      "curriculumDay": 305,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of pattern appears often in thinking discussions.",
+      "pronunciation": "/pattern/"
+    },
+    {
+      "word": "Recognize",
+      "normalized_word": "recognize",
+      "curriculumDay": 306,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word recognize while explaining how to handle the situation.",
+      "pronunciation": "/recognize/"
+    },
+    {
+      "word": "Reflect",
+      "normalized_word": "reflect",
+      "curriculumDay": 307,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word reflect while explaining how to handle the situation.",
+      "pronunciation": "/reflect/"
+    },
+    {
+      "word": "Structure",
+      "normalized_word": "structure",
+      "curriculumDay": 308,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of structure appears often in thinking discussions.",
+      "pronunciation": "/structure/"
+    },
+    {
+      "word": "Underlying",
+      "normalized_word": "underlying",
+      "curriculumDay": 309,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The underlying response made the conversation easier to understand.",
+      "pronunciation": "/underlying/"
+    },
+    {
+      "word": "Alternative",
+      "normalized_word": "alternative",
+      "curriculumDay": 310,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of alternative appears often in thinking discussions.",
+      "pronunciation": "/alternative/"
+    },
+    {
+      "word": "Arbitrary",
+      "normalized_word": "arbitrary",
+      "curriculumDay": 311,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The arbitrary response made the conversation easier to understand.",
+      "pronunciation": "/arbitrary/"
+    },
+    {
+      "word": "Hypothetical",
+      "normalized_word": "hypothetical",
+      "curriculumDay": 312,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The hypothetical response made the conversation easier to understand.",
+      "pronunciation": "/hypothetical/"
+    },
+    {
+      "word": "Ideally",
+      "normalized_word": "ideally",
+      "curriculumDay": 313,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "She explained the result ideally so the team could trust it.",
+      "pronunciation": "/ideally/"
+    },
+    {
+      "word": "Inconsistency",
+      "normalized_word": "inconsistency",
+      "curriculumDay": 314,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of inconsistency appears often in thinking discussions.",
+      "pronunciation": "/inconsistency/"
+    },
+    {
+      "word": "Inherent",
+      "normalized_word": "inherent",
+      "curriculumDay": 315,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The inherent response made the conversation easier to understand.",
+      "pronunciation": "/inherent/"
+    },
+    {
+      "word": "Notion",
+      "normalized_word": "notion",
+      "curriculumDay": 316,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of notion appears often in thinking discussions.",
+      "pronunciation": "/notion/"
+    },
+    {
+      "word": "Presume",
+      "normalized_word": "presume",
+      "curriculumDay": 317,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word presume while explaining how to handle the situation.",
+      "pronunciation": "/presume/"
+    },
+    {
+      "word": "Rationale",
+      "normalized_word": "rationale",
+      "curriculumDay": 318,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of rationale appears often in thinking discussions.",
+      "pronunciation": "/rationale/"
+    },
+    {
+      "word": "Reciprocal",
+      "normalized_word": "reciprocal",
+      "curriculumDay": 319,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The reciprocal response made the conversation easier to understand.",
+      "pronunciation": "/reciprocal/"
+    },
+    {
+      "word": "Scenario",
+      "normalized_word": "scenario",
+      "curriculumDay": 320,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of scenario appears often in thinking discussions.",
+      "pronunciation": "/scenario/"
+    },
+    {
+      "word": "Speculate",
+      "normalized_word": "speculate",
+      "curriculumDay": 321,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word speculate while explaining how to handle the situation.",
+      "pronunciation": "/speculate/"
+    },
+    {
+      "word": "Analytical",
+      "normalized_word": "analytical",
+      "curriculumDay": 322,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The analytical response made the conversation easier to understand.",
+      "pronunciation": "/analytical/"
+    },
+    {
+      "word": "Caution",
+      "normalized_word": "caution",
+      "curriculumDay": 323,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of caution appears often in thinking discussions.",
+      "pronunciation": "/caution/"
+    },
+    {
+      "word": "Coincide",
+      "normalized_word": "coincide",
+      "curriculumDay": 324,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word coincide while explaining how to handle the situation.",
+      "pronunciation": "/coincide/"
+    },
+    {
+      "word": "Compound",
+      "normalized_word": "compound",
+      "curriculumDay": 325,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word compound while explaining how to handle the situation.",
+      "pronunciation": "/compound/"
+    },
+    {
+      "word": "Deduction",
+      "normalized_word": "deduction",
+      "curriculumDay": 326,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of deduction appears often in thinking discussions.",
+      "pronunciation": "/deduction/"
+    },
+    {
+      "word": "Dimension",
+      "normalized_word": "dimension",
+      "curriculumDay": 327,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of dimension appears often in thinking discussions.",
+      "pronunciation": "/dimension/"
+    },
+    {
+      "word": "Discern",
+      "normalized_word": "discern",
+      "curriculumDay": 328,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word discern while explaining how to handle the situation.",
+      "pronunciation": "/discern/"
+    },
+    {
+      "word": "Foresight",
+      "normalized_word": "foresight",
+      "curriculumDay": 329,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of foresight appears often in thinking discussions.",
+      "pronunciation": "/foresight/"
+    },
+    {
+      "word": "Friction",
+      "normalized_word": "friction",
+      "curriculumDay": 330,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of friction appears often in relationships discussions.",
+      "pronunciation": "/friction/"
+    },
+    {
+      "word": "Advantage",
+      "normalized_word": "advantage",
+      "curriculumDay": 331,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of advantage appears often in professional discussions.",
+      "pronunciation": "/advantage/"
+    },
+    {
+      "word": "Applicable",
+      "normalized_word": "applicable",
+      "curriculumDay": 332,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The applicable response made the conversation easier to understand.",
+      "pronunciation": "/applicable/"
+    },
+    {
+      "word": "Delegate",
+      "normalized_word": "delegate",
+      "curriculumDay": 333,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word delegate while explaining how to handle the situation.",
+      "pronunciation": "/delegate/"
+    },
+    {
+      "word": "Endeavor",
+      "normalized_word": "endeavor",
+      "curriculumDay": 334,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of endeavor appears often in professional discussions.",
+      "pronunciation": "/endeavor/"
+    },
+    {
+      "word": "Hierarchy",
+      "normalized_word": "hierarchy",
+      "curriculumDay": 335,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of hierarchy appears often in professional discussions.",
+      "pronunciation": "/hierarchy/"
+    },
+    {
+      "word": "Leverage",
+      "normalized_word": "leverage",
+      "curriculumDay": 336,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word leverage while explaining how to handle the situation.",
+      "pronunciation": "/leverage/"
+    },
+    {
+      "word": "Utility",
+      "normalized_word": "utility",
+      "curriculumDay": 337,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of utility appears often in professional discussions.",
+      "pronunciation": "/utility/"
+    },
+    {
+      "word": "Advancement",
+      "normalized_word": "advancement",
+      "curriculumDay": 338,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of advancement appears often in professional discussions.",
+      "pronunciation": "/advancement/"
+    },
+    {
+      "word": "Agile",
+      "normalized_word": "agile",
+      "curriculumDay": 339,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The agile response made the conversation easier to understand.",
+      "pronunciation": "/agile/"
+    },
+    {
+      "word": "Baseline",
+      "normalized_word": "baseline",
+      "curriculumDay": 340,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of baseline appears often in academic discussions.",
+      "pronunciation": "/baseline/"
+    },
+    {
+      "word": "Conditional",
+      "normalized_word": "conditional",
+      "curriculumDay": 341,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The conditional response made the conversation easier to understand.",
+      "pronunciation": "/conditional/"
+    },
+    {
+      "word": "Credibility",
+      "normalized_word": "credibility",
+      "curriculumDay": 342,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of credibility appears often in academic discussions.",
+      "pronunciation": "/credibility/"
+    },
+    {
+      "word": "Designate",
+      "normalized_word": "designate",
+      "curriculumDay": 343,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word designate while explaining how to handle the situation.",
+      "pronunciation": "/designate/"
+    },
+    {
+      "word": "Distinction",
+      "normalized_word": "distinction",
+      "curriculumDay": 344,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of distinction appears often in academic discussions.",
+      "pronunciation": "/distinction/"
+    },
+    {
+      "word": "Elevate",
+      "normalized_word": "elevate",
+      "curriculumDay": 345,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word elevate while explaining how to handle the situation.",
+      "pronunciation": "/elevate/"
+    },
+    {
+      "word": "Extent",
+      "normalized_word": "extent",
+      "curriculumDay": 346,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of extent appears often in academic discussions.",
+      "pronunciation": "/extent/"
+    },
+    {
+      "word": "Factual",
+      "normalized_word": "factual",
+      "curriculumDay": 347,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The factual response made the conversation easier to understand.",
+      "pronunciation": "/factual/"
+    },
+    {
+      "word": "Indicator",
+      "normalized_word": "indicator",
+      "curriculumDay": 348,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of indicator appears often in academic discussions.",
+      "pronunciation": "/indicator/"
+    },
+    {
+      "word": "Inference",
+      "normalized_word": "inference",
+      "curriculumDay": 349,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of inference appears often in thinking discussions.",
+      "pronunciation": "/inference/"
+    },
+    {
+      "word": "Intention",
+      "normalized_word": "intention",
+      "curriculumDay": 350,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of intention appears often in thinking discussions.",
+      "pronunciation": "/intention/"
+    },
+    {
+      "word": "Intuitive",
+      "normalized_word": "intuitive",
+      "curriculumDay": 351,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The intuitive response made the conversation easier to understand.",
+      "pronunciation": "/intuitive/"
+    },
+    {
+      "word": "Investment",
+      "normalized_word": "investment",
+      "curriculumDay": 352,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of investment appears often in professional discussions.",
+      "pronunciation": "/investment/"
+    },
+    {
+      "word": "Latent",
+      "normalized_word": "latent",
+      "curriculumDay": 353,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The latent response made the conversation easier to understand.",
+      "pronunciation": "/latent/"
+    },
+    {
+      "word": "Obscure",
+      "normalized_word": "obscure",
+      "curriculumDay": 354,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The obscure response made the conversation easier to understand.",
+      "pronunciation": "/obscure/"
+    },
+    {
+      "word": "Optimal",
+      "normalized_word": "optimal",
+      "curriculumDay": 355,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The optimal response made the conversation easier to understand.",
+      "pronunciation": "/optimal/"
+    },
+    {
+      "word": "Outcome",
+      "normalized_word": "outcome",
+      "curriculumDay": 356,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of outcome appears often in thinking discussions.",
+      "pronunciation": "/outcome/"
+    },
+    {
+      "word": "Overlap",
+      "normalized_word": "overlap",
+      "curriculumDay": 357,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of overlap appears often in thinking discussions.",
+      "pronunciation": "/overlap/"
+    },
+    {
+      "word": "Polished",
+      "normalized_word": "polished",
+      "curriculumDay": 358,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The polished response made the conversation easier to understand.",
+      "pronunciation": "/polished/"
+    },
+    {
+      "word": "Preliminary",
+      "normalized_word": "preliminary",
+      "curriculumDay": 359,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The preliminary response made the conversation easier to understand.",
+      "pronunciation": "/preliminary/"
+    },
+    {
+      "word": "Principle",
+      "normalized_word": "principle",
+      "curriculumDay": 360,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of principle appears often in society discussions.",
+      "pronunciation": "/principle/"
+    },
+    {
+      "word": "Delineate",
+      "normalized_word": "delineate",
+      "curriculumDay": 361,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word delineate while explaining how to handle the situation.",
+      "pronunciation": "/delineate/"
+    },
+    {
+      "word": "Erudite",
+      "normalized_word": "erudite",
+      "curriculumDay": 362,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The erudite response made the conversation easier to understand.",
+      "pronunciation": "/erudite/"
+    },
+    {
+      "word": "Extrapolate",
+      "normalized_word": "extrapolate",
+      "curriculumDay": 363,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word extrapolate while explaining how to handle the situation.",
+      "pronunciation": "/extrapolate/"
+    },
+    {
+      "word": "Inferential",
+      "normalized_word": "inferential",
+      "curriculumDay": 364,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The inferential response made the conversation easier to understand.",
+      "pronunciation": "/inferential/"
+    },
+    {
+      "word": "Interdependence",
+      "normalized_word": "interdependence",
+      "curriculumDay": 365,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of interdependence appears often in society discussions.",
+      "pronunciation": "/interdependence/"
+    },
+    {
+      "word": "Apply",
+      "normalized_word": "apply",
+      "curriculumDay": null,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "Try to apply the new word in a sentence.",
+      "pronunciation": "/uh-ply/"
+    },
+    {
+      "word": "Itinerary",
+      "normalized_word": "itinerary",
+      "curriculumDay": null,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "The itinerary includes two museums and a walking tour.",
+      "pronunciation": "/eye-tin-uh-rair-ee/"
+    },
+    {
+      "word": "Routine",
+      "normalized_word": "routine",
+      "curriculumDay": null,
+      "reasons": [
+        "no_audio"
+      ],
+      "example_sentence": "A morning routine can make learning easier.",
+      "pronunciation": "/roo-teen/"
+    },
+    {
+      "word": "Adapt",
+      "normalized_word": "adapt",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word adapt while explaining how to handle the situation.",
+      "pronunciation": "/adapt/"
+    },
+    {
+      "word": "Adjust",
+      "normalized_word": "adjust",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word adjust while explaining how to handle the situation.",
+      "pronunciation": "/adjust/"
+    },
+    {
+      "word": "Approach",
+      "normalized_word": "approach",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of approach appears often in thinking discussions.",
+      "pronunciation": "/approach/"
+    },
+    {
+      "word": "Aware",
+      "normalized_word": "aware",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The aware response made the conversation easier to understand.",
+      "pronunciation": "/aware/"
+    },
+    {
+      "word": "Basic",
+      "normalized_word": "basic",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The basic response made the conversation easier to understand.",
+      "pronunciation": "/basic/"
+    },
+    {
+      "word": "Benefit",
+      "normalized_word": "benefit",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of benefit appears often in work discussions.",
+      "pronunciation": "/benefit/"
+    },
+    {
+      "word": "Calm",
+      "normalized_word": "calm",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The calm response made the conversation easier to understand.",
+      "pronunciation": "/calm/"
+    },
+    {
+      "word": "Careful",
+      "normalized_word": "careful",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The careful response made the conversation easier to understand.",
+      "pronunciation": "/careful/"
+    },
+    {
+      "word": "Choice",
+      "normalized_word": "choice",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of choice appears often in thinking discussions.",
+      "pronunciation": "/choice/"
+    },
+    {
+      "word": "Common",
+      "normalized_word": "common",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The common response made the conversation easier to understand.",
+      "pronunciation": "/common/"
+    },
+    {
+      "word": "Compare",
+      "normalized_word": "compare",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word compare while explaining how to handle the situation.",
+      "pronunciation": "/compare/"
+    },
+    {
+      "word": "Complete",
+      "normalized_word": "complete",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The complete response made the conversation easier to understand.",
+      "pronunciation": "/complete/"
+    },
+    {
+      "word": "Consider",
+      "normalized_word": "consider",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word consider while explaining how to handle the situation.",
+      "pronunciation": "/consider/"
+    },
+    {
+      "word": "Create",
+      "normalized_word": "create",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word create while explaining how to handle the situation.",
+      "pronunciation": "/create/"
+    },
+    {
+      "word": "Decide",
+      "normalized_word": "decide",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word decide while explaining how to handle the situation.",
+      "pronunciation": "/decide/"
+    },
+    {
+      "word": "Develop",
+      "normalized_word": "develop",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word develop while explaining how to handle the situation.",
+      "pronunciation": "/develop/"
+    },
+    {
+      "word": "Discover",
+      "normalized_word": "discover",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word discover while explaining how to handle the situation.",
+      "pronunciation": "/discover/"
+    },
+    {
+      "word": "Effect",
+      "normalized_word": "effect",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of effect appears often in thinking discussions.",
+      "pronunciation": "/effect/"
+    },
+    {
+      "word": "Effort",
+      "normalized_word": "effort",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of effort appears often in work discussions.",
+      "pronunciation": "/effort/"
+    },
+    {
+      "word": "Fair",
+      "normalized_word": "fair",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The fair response made the conversation easier to understand.",
+      "pronunciation": "/fair/"
+    },
+    {
+      "word": "Familiar",
+      "normalized_word": "familiar",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The familiar response made the conversation easier to understand.",
+      "pronunciation": "/familiar/"
+    },
+    {
+      "word": "Focus",
+      "normalized_word": "focus",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word focus while explaining how to handle the situation.",
+      "pronunciation": "/focus/"
+    },
+    {
+      "word": "Frequent",
+      "normalized_word": "frequent",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The frequent response made the conversation easier to understand.",
+      "pronunciation": "/frequent/"
+    },
+    {
+      "word": "Honest",
+      "normalized_word": "honest",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The honest response made the conversation easier to understand.",
+      "pronunciation": "/honest/"
+    },
+    {
+      "word": "Impact",
+      "normalized_word": "impact",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of impact appears often in society discussions.",
+      "pronunciation": "/impact/"
+    },
+    {
+      "word": "Improve",
+      "normalized_word": "improve",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word improve while explaining how to handle the situation.",
+      "pronunciation": "/improve/"
+    },
+    {
+      "word": "Include",
+      "normalized_word": "include",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word include while explaining how to handle the situation.",
+      "pronunciation": "/include/"
+    },
+    {
+      "word": "Intend",
+      "normalized_word": "intend",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word intend while explaining how to handle the situation.",
+      "pronunciation": "/intend/"
+    },
+    {
+      "word": "Issue",
+      "normalized_word": "issue",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of issue appears often in work discussions.",
+      "pronunciation": "/issue/"
+    },
+    {
+      "word": "Manage",
+      "normalized_word": "manage",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word manage while explaining how to handle the situation.",
+      "pronunciation": "/manage/"
+    },
+    {
+      "word": "Method",
+      "normalized_word": "method",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of method appears often in education discussions.",
+      "pronunciation": "/method/"
+    },
+    {
+      "word": "Notice",
+      "normalized_word": "notice",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word notice while explaining how to handle the situation.",
+      "pronunciation": "/notice/"
+    },
+    {
+      "word": "Practical",
+      "normalized_word": "practical",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The practical response made the conversation easier to understand.",
+      "pronunciation": "/practical/"
+    },
+    {
+      "word": "Prefer",
+      "normalized_word": "prefer",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word prefer while explaining how to handle the situation.",
+      "pronunciation": "/prefer/"
+    },
+    {
+      "word": "Prepare",
+      "normalized_word": "prepare",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word prepare while explaining how to handle the situation.",
+      "pronunciation": "/prepare/"
+    },
+    {
+      "word": "Prevent",
+      "normalized_word": "prevent",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word prevent while explaining how to handle the situation.",
+      "pronunciation": "/prevent/"
+    },
+    {
+      "word": "Progress",
+      "normalized_word": "progress",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of progress appears often in education discussions.",
+      "pronunciation": "/progress/"
+    },
+    {
+      "word": "Purpose",
+      "normalized_word": "purpose",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of purpose appears often in thinking discussions.",
+      "pronunciation": "/purpose/"
+    },
+    {
+      "word": "Reduce",
+      "normalized_word": "reduce",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word reduce while explaining how to handle the situation.",
+      "pronunciation": "/reduce/"
+    },
+    {
+      "word": "Respect",
+      "normalized_word": "respect",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of respect appears often in relationships discussions.",
+      "pronunciation": "/respect/"
+    },
+    {
+      "word": "Result",
+      "normalized_word": "result",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of result appears often in thinking discussions.",
+      "pronunciation": "/result/"
+    },
+    {
+      "word": "Simple",
+      "normalized_word": "simple",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The simple response made the conversation easier to understand.",
+      "pronunciation": "/simple/"
+    },
+    {
+      "word": "Stable",
+      "normalized_word": "stable",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The stable response made the conversation easier to understand.",
+      "pronunciation": "/stable/"
+    },
+    {
+      "word": "Support",
+      "normalized_word": "support",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word support while explaining how to handle the situation.",
+      "pronunciation": "/support/"
+    },
+    {
+      "word": "Useful",
+      "normalized_word": "useful",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The useful response made the conversation easier to understand.",
+      "pronunciation": "/useful/"
+    },
+    {
+      "word": "Valuable",
+      "normalized_word": "valuable",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The valuable response made the conversation easier to understand.",
+      "pronunciation": "/valuable/"
+    },
+    {
+      "word": "Varied",
+      "normalized_word": "varied",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The varied response made the conversation easier to understand.",
+      "pronunciation": "/varied/"
+    },
+    {
+      "word": "Ability",
+      "normalized_word": "ability",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of ability appears often in education discussions.",
+      "pronunciation": "/ability/"
+    },
+    {
+      "word": "Active",
+      "normalized_word": "active",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The active response made the conversation easier to understand.",
+      "pronunciation": "/active/"
+    },
+    {
+      "word": "Advice",
+      "normalized_word": "advice",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of advice appears often in relationships discussions.",
+      "pronunciation": "/advice/"
+    },
+    {
+      "word": "Balance",
+      "normalized_word": "balance",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of balance appears often in health discussions.",
+      "pronunciation": "/balance/"
+    },
+    {
+      "word": "Challenge",
+      "normalized_word": "challenge",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of challenge appears often in education discussions.",
+      "pronunciation": "/challenge/"
+    },
+    {
+      "word": "Change",
+      "normalized_word": "change",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of change appears often in everyday life discussions.",
+      "pronunciation": "/change/"
+    },
+    {
+      "word": "Control",
+      "normalized_word": "control",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of control appears often in work discussions.",
+      "pronunciation": "/control/"
+    },
+    {
+      "word": "Creative",
+      "normalized_word": "creative",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The creative response made the conversation easier to understand.",
+      "pronunciation": "/creative/"
+    },
+    {
+      "word": "Essential",
+      "normalized_word": "essential",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The essential response made the conversation easier to understand.",
+      "pronunciation": "/essential/"
+    },
+    {
+      "word": "Option",
+      "normalized_word": "option",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of option appears often in thinking discussions.",
+      "pronunciation": "/option/"
+    },
+    {
+      "word": "Priority",
+      "normalized_word": "priority",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of priority appears often in work discussions.",
+      "pronunciation": "/priority/"
+    },
+    {
+      "word": "Process",
+      "normalized_word": "process",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of process appears often in work discussions.",
+      "pronunciation": "/process/"
+    },
+    {
+      "word": "Protect",
+      "normalized_word": "protect",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word protect while explaining how to handle the situation.",
+      "pronunciation": "/protect/"
+    },
+    {
+      "word": "Review",
+      "normalized_word": "review",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word review while explaining how to handle the situation.",
+      "pronunciation": "/review/"
+    },
+    {
+      "word": "Solution",
+      "normalized_word": "solution",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of solution appears often in thinking discussions.",
+      "pronunciation": "/solution/"
+    },
+    {
+      "word": "Source",
+      "normalized_word": "source",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of source appears often in academic discussions.",
+      "pronunciation": "/source/"
+    },
+    {
+      "word": "Suitable",
+      "normalized_word": "suitable",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The suitable response made the conversation easier to understand.",
+      "pronunciation": "/suitable/"
+    },
+    {
+      "word": "Transfer",
+      "normalized_word": "transfer",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word transfer while explaining how to handle the situation.",
+      "pronunciation": "/transfer/"
+    },
+    {
+      "word": "Adequate",
+      "normalized_word": "adequate",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The adequate response made the conversation easier to understand.",
+      "pronunciation": "/adequate/"
+    },
+    {
+      "word": "Alignment",
+      "normalized_word": "alignment",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of alignment appears often in work discussions.",
+      "pronunciation": "/alignment/"
+    },
+    {
+      "word": "Constraint",
+      "normalized_word": "constraint",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of constraint appears often in work discussions.",
+      "pronunciation": "/constraint/"
+    },
+    {
+      "word": "Dedicate",
+      "normalized_word": "dedicate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word dedicate while explaining how to handle the situation.",
+      "pronunciation": "/dedicate/"
+    },
+    {
+      "word": "Feasibility",
+      "normalized_word": "feasibility",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of feasibility appears often in work discussions.",
+      "pronunciation": "/feasibility/"
+    },
+    {
+      "word": "Incentive",
+      "normalized_word": "incentive",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of incentive appears often in work discussions.",
+      "pronunciation": "/incentive/"
+    },
+    {
+      "word": "Inclination",
+      "normalized_word": "inclination",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of inclination appears often in personality discussions.",
+      "pronunciation": "/inclination/"
+    },
+    {
+      "word": "Initial",
+      "normalized_word": "initial",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The initial response made the conversation easier to understand.",
+      "pronunciation": "/initial/"
+    },
+    {
+      "word": "Redundant",
+      "normalized_word": "redundant",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The redundant response made the conversation easier to understand.",
+      "pronunciation": "/redundant/"
+    },
+    {
+      "word": "Scope",
+      "normalized_word": "scope",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of scope appears often in work discussions.",
+      "pronunciation": "/scope/"
+    },
+    {
+      "word": "Transition",
+      "normalized_word": "transition",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of transition appears often in work discussions.",
+      "pronunciation": "/transition/"
+    },
+    {
+      "word": "Viability",
+      "normalized_word": "viability",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of viability appears often in work discussions.",
+      "pronunciation": "/viability/"
+    },
+    {
+      "word": "Absorb",
+      "normalized_word": "absorb",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word absorb while explaining how to handle the situation.",
+      "pronunciation": "/absorb/"
+    },
+    {
+      "word": "Accumulate",
+      "normalized_word": "accumulate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word accumulate while explaining how to handle the situation.",
+      "pronunciation": "/accumulate/"
+    },
+    {
+      "word": "Advise",
+      "normalized_word": "advise",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word advise while explaining how to handle the situation.",
+      "pronunciation": "/advise/"
+    },
+    {
+      "word": "Agenda",
+      "normalized_word": "agenda",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of agenda appears often in work discussions.",
+      "pronunciation": "/agenda/"
+    },
+    {
+      "word": "Availability",
+      "normalized_word": "availability",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of availability appears often in work discussions.",
+      "pronunciation": "/availability/"
+    },
+    {
+      "word": "Comfort",
+      "normalized_word": "comfort",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of comfort appears often in emotions discussions.",
+      "pronunciation": "/comfort/"
+    },
+    {
+      "word": "Concentrate",
+      "normalized_word": "concentrate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word concentrate while explaining how to handle the situation.",
+      "pronunciation": "/concentrate/"
+    },
+    {
+      "word": "Continuity",
+      "normalized_word": "continuity",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of continuity appears often in work discussions.",
+      "pronunciation": "/continuity/"
+    },
+    {
+      "word": "Curiosity",
+      "normalized_word": "curiosity",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of curiosity appears often in education discussions.",
+      "pronunciation": "/curiosity/"
+    },
+    {
+      "word": "Demanding",
+      "normalized_word": "demanding",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The demanding response made the conversation easier to understand.",
+      "pronunciation": "/demanding/"
+    },
+    {
+      "word": "Discipline",
+      "normalized_word": "discipline",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of discipline appears often in education discussions.",
+      "pronunciation": "/discipline/"
+    },
+    {
+      "word": "Disposition",
+      "normalized_word": "disposition",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of disposition appears often in personality discussions.",
+      "pronunciation": "/disposition/"
+    },
+    {
+      "word": "Enrich",
+      "normalized_word": "enrich",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word enrich while explaining how to handle the situation.",
+      "pronunciation": "/enrich/"
+    },
+    {
+      "word": "Exert",
+      "normalized_word": "exert",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word exert while explaining how to handle the situation.",
+      "pronunciation": "/exert/"
+    },
+    {
+      "word": "Exposure",
+      "normalized_word": "exposure",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of exposure appears often in education discussions.",
+      "pronunciation": "/exposure/"
+    },
+    {
+      "word": "Fluctuate",
+      "normalized_word": "fluctuate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word fluctuate while explaining how to handle the situation.",
+      "pronunciation": "/fluctuate/"
+    },
+    {
+      "word": "Fulfill",
+      "normalized_word": "fulfill",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word fulfill while explaining how to handle the situation.",
+      "pronunciation": "/fulfill/"
+    },
+    {
+      "word": "Gesture",
+      "normalized_word": "gesture",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of gesture appears often in communication discussions.",
+      "pronunciation": "/gesture/"
+    },
+    {
+      "word": "Gradual",
+      "normalized_word": "gradual",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The gradual response made the conversation easier to understand.",
+      "pronunciation": "/gradual/"
+    },
+    {
+      "word": "Gracious",
+      "normalized_word": "gracious",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The gracious response made the conversation easier to understand.",
+      "pronunciation": "/gracious/"
+    },
+    {
+      "word": "Habitual",
+      "normalized_word": "habitual",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The habitual response made the conversation easier to understand.",
+      "pronunciation": "/habitual/"
+    },
+    {
+      "word": "Hesitation",
+      "normalized_word": "hesitation",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of hesitation appears often in emotions discussions.",
+      "pronunciation": "/hesitation/"
+    },
+    {
+      "word": "Hostile",
+      "normalized_word": "hostile",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The hostile response made the conversation easier to understand.",
+      "pronunciation": "/hostile/"
+    },
+    {
+      "word": "Humility",
+      "normalized_word": "humility",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of humility appears often in personality discussions.",
+      "pronunciation": "/humility/"
+    },
+    {
+      "word": "Ideal",
+      "normalized_word": "ideal",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The ideal response made the conversation easier to understand.",
+      "pronunciation": "/ideal/"
+    },
+    {
+      "word": "Illustration",
+      "normalized_word": "illustration",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of illustration appears often in communication discussions.",
+      "pronunciation": "/illustration/"
+    },
+    {
+      "word": "Immediate",
+      "normalized_word": "immediate",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The immediate response made the conversation easier to understand.",
+      "pronunciation": "/immediate/"
+    },
+    {
+      "word": "Independent",
+      "normalized_word": "independent",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The independent response made the conversation easier to understand.",
+      "pronunciation": "/independent/"
+    },
+    {
+      "word": "Inefficient",
+      "normalized_word": "inefficient",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The inefficient response made the conversation easier to understand.",
+      "pronunciation": "/inefficient/"
+    },
+    {
+      "word": "Informative",
+      "normalized_word": "informative",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The informative response made the conversation easier to understand.",
+      "pronunciation": "/informative/"
+    },
+    {
+      "word": "Inhibit",
+      "normalized_word": "inhibit",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word inhibit while explaining how to handle the situation.",
+      "pronunciation": "/inhibit/"
+    },
+    {
+      "word": "Insufficient",
+      "normalized_word": "insufficient",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The insufficient response made the conversation easier to understand.",
+      "pronunciation": "/insufficient/"
+    },
+    {
+      "word": "Irregular",
+      "normalized_word": "irregular",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The irregular response made the conversation easier to understand.",
+      "pronunciation": "/irregular/"
+    },
+    {
+      "word": "Isolate",
+      "normalized_word": "isolate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word isolate while explaining how to handle the situation.",
+      "pronunciation": "/isolate/"
+    },
+    {
+      "word": "Joint",
+      "normalized_word": "joint",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The joint response made the conversation easier to understand.",
+      "pronunciation": "/joint/"
+    },
+    {
+      "word": "Keen",
+      "normalized_word": "keen",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The keen response made the conversation easier to understand.",
+      "pronunciation": "/keen/"
+    },
+    {
+      "word": "Literal",
+      "normalized_word": "literal",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The literal response made the conversation easier to understand.",
+      "pronunciation": "/literal/"
+    },
+    {
+      "word": "Loyal",
+      "normalized_word": "loyal",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The loyal response made the conversation easier to understand.",
+      "pronunciation": "/loyal/"
+    },
+    {
+      "word": "Mature",
+      "normalized_word": "mature",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The mature response made the conversation easier to understand.",
+      "pronunciation": "/mature/"
+    },
+    {
+      "word": "Maximize",
+      "normalized_word": "maximize",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word maximize while explaining how to handle the situation.",
+      "pronunciation": "/maximize/"
+    },
+    {
+      "word": "Minimal",
+      "normalized_word": "minimal",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The minimal response made the conversation easier to understand.",
+      "pronunciation": "/minimal/"
+    },
+    {
+      "word": "Misinterpret",
+      "normalized_word": "misinterpret",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word misinterpret while explaining how to handle the situation.",
+      "pronunciation": "/misinterpret/"
+    },
+    {
+      "word": "Momentum",
+      "normalized_word": "momentum",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of momentum appears often in work discussions.",
+      "pronunciation": "/momentum/"
+    },
+    {
+      "word": "Negotiate",
+      "normalized_word": "negotiate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word negotiate while explaining how to handle the situation.",
+      "pronunciation": "/negotiate/"
+    },
+    {
+      "word": "Neutral",
+      "normalized_word": "neutral",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The neutral response made the conversation easier to understand.",
+      "pronunciation": "/neutral/"
+    },
+    {
+      "word": "Ongoing",
+      "normalized_word": "ongoing",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The ongoing response made the conversation easier to understand.",
+      "pronunciation": "/ongoing/"
+    },
+    {
+      "word": "Orientation",
+      "normalized_word": "orientation",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of orientation appears often in education discussions.",
+      "pronunciation": "/orientation/"
+    },
+    {
+      "word": "Persevere",
+      "normalized_word": "persevere",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word persevere while explaining how to handle the situation.",
+      "pronunciation": "/persevere/"
+    },
+    {
+      "word": "Phenomenon",
+      "normalized_word": "phenomenon",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The idea of phenomenon appears often in science discussions.",
+      "pronunciation": "/phenomenon/"
+    },
+    {
+      "word": "Pioneer",
+      "normalized_word": "pioneer",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word pioneer while explaining how to handle the situation.",
+      "pronunciation": "/pioneer/"
+    },
+    {
+      "word": "Equivocal",
+      "normalized_word": "equivocal",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The equivocal response made the conversation easier to understand.",
+      "pronunciation": "/equivocal/"
+    },
+    {
+      "word": "Juxtapose",
+      "normalized_word": "juxtapose",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word juxtapose while explaining how to handle the situation.",
+      "pronunciation": "/juxtapose/"
+    },
+    {
+      "word": "Salient",
+      "normalized_word": "salient",
+      "curriculumDay": null,
+      "reasons": [
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "The salient response made the conversation easier to understand.",
+      "pronunciation": "/salient/"
+    },
+    {
+      "word": "Substantiate",
+      "normalized_word": "substantiate",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word substantiate while explaining how to handle the situation.",
+      "pronunciation": "/substantiate/"
+    },
+    {
+      "word": "Underpin",
+      "normalized_word": "underpin",
+      "curriculumDay": null,
+      "reasons": [
+        "placeholder_example",
+        "trivial_pronunciation",
+        "no_audio"
+      ],
+      "example_sentence": "They used the word underpin while explaining how to handle the situation.",
+      "pronunciation": "/underpin/"
+    }
+  ]
+}
