@@ -21,12 +21,31 @@ const DEFAULT_POC_WORDS = [
   'meticulous',
 ];
 
-const CLI_WORDS = process.argv.slice(2).filter((arg) => !arg.startsWith('--'));
-const POC_WORDS = CLI_WORDS.length > 0 ? CLI_WORDS.map((w) => w.trim().toLowerCase()) : DEFAULT_POC_WORDS;
+const cliArgs = process.argv.slice(2);
+const wordsFileArg = cliArgs.find((arg) => arg.startsWith('--words-file='));
+const CLI_WORDS = cliArgs.filter((arg) => !arg.startsWith('--'));
 
+async function resolvePocWords() {
+  if (wordsFileArg) {
+    const filePath = wordsFileArg.slice('--words-file='.length);
+    const raw = await readFile(filePath, 'utf8');
+    return raw
+      .split('\n')
+      .filter((line) => !line.trim().startsWith('#'))
+      .flatMap((line) => line.split(','))
+      .map((word) => word.trim().toLowerCase())
+      .filter(Boolean);
+  }
+  if (CLI_WORDS.length > 0) {
+    return CLI_WORDS.map((word) => word.trim().toLowerCase());
+  }
+  return DEFAULT_POC_WORDS;
+}
+
+const usingCustomWordSource = Boolean(wordsFileArg) || CLI_WORDS.length > 0;
 const DEFAULT_OUTPUT_PATH = 'data/oxford-proof-of-concept.json';
 const OUTPUT_PATH =
-  process.env.OXFORD_POC_OUTPUT || (CLI_WORDS.length > 0 ? 'data/oxford-proof-of-concept-sample.json' : DEFAULT_OUTPUT_PATH);
+  process.env.OXFORD_POC_OUTPUT || (usingCustomWordSource ? 'data/oxford-proof-of-concept-sample.json' : DEFAULT_OUTPUT_PATH);
 const WORD_BANK_PATH = 'data/word-bank-candidates.json';
 const DEFAULT_BASE_URL = 'https://od-api-sandbox.oxforddictionaries.com/api/v2';
 const CALL_DELAY_MS = 350;
@@ -72,13 +91,14 @@ async function main() {
     return;
   }
 
+  const pocWords = await resolvePocWords();
   const wordUpLookup = await loadWordUpLookup();
 
   let apiCallCount = 0;
   let audioCheckCount = 0;
   const results = [];
 
-  for (const word of POC_WORDS) {
+  for (const word of pocWords) {
     if (apiCallCount > 0) {
       await sleep(CALL_DELAY_MS);
     }
@@ -142,12 +162,12 @@ async function main() {
     purpose: 'Oxford Dictionaries API proof of concept — evaluation only, not used for production content.',
     baseUrl,
     sourceLang,
-    wordsRequested: POC_WORDS,
+    wordsRequested: pocWords,
     apiCallsMade: apiCallCount,
     audioAccessibilityChecksMade: audioCheckCount,
     summary: {
       foundCount,
-      notFoundCount: POC_WORDS.length - foundCount,
+      notFoundCount: pocWords.length - foundCount,
       fieldsProvidedCount: fieldsProvidedTally,
     },
     results,
@@ -157,7 +177,7 @@ async function main() {
   console.log(`\n[oxford-poc] Wrote ${OUTPUT_PATH}`);
   console.log(`[oxford-poc] Oxford API calls made: ${apiCallCount}`);
   console.log(`[oxford-poc] Audio accessibility checks made: ${audioCheckCount}`);
-  console.log(`[oxford-poc] Found ${foundCount}/${POC_WORDS.length} words.`);
+  console.log(`[oxford-poc] Found ${foundCount}/${pocWords.length} words.`);
 }
 
 main().catch((error) => {
