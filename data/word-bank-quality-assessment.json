@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T12:45:19.454Z",
+  "generatedAt": "2026-09-09T12:50:16.491Z",
   "purpose": "Local content-quality audit of existing WordUp word_bank candidates — no Oxford API calls, no writes to Supabase.",
   "totalApproved": 500,
   "summary": {

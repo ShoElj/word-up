@@ -7,6 +7,7 @@ import {
   compareWithWordUp,
   fetchOxfordEntry,
   mapOxfordEntryToFields,
+  selectEntryForPartOfSpeech,
 } from '../scripts/oxford-client.mjs';
 
 function jsonResponse(status, body) {
@@ -53,6 +54,92 @@ const SAMPLE_OXFORD_RESPONSE = {
     },
   ],
 };
+
+// Trimmed but structurally real: from the actual Oxford Sandbox response for "articulate",
+// which has both an Adjective and a Verb lexical entry with distinct senses/pronunciations.
+const MULTI_SENSE_RESPONSE = {
+  results: [
+    {
+      id: 'articulate',
+      word: 'articulate',
+      lexicalEntries: [
+        {
+          lexicalCategory: { id: 'adjective', text: 'Adjective' },
+          entries: [
+            {
+              pronunciations: [
+                { phoneticNotation: 'respell', phoneticSpelling: 'ärˈtikyələt' },
+                {
+                  phoneticNotation: 'IPA',
+                  phoneticSpelling: 'ɑrˈtɪkjələt',
+                  audioFile: 'https://audio.oxforddictionaries.com/en/mp3/articulate__us_2.mp3',
+                },
+              ],
+              senses: [
+                {
+                  definitions: [
+                    "(of a person or a person's words) having or showing the ability to speak fluently and coherently",
+                  ],
+                  examples: [{ text: 'an articulate account of their experiences' }],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          lexicalCategory: { id: 'verb', text: 'Verb' },
+          entries: [
+            {
+              pronunciations: [
+                { phoneticNotation: 'respell', phoneticSpelling: 'ärˈtikyəˌlāt' },
+                {
+                  phoneticNotation: 'IPA',
+                  phoneticSpelling: 'ɑrˈtɪkjəˌleɪt',
+                  audioFile: 'https://audio.oxforddictionaries.com/en/mp3/articulate__us_1.mp3',
+                },
+              ],
+              senses: [
+                {
+                  definitions: ['express (an idea or feeling) fluently and coherently'],
+                  examples: [{ text: 'they were unable to articulate their emotions' }],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+test('selectEntryForPartOfSpeech picks the sense matching the requested part of speech', () => {
+  const adjective = selectEntryForPartOfSpeech(MULTI_SENSE_RESPONSE, 'adjective');
+  assert.equal(adjective.matched, true);
+  assert.equal(
+    adjective.definition,
+    "(of a person or a person's words) having or showing the ability to speak fluently and coherently"
+  );
+  assert.equal(adjective.example, 'an articulate account of their experiences');
+  assert.equal(adjective.respellPronunciation, 'ärˈtikyələt');
+  assert.equal(adjective.ipaPronunciation, 'ɑrˈtɪkjələt');
+  assert.equal(adjective.audioFile, 'https://audio.oxforddictionaries.com/en/mp3/articulate__us_2.mp3');
+
+  const verb = selectEntryForPartOfSpeech(MULTI_SENSE_RESPONSE, 'verb');
+  assert.equal(verb.matched, true);
+  assert.equal(verb.definition, 'express (an idea or feeling) fluently and coherently');
+  assert.equal(verb.audioFile, 'https://audio.oxforddictionaries.com/en/mp3/articulate__us_1.mp3');
+});
+
+test('selectEntryForPartOfSpeech is case-insensitive and reports no match instead of guessing', () => {
+  const upperCase = selectEntryForPartOfSpeech(MULTI_SENSE_RESPONSE, 'ADJECTIVE');
+  assert.equal(upperCase.matched, true);
+
+  const noSuchPos = selectEntryForPartOfSpeech(MULTI_SENSE_RESPONSE, 'noun');
+  assert.deepEqual(noSuchPos, { matched: false });
+
+  const emptyResponse = selectEntryForPartOfSpeech({}, 'adjective');
+  assert.deepEqual(emptyResponse, { matched: false });
+});
 
 test('buildEntriesUrl encodes the word and disables strict matching', () => {
   const url = buildEntriesUrl({ baseUrl: 'https://od-api-sandbox.oxforddictionaries.com/api/v2/', word: 'Well Being' });

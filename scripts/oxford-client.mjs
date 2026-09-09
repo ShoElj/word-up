@@ -183,6 +183,44 @@ export function mapOxfordEntryToFields(oxfordJson) {
   };
 }
 
+export function selectEntryForPartOfSpeech(oxfordJson, partOfSpeech) {
+  const result = Array.isArray(oxfordJson?.results) ? oxfordJson.results[0] : null;
+  const lexicalEntries = Array.isArray(result?.lexicalEntries) ? result.lexicalEntries : [];
+  const normalizedTarget = String(partOfSpeech ?? '').toLowerCase();
+
+  const lexicalEntry = lexicalEntries.find(
+    (candidate) => candidate?.lexicalCategory?.text?.toLowerCase() === normalizedTarget
+  );
+
+  if (!lexicalEntry) {
+    return { matched: false };
+  }
+
+  const entries = Array.isArray(lexicalEntry.entries) ? lexicalEntry.entries : [];
+  const entry = entries[0];
+  if (!entry) {
+    return { matched: false };
+  }
+
+  const firstSense = Array.isArray(entry.senses) ? entry.senses[0] : null;
+  const definition = firstSense?.definitions?.[0] ?? null;
+  const example = firstSense?.examples?.[0]?.text ?? null;
+
+  const pronunciations = Array.isArray(entry.pronunciations) ? entry.pronunciations : [];
+  const respell = pronunciations.find((p) => p?.phoneticNotation === 'respell') ?? null;
+  const ipa = pronunciations.find((p) => p?.phoneticNotation === 'IPA') ?? null;
+  const audioFile = pronunciations.find((p) => p?.audioFile)?.audioFile ?? null;
+
+  return {
+    matched: true,
+    definition,
+    example,
+    respellPronunciation: respell?.phoneticSpelling ?? null,
+    ipaPronunciation: ipa?.phoneticSpelling ?? null,
+    audioFile,
+  };
+}
+
 export async function checkAudioAccessibility(url, { fetchImpl = fetch, timeoutMs = 8000 } = {}) {
   if (!url) {
     return { url: null, checked: false, reachable: false };
