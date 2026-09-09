@@ -8,7 +8,7 @@ import {
   mapOxfordEntryToFields,
 } from './oxford-client.mjs';
 
-const POC_WORDS = [
+const DEFAULT_POC_WORDS = [
   'concise',
   'articulate',
   'empathy',
@@ -21,7 +21,12 @@ const POC_WORDS = [
   'meticulous',
 ];
 
-const OUTPUT_PATH = 'data/oxford-proof-of-concept.json';
+const CLI_WORDS = process.argv.slice(2).filter((arg) => !arg.startsWith('--'));
+const POC_WORDS = CLI_WORDS.length > 0 ? CLI_WORDS.map((w) => w.trim().toLowerCase()) : DEFAULT_POC_WORDS;
+
+const DEFAULT_OUTPUT_PATH = 'data/oxford-proof-of-concept.json';
+const OUTPUT_PATH =
+  process.env.OXFORD_POC_OUTPUT || (CLI_WORDS.length > 0 ? 'data/oxford-proof-of-concept-sample.json' : DEFAULT_OUTPUT_PATH);
 const WORD_BANK_PATH = 'data/word-bank-candidates.json';
 const DEFAULT_BASE_URL = 'https://od-api-sandbox.oxforddictionaries.com/api/v2';
 const CALL_DELAY_MS = 350;
