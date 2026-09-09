@@ -8,9 +8,41 @@ import { promisify } from 'node:util';
 
 const run = promisify(execFile);
 
-// "advocate" is real production data: part_of_speech "verb", a placeholder example
-// sentence, and a trivial "/advocate/" pronunciation — flagged by the quality audit.
-// This fixture mirrors the real Oxford Sandbox shape for it (Verb + Noun senses).
+// "advocate" and "anchor" mirror real production word_bank shapes: advocate has a
+// placeholder example and trivial pronunciation; anchor's definition is figurative
+// but its only Oxford verb sense is literal/nautical.
+const FIXTURE_WORD_BANK = {
+  records: [
+    {
+      word: 'Advocate',
+      normalized_word: 'advocate',
+      part_of_speech: 'verb',
+      definition: 'To publicly support an idea or cause.',
+      example_sentence: 'They used the word advocate while explaining how to handle the situation.',
+      pronunciation: '/advocate/',
+      pronunciation_audio_url: null,
+      status: 'approved',
+    },
+    {
+      word: 'Anchor',
+      normalized_word: 'anchor',
+      part_of_speech: 'verb',
+      definition: 'To hold an idea or plan steady.',
+      example_sentence: 'They used the word anchor while explaining how to handle the situation.',
+      pronunciation: '/anchor/',
+      pronunciation_audio_url: null,
+      status: 'approved',
+    },
+  ],
+};
+
+const FIXTURE_QUALITY_REPORT = {
+  flagged: [
+    { normalized_word: 'advocate', reasons: ['placeholder_example', 'trivial_pronunciation', 'no_audio'] },
+    { normalized_word: 'anchor', reasons: ['placeholder_example', 'trivial_pronunciation', 'no_audio'] },
+  ],
+};
+
 const FIXTURE_OXFORD_DATA = {
   results: [
     {
@@ -100,15 +132,32 @@ const FIXTURE_OXFORD_DATA = {
   ],
 };
 
+async function writeFixtures(dir) {
+  const oxfordPath = join(dir, 'oxford.json');
+  const wordBankPath = join(dir, 'word-bank.json');
+  const qualityReportPath = join(dir, 'quality-report.json');
+  const outputPath = join(dir, 'proposals.json');
+
+  await Promise.all([
+    writeFile(oxfordPath, JSON.stringify(FIXTURE_OXFORD_DATA), 'utf8'),
+    writeFile(wordBankPath, JSON.stringify(FIXTURE_WORD_BANK), 'utf8'),
+    writeFile(qualityReportPath, JSON.stringify(FIXTURE_QUALITY_REPORT), 'utf8'),
+  ]);
+
+  await run('node', [
+    'scripts/word-bank-enrichment-proposals.mjs',
+    oxfordPath,
+    wordBankPath,
+    qualityReportPath,
+    outputPath,
+  ]);
+
+  return JSON.parse(await readFile(outputPath, 'utf8'));
+}
+
 test('word-bank-enrichment-proposals selects the verb sense for advocate and never touches its definition', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'wordup-enrichment-'));
-  const fixturePath = join(dir, 'oxford-fixture.json');
-  await writeFile(fixturePath, JSON.stringify(FIXTURE_OXFORD_DATA), 'utf8');
-
-  await run('node', ['scripts/word-bank-enrichment-proposals.mjs', fixturePath]);
-
-  const raw = await readFile('data/word-bank-enrichment-proposals.json', 'utf8');
-  const report = JSON.parse(raw);
+  const report = await writeFixtures(dir);
 
   const advocate = report.proposals.find((p) => p.normalized_word === 'advocate');
   assert.ok(advocate, 'expected a proposal for advocate');
@@ -131,13 +180,7 @@ test('word-bank-enrichment-proposals selects the verb sense for advocate and nev
 
 test('word-bank-enrichment-proposals overrides the anchor example instead of using Oxford\'s literal/nautical one', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'wordup-enrichment-'));
-  const fixturePath = join(dir, 'oxford-fixture.json');
-  await writeFile(fixturePath, JSON.stringify(FIXTURE_OXFORD_DATA), 'utf8');
-
-  await run('node', ['scripts/word-bank-enrichment-proposals.mjs', fixturePath]);
-
-  const raw = await readFile('data/word-bank-enrichment-proposals.json', 'utf8');
-  const report = JSON.parse(raw);
+  const report = await writeFixtures(dir);
 
   const anchor = report.proposals.find((p) => p.normalized_word === 'anchor');
   assert.ok(anchor, 'expected a proposal for anchor');
@@ -149,4 +192,5 @@ test('word-bank-enrichment-proposals overrides the anchor example instead of usi
   );
   assert.notEqual(anchor.changes.example_sentence.to, 'the ship was anchored in the lee of the island');
   assert.ok(anchor.notes?.some((n) => n.includes('manually overridden')));
+  assert.ok(anchor.notes?.some((n) => n.includes('no syllable breaks')), 'anchor\'s pronunciation also has no hyphens');
 });

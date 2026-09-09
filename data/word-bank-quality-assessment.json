@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-09T13:02:51.175Z",
+  "generatedAt": "2026-09-09T13:22:56.852Z",
   "purpose": "Local content-quality audit of existing WordUp word_bank candidates — no Oxford API calls, no writes to Supabase.",
   "totalApproved": 500,
   "summary": {
-    "placeholderExampleCount": 125,
-    "trivialPronunciationCount": 402,
-    "noAudioCount": 500,
-    "flaggedTotal": 500,
-    "flaggedInLiveCurriculum": 365
+    "placeholderExampleCount": 112,
+    "trivialPronunciationCount": 360,
+    "noAudioCount": 446,
+    "flaggedTotal": 446,
+    "flaggedInLiveCurriculum": 324
   },
   "flagged": [
     {
@@ -19,16 +19,6 @@
       ],
       "example_sentence": "Please keep the update concise and practical.",
       "pronunciation": "/kun-sys/"
-    },
-    {
-      "word": "Articulate",
-      "normalized_word": "articulate",
-      "curriculumDay": 2,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "Her articulate summary helped the team understand the plan.",
-      "pronunciation": "/ar-tik-yuh-lit/"
     },
     {
       "word": "Clarify",
@@ -89,16 +79,6 @@
       ],
       "example_sentence": "His candid feedback helped improve the design.",
       "pronunciation": "/kan-did/"
-    },
-    {
-      "word": "Assertive",
-      "normalized_word": "assertive",
-      "curriculumDay": 9,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "She was assertive without being dismissive.",
-      "pronunciation": "/uh-sur-tiv/"
     },
     {
       "word": "Perspective",
@@ -189,16 +169,6 @@
       ],
       "example_sentence": "They chose a pragmatic solution that could ship quickly.",
       "pronunciation": "/prag-mat-ik/"
-    },
-    {
-      "word": "Ambiguous",
-      "normalized_word": "ambiguous",
-      "curriculumDay": 19,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "The ambiguous message caused confusion.",
-      "pronunciation": "/am-big-yoo-us/"
     },
     {
       "word": "Meticulous",
@@ -429,41 +399,6 @@
       "pronunciation": "/accurately/"
     },
     {
-      "word": "Acknowledge",
-      "normalized_word": "acknowledge",
-      "curriculumDay": 42,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word acknowledge while explaining how to handle the situation.",
-      "pronunciation": "/acknowledge/"
-    },
-    {
-      "word": "Affirm",
-      "normalized_word": "affirm",
-      "curriculumDay": 43,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word affirm while explaining how to handle the situation.",
-      "pronunciation": "/affirm/"
-    },
-    {
-      "word": "Appropriate",
-      "normalized_word": "appropriate",
-      "curriculumDay": 44,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The appropriate response made the conversation easier to understand.",
-      "pronunciation": "/appropriate/"
-    },
-    {
       "word": "Communicate",
       "normalized_word": "communicate",
       "curriculumDay": 45,
@@ -593,17 +528,6 @@
       ],
       "example_sentence": "They used the word suggest while explaining how to handle the situation.",
       "pronunciation": "/suggest/"
-    },
-    {
-      "word": "Analogy",
-      "normalized_word": "analogy",
-      "curriculumDay": 56,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of analogy appears often in communication discussions.",
-      "pronunciation": "/analogy/"
     },
     {
       "word": "Brevity",
@@ -843,17 +767,6 @@
       "pronunciation": "/resolve/"
     },
     {
-      "word": "Authentic",
-      "normalized_word": "authentic",
-      "curriculumDay": 79,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The authentic response made the conversation easier to understand.",
-      "pronunciation": "/authentic/"
-    },
-    {
       "word": "Dependent",
       "normalized_word": "dependent",
       "curriculumDay": 80,
@@ -887,73 +800,6 @@
       ],
       "example_sentence": "They used the word undermine while explaining how to handle the situation.",
       "pronunciation": "/undermine/"
-    },
-    {
-      "word": "Accommodate",
-      "normalized_word": "accommodate",
-      "curriculumDay": 83,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word accommodate while explaining how to handle the situation.",
-      "pronunciation": "/accommodate/"
-    },
-    {
-      "word": "Affection",
-      "normalized_word": "affection",
-      "curriculumDay": 84,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of affection appears often in relationships discussions.",
-      "pronunciation": "/affection/"
-    },
-    {
-      "word": "Ambition",
-      "normalized_word": "ambition",
-      "curriculumDay": 85,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of ambition appears often in personality discussions.",
-      "pronunciation": "/ambition/"
-    },
-    {
-      "word": "Aspiration",
-      "normalized_word": "aspiration",
-      "curriculumDay": 86,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of aspiration appears often in personality discussions.",
-      "pronunciation": "/aspiration/"
-    },
-    {
-      "word": "Attentive",
-      "normalized_word": "attentive",
-      "curriculumDay": 87,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The attentive response made the conversation easier to understand.",
-      "pronunciation": "/attentive/"
-    },
-    {
-      "word": "Authenticity",
-      "normalized_word": "authenticity",
-      "curriculumDay": 88,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of authenticity appears often in personality discussions.",
-      "pronunciation": "/authenticity/"
     },
     {
       "word": "Conflict",
@@ -998,16 +844,6 @@
       "pronunciation": "/kum-poh-zhur/"
     },
     {
-      "word": "Anxious",
-      "normalized_word": "anxious",
-      "curriculumDay": 93,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "She felt anxious before the presentation.",
-      "pronunciation": "/angk-shus/"
-    },
-    {
       "word": "Overwhelmed",
       "normalized_word": "overwhelmed",
       "curriculumDay": 94,
@@ -1036,16 +872,6 @@
       ],
       "example_sentence": "Curious readers often ask better questions.",
       "pronunciation": "/kyoor-ee-us/"
-    },
-    {
-      "word": "Appreciate",
-      "normalized_word": "appreciate",
-      "curriculumDay": 97,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "I appreciate the care you put into the work.",
-      "pronunciation": "/uh-pree-shee-ayt/"
     },
     {
       "word": "Gratitude",
@@ -1215,28 +1041,6 @@
       "pronunciation": "/tension/"
     },
     {
-      "word": "Adversity",
-      "normalized_word": "adversity",
-      "curriculumDay": 113,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of adversity appears often in emotions discussions.",
-      "pronunciation": "/adversity/"
-    },
-    {
-      "word": "Appreciation",
-      "normalized_word": "appreciation",
-      "curriculumDay": 114,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of appreciation appears often in emotions discussions.",
-      "pronunciation": "/appreciation/"
-    },
-    {
       "word": "Burden",
       "normalized_word": "burden",
       "curriculumDay": 115,
@@ -1394,16 +1198,6 @@
       "pronunciation": "/sig-nif-i-kunt/"
     },
     {
-      "word": "Assumption",
-      "normalized_word": "assumption",
-      "curriculumDay": 130,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "The forecast depends on one risky assumption.",
-      "pronunciation": "/uh-sump-shun/"
-    },
-    {
       "word": "Interpret",
       "normalized_word": "interpret",
       "curriculumDay": 131,
@@ -1442,16 +1236,6 @@
       ],
       "example_sentence": "The article synthesizes findings from several studies.",
       "pronunciation": "/sin-thuh-syz/"
-    },
-    {
-      "word": "Assess",
-      "normalized_word": "assess",
-      "curriculumDay": 135,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "The teacher will assess each project fairly.",
-      "pronunciation": "/uh-ses/"
     },
     {
       "word": "Criteria",
@@ -1495,18 +1279,6 @@
       ],
       "example_sentence": "They used the word analyze while explaining how to handle the situation.",
       "pronunciation": "/analyze/"
-    },
-    {
-      "word": "Anticipate",
-      "normalized_word": "anticipate",
-      "curriculumDay": 140,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word anticipate while explaining how to handle the situation.",
-      "pronunciation": "/anticipate/"
     },
     {
       "word": "Bias",
@@ -1653,26 +1425,6 @@
       "pronunciation": "/vy-uh-bul/"
     },
     {
-      "word": "Adaptable",
-      "normalized_word": "adaptable",
-      "curriculumDay": 154,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "Adaptable people often learn new tools quickly.",
-      "pronunciation": "/uh-dap-tuh-bul/"
-    },
-    {
-      "word": "Allocate",
-      "normalized_word": "allocate",
-      "curriculumDay": 155,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "We need to allocate more time for testing.",
-      "pronunciation": "/al-uh-kayt/"
-    },
-    {
       "word": "Initiative",
       "normalized_word": "initiative",
       "curriculumDay": 156,
@@ -1701,16 +1453,6 @@
       ],
       "example_sentence": "Transparent communication builds trust.",
       "pronunciation": "/trans-pair-unt/"
-    },
-    {
-      "word": "Accountable",
-      "normalized_word": "accountable",
-      "curriculumDay": 159,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "Leaders should be accountable for their decisions.",
-      "pronunciation": "/uh-kown-tuh-bul/"
     },
     {
       "word": "Resourceful",
@@ -2103,17 +1845,6 @@
       "pronunciation": "/valid/"
     },
     {
-      "word": "Abstract",
-      "normalized_word": "abstract",
-      "curriculumDay": 195,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The abstract response made the conversation easier to understand.",
-      "pronunciation": "/abstract/"
-    },
-    {
       "word": "Criterion",
       "normalized_word": "criterion",
       "curriculumDay": 196,
@@ -2324,18 +2055,6 @@
       "pronunciation": "/ek-wi-tuh-bul/"
     },
     {
-      "word": "Advocate",
-      "normalized_word": "advocate",
-      "curriculumDay": 215,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word advocate while explaining how to handle the situation.",
-      "pronunciation": "/advocate/"
-    },
-    {
       "word": "Diverse",
       "normalized_word": "diverse",
       "curriculumDay": 216,
@@ -2357,17 +2076,6 @@
       ],
       "example_sentence": "They used the word participate while explaining how to handle the situation.",
       "pronunciation": "/participate/"
-    },
-    {
-      "word": "Autonomy",
-      "normalized_word": "autonomy",
-      "curriculumDay": 218,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of autonomy appears often in society discussions.",
-      "pronunciation": "/autonomy/"
     },
     {
       "word": "Beneficiary",
@@ -2446,17 +2154,6 @@
       ],
       "example_sentence": "The idea of precedent appears often in society discussions.",
       "pronunciation": "/precedent/"
-    },
-    {
-      "word": "Aesthetic",
-      "normalized_word": "aesthetic",
-      "curriculumDay": 226,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The aesthetic response made the conversation easier to understand.",
-      "pronunciation": "/aesthetic/"
     },
     {
       "word": "Artistry",
@@ -2747,40 +2444,6 @@
       "pronunciation": "/tangible/"
     },
     {
-      "word": "Abrupt",
-      "normalized_word": "abrupt",
-      "curriculumDay": 253,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The abrupt response made the conversation easier to understand.",
-      "pronunciation": "/abrupt/"
-    },
-    {
-      "word": "Adjacent",
-      "normalized_word": "adjacent",
-      "curriculumDay": 254,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The adjacent response made the conversation easier to understand.",
-      "pronunciation": "/adjacent/"
-    },
-    {
-      "word": "Amplify",
-      "normalized_word": "amplify",
-      "curriculumDay": 255,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word amplify while explaining how to handle the situation.",
-      "pronunciation": "/amplify/"
-    },
-    {
       "word": "Anchor",
       "normalized_word": "anchor",
       "curriculumDay": 256,
@@ -2791,17 +2454,6 @@
       ],
       "example_sentence": "They used the word anchor while explaining how to handle the situation.",
       "pronunciation": "/anchor/"
-    },
-    {
-      "word": "Assurance",
-      "normalized_word": "assurance",
-      "curriculumDay": 257,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of assurance appears often in communication discussions.",
-      "pronunciation": "/assurance/"
     },
     {
       "word": "Clarity",
@@ -3000,16 +2652,6 @@
       "pronunciation": "/in-tur-fays/"
     },
     {
-      "word": "Accessible",
-      "normalized_word": "accessible",
-      "curriculumDay": 276,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "Accessible design benefits many kinds of users.",
-      "pronunciation": "/ak-ses-uh-bul/"
-    },
-    {
       "word": "Wellbeing",
       "normalized_word": "wellbeing",
       "curriculumDay": 277,
@@ -3114,17 +2756,6 @@
       "pronunciation": "/transform/"
     },
     {
-      "word": "Adaptation",
-      "normalized_word": "adaptation",
-      "curriculumDay": 286,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of adaptation appears often in science discussions.",
-      "pronunciation": "/adaptation/"
-    },
-    {
       "word": "Compatible",
       "normalized_word": "compatible",
       "curriculumDay": 287,
@@ -3204,30 +2835,6 @@
       ],
       "example_sentence": "They used the word simulate while explaining how to handle the situation.",
       "pronunciation": "/simulate/"
-    },
-    {
-      "word": "Accelerate",
-      "normalized_word": "accelerate",
-      "curriculumDay": 294,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word accelerate while explaining how to handle the situation.",
-      "pronunciation": "/accelerate/"
-    },
-    {
-      "word": "Alleviate",
-      "normalized_word": "alleviate",
-      "curriculumDay": 295,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word alleviate while explaining how to handle the situation.",
-      "pronunciation": "/alleviate/"
     },
     {
       "word": "Catalyst",
@@ -3388,28 +2995,6 @@
       "pronunciation": "/underlying/"
     },
     {
-      "word": "Alternative",
-      "normalized_word": "alternative",
-      "curriculumDay": 310,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of alternative appears often in thinking discussions.",
-      "pronunciation": "/alternative/"
-    },
-    {
-      "word": "Arbitrary",
-      "normalized_word": "arbitrary",
-      "curriculumDay": 311,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The arbitrary response made the conversation easier to understand.",
-      "pronunciation": "/arbitrary/"
-    },
-    {
       "word": "Hypothetical",
       "normalized_word": "hypothetical",
       "curriculumDay": 312,
@@ -3522,17 +3107,6 @@
       "pronunciation": "/speculate/"
     },
     {
-      "word": "Analytical",
-      "normalized_word": "analytical",
-      "curriculumDay": 322,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The analytical response made the conversation easier to understand.",
-      "pronunciation": "/analytical/"
-    },
-    {
       "word": "Caution",
       "normalized_word": "caution",
       "curriculumDay": 323,
@@ -3624,17 +3198,6 @@
       "pronunciation": "/friction/"
     },
     {
-      "word": "Advantage",
-      "normalized_word": "advantage",
-      "curriculumDay": 331,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of advantage appears often in professional discussions.",
-      "pronunciation": "/advantage/"
-    },
-    {
       "word": "Applicable",
       "normalized_word": "applicable",
       "curriculumDay": 332,
@@ -3701,17 +3264,6 @@
       ],
       "example_sentence": "The idea of utility appears often in professional discussions.",
       "pronunciation": "/utility/"
-    },
-    {
-      "word": "Advancement",
-      "normalized_word": "advancement",
-      "curriculumDay": 338,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of advancement appears often in professional discussions.",
-      "pronunciation": "/advancement/"
     },
     {
       "word": "Agile",
@@ -4015,16 +3567,6 @@
       "pronunciation": "/interdependence/"
     },
     {
-      "word": "Apply",
-      "normalized_word": "apply",
-      "curriculumDay": null,
-      "reasons": [
-        "no_audio"
-      ],
-      "example_sentence": "Try to apply the new word in a sentence.",
-      "pronunciation": "/uh-ply/"
-    },
-    {
       "word": "Itinerary",
       "normalized_word": "itinerary",
       "curriculumDay": null,
@@ -4043,52 +3585,6 @@
       ],
       "example_sentence": "A morning routine can make learning easier.",
       "pronunciation": "/roo-teen/"
-    },
-    {
-      "word": "Adapt",
-      "normalized_word": "adapt",
-      "curriculumDay": null,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word adapt while explaining how to handle the situation.",
-      "pronunciation": "/adapt/"
-    },
-    {
-      "word": "Adjust",
-      "normalized_word": "adjust",
-      "curriculumDay": null,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word adjust while explaining how to handle the situation.",
-      "pronunciation": "/adjust/"
-    },
-    {
-      "word": "Approach",
-      "normalized_word": "approach",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of approach appears often in thinking discussions.",
-      "pronunciation": "/approach/"
-    },
-    {
-      "word": "Aware",
-      "normalized_word": "aware",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The aware response made the conversation easier to understand.",
-      "pronunciation": "/aware/"
     },
     {
       "word": "Basic",
@@ -4581,17 +4077,6 @@
       "pronunciation": "/varied/"
     },
     {
-      "word": "Ability",
-      "normalized_word": "ability",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of ability appears often in education discussions.",
-      "pronunciation": "/ability/"
-    },
-    {
       "word": "Active",
       "normalized_word": "active",
       "curriculumDay": null,
@@ -4601,17 +4086,6 @@
       ],
       "example_sentence": "The active response made the conversation easier to understand.",
       "pronunciation": "/active/"
-    },
-    {
-      "word": "Advice",
-      "normalized_word": "advice",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of advice appears often in relationships discussions.",
-      "pronunciation": "/advice/"
     },
     {
       "word": "Balance",
@@ -4793,17 +4267,6 @@
       "pronunciation": "/adequate/"
     },
     {
-      "word": "Alignment",
-      "normalized_word": "alignment",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of alignment appears often in work discussions.",
-      "pronunciation": "/alignment/"
-    },
-    {
       "word": "Constraint",
       "normalized_word": "constraint",
       "curriculumDay": null,
@@ -4913,64 +4376,6 @@
       ],
       "example_sentence": "The idea of viability appears often in work discussions.",
       "pronunciation": "/viability/"
-    },
-    {
-      "word": "Absorb",
-      "normalized_word": "absorb",
-      "curriculumDay": null,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word absorb while explaining how to handle the situation.",
-      "pronunciation": "/absorb/"
-    },
-    {
-      "word": "Accumulate",
-      "normalized_word": "accumulate",
-      "curriculumDay": null,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word accumulate while explaining how to handle the situation.",
-      "pronunciation": "/accumulate/"
-    },
-    {
-      "word": "Advise",
-      "normalized_word": "advise",
-      "curriculumDay": null,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word advise while explaining how to handle the situation.",
-      "pronunciation": "/advise/"
-    },
-    {
-      "word": "Agenda",
-      "normalized_word": "agenda",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of agenda appears often in work discussions.",
-      "pronunciation": "/agenda/"
-    },
-    {
-      "word": "Availability",
-      "normalized_word": "availability",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of availability appears often in work discussions.",
-      "pronunciation": "/availability/"
     },
     {
       "word": "Comfort",

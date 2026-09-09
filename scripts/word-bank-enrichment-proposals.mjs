@@ -5,9 +5,9 @@ import { selectEntryForPartOfSpeech } from './oxford-client.mjs';
 import { respellToWordUpStyle } from './respell-style.mjs';
 
 const OXFORD_DATA_PATH = process.argv[2] || 'data/oxford-proof-of-concept-sample.json';
-const WORD_BANK_PATH = 'data/word-bank-candidates.json';
-const QUALITY_REPORT_PATH = 'data/word-bank-quality-assessment.json';
-const OUTPUT_PATH = 'data/word-bank-enrichment-proposals.json';
+const WORD_BANK_PATH = process.argv[3] || 'data/word-bank-candidates.json';
+const QUALITY_REPORT_PATH = process.argv[4] || 'data/word-bank-quality-assessment.json';
+const OUTPUT_PATH = process.argv[5] || 'data/word-bank-enrichment-proposals.json';
 
 // Manual overrides for cases a human reviewer found Oxford's data unsuitable for as-is.
 // Each entry documents why, so this doesn't become an unexplained silent override list.

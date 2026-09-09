@@ -46,7 +46,7 @@
       "definition": "Able to express ideas clearly and effectively.",
       "example_sentence": "Her articulate summary helped the team understand the plan.",
       "pronunciation": "/ar-tik-yuh-lit/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/articulate__us_2.mp3",
       "synonyms": [
         "clear",
         "expressive"
@@ -277,7 +277,7 @@
       "definition": "Having more than one possible meaning.",
       "example_sentence": "The ambiguous message caused confusion.",
       "pronunciation": "/am-big-yoo-us/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/ambiguous__us_2.mp3",
       "synonyms": [
         "unclear",
         "vague"
@@ -466,7 +466,7 @@
       "definition": "Able to change in response to new conditions.",
       "example_sentence": "Adaptable people often learn new tools quickly.",
       "pronunciation": "/uh-dap-tuh-bul/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/adaptable__us_1.mp3",
       "synonyms": [
         "flexible",
         "versatile"
@@ -487,7 +487,7 @@
       "definition": "Confident in expressing needs or opinions.",
       "example_sentence": "She was assertive without being dismissive.",
       "pronunciation": "/uh-sur-tiv/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/assertive__us_2.mp3",
       "synonyms": [
         "confident",
         "firm"
@@ -697,7 +697,7 @@
       "definition": "To assign resources or time for a purpose.",
       "example_sentence": "We need to allocate more time for testing.",
       "pronunciation": "/al-uh-kayt/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/allocate__us_1.mp3",
       "synonyms": [
         "assign",
         "distribute"
@@ -821,7 +821,7 @@
       "definition": "Something accepted as true without complete proof.",
       "example_sentence": "The forecast depends on one risky assumption.",
       "pronunciation": "/uh-sump-shun/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/assumption__us_1.mp3",
       "synonyms": [
         "belief",
         "premise"
@@ -1073,7 +1073,7 @@
       "definition": "Expected to explain actions or accept responsibility.",
       "example_sentence": "Leaders should be accountable for their decisions.",
       "pronunciation": "/uh-kown-tuh-bul/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/accountable__us_1.mp3",
       "synonyms": [
         "responsible",
         "answerable"
@@ -1220,7 +1220,7 @@
       "definition": "Worried or nervous about something.",
       "example_sentence": "She felt anxious before the presentation.",
       "pronunciation": "/angk-shus/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/anxious__us_1.mp3",
       "synonyms": [
         "worried",
         "nervous"
@@ -1556,7 +1556,7 @@
       "definition": "To judge or estimate the nature or value of something.",
       "example_sentence": "The teacher will assess each project fairly.",
       "pronunciation": "/uh-ses/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/assess__us_1.mp3",
       "synonyms": [
         "evaluate",
         "measure"
@@ -1743,7 +1743,7 @@
       "definition": "To use an idea, rule, or skill in a practical situation.",
       "example_sentence": "Try to apply the new word in a sentence.",
       "pronunciation": "/uh-ply/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/apply__us_1.mp3",
       "synonyms": [
         "use",
         "employ"
@@ -1827,7 +1827,7 @@
       "definition": "To recognize the value or importance of something.",
       "example_sentence": "I appreciate the care you put into the work.",
       "pronunciation": "/uh-pree-shee-ayt/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/appreciate__us_1.mp3",
       "synonyms": [
         "value",
         "recognize"
@@ -2050,7 +2050,7 @@
       "definition": "Easy for people to reach, use, or understand.",
       "example_sentence": "Accessible design benefits many kinds of users.",
       "pronunciation": "/ak-ses-uh-bul/",
-      "pronunciation_audio_url": null,
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/accessible__us_1.mp3",
       "synonyms": [
         "usable",
         "available"
@@ -2151,9 +2151,9 @@
       "frequency_score": 76,
       "usefulness_score": 88,
       "definition": "To change so something fits a new situation.",
-      "example_sentence": "They used the word adapt while explaining how to handle the situation.",
-      "pronunciation": "/adapt/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "hospitals have had to be adapted for modern medical practice",
+      "pronunciation": "/uh-dapt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/adapt__us_1.mp3",
       "synonyms": [
         "change",
         "something"
@@ -2172,9 +2172,9 @@
       "frequency_score": 76,
       "usefulness_score": 88,
       "definition": "To make a small change that improves fit or function.",
-      "example_sentence": "They used the word adjust while explaining how to handle the situation.",
-      "pronunciation": "/adjust/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "he smoothed his hair and adjusted his tie",
+      "pronunciation": "/uh-juhst/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/adjust__us_1.mp3",
       "synonyms": [
         "small",
         "change"
@@ -2194,8 +2194,8 @@
       "usefulness_score": 88,
       "definition": "A way of dealing with a task or problem.",
       "example_sentence": "The idea of approach appears often in thinking discussions.",
-      "pronunciation": "/approach/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-prohch/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/approach__us_1.mp3",
       "synonyms": [
         "dealing",
         "problem"
@@ -2213,8 +2213,8 @@
       "usefulness_score": 88,
       "definition": "Noticing or knowing that something exists.",
       "example_sentence": "The aware response made the conversation easier to understand.",
-      "pronunciation": "/aware/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-wer/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/aware__us_1.mp3",
       "synonyms": [
         "noticing",
         "knowing"
@@ -3399,8 +3399,8 @@
       "usefulness_score": 88,
       "definition": "The skill or power to do something.",
       "example_sentence": "The idea of ability appears often in education discussions.",
-      "pronunciation": "/ability/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-biluhdee/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/ability__us_3.mp3",
       "synonyms": [
         "skill",
         "power"
@@ -3439,8 +3439,8 @@
       "usefulness_score": 88,
       "definition": "Guidance offered to help someone decide.",
       "example_sentence": "The idea of advice appears often in relationships discussions.",
-      "pronunciation": "/advice/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uhd-vys/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/advice__us_1.mp3",
       "synonyms": [
         "guidance",
         "offered"
@@ -3801,9 +3801,9 @@
       "frequency_score": 66,
       "usefulness_score": 88,
       "definition": "To accept or recognize that something is true.",
-      "example_sentence": "They used the word acknowledge while explaining how to handle the situation.",
-      "pronunciation": "/acknowledge/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "the plight of the refugees was acknowledged by the authorities",
+      "pronunciation": "/uhk-nahluhj/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/acknowledge__us_1.mp3",
       "synonyms": [
         "accept",
         "recognize"
@@ -3822,9 +3822,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To publicly support an idea or cause.",
-      "example_sentence": "They used the word advocate while explaining how to handle the situation.",
-      "pronunciation": "/advocate/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "they advocated an ethical foreign policy",
+      "pronunciation": "/advuh-kayt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/advocate__us_1.mp3",
       "synonyms": [
         "publicly",
         "support"
@@ -3843,9 +3843,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To state support or agreement clearly.",
-      "example_sentence": "They used the word affirm while explaining how to handle the situation.",
-      "pronunciation": "/affirm/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "he affirmed the country's commitment to peace",
+      "pronunciation": "/uh-fuhrm/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/affirm__us_1.mp3",
       "synonyms": [
         "state",
         "support"
@@ -3885,9 +3885,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To expect something and prepare for it.",
-      "example_sentence": "They used the word anticipate while explaining how to handle the situation.",
-      "pronunciation": "/anticipate/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "she anticipated scorn on her return to the theater",
+      "pronunciation": "/an-tisuh-payt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/anticipate__us_1.mp3",
       "synonyms": [
         "expect",
         "something"
@@ -3907,8 +3907,8 @@
       "usefulness_score": 88,
       "definition": "Suitable for a particular situation.",
       "example_sentence": "The appropriate response made the conversation easier to understand.",
-      "pronunciation": "/appropriate/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-prohpreeuht/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/appropriate__us_1.mp3",
       "synonyms": [
         "suitable",
         "particular"
@@ -5695,8 +5695,8 @@
       "usefulness_score": 84,
       "definition": "Based on ideas rather than physical things.",
       "example_sentence": "The abstract response made the conversation easier to understand.",
-      "pronunciation": "/abstract/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/ab-strakt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/abstract__us_4.mp3",
       "synonyms": [
         "based",
         "ideas"
@@ -5716,8 +5716,8 @@
       "usefulness_score": 84,
       "definition": "A change that helps something fit its environment.",
       "example_sentence": "The idea of adaptation appears often in science discussions.",
-      "pronunciation": "/adaptation/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/adap-tayshuhn/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/adaptation__us_1.mp3",
       "synonyms": [
         "change",
         "helps"
@@ -5756,8 +5756,8 @@
       "usefulness_score": 88,
       "definition": "A condition that makes success more likely.",
       "example_sentence": "The idea of advantage appears often in professional discussions.",
-      "pronunciation": "/advantage/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uhd-vantij/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/advantage__us_1.mp3",
       "synonyms": [
         "condition",
         "makes"
@@ -5775,8 +5775,8 @@
       "usefulness_score": 84,
       "definition": "Agreement between goals, actions, or parts.",
       "example_sentence": "The idea of alignment appears often in work discussions.",
-      "pronunciation": "/alignment/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-lynmuhnt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/alignment__us_1.mp3",
       "synonyms": [
         "agreement",
         "between"
@@ -5794,8 +5794,8 @@
       "usefulness_score": 88,
       "definition": "Another possible choice.",
       "example_sentence": "The idea of alternative appears often in thinking discussions.",
-      "pronunciation": "/alternative/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/awl-tuhrnuhdiv/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/alternative__us_2.mp3",
       "synonyms": [
         "another",
         "possible"
@@ -5813,8 +5813,8 @@
       "usefulness_score": 84,
       "definition": "A comparison that explains an idea.",
       "example_sentence": "The idea of analogy appears often in communication discussions.",
-      "pronunciation": "/analogy/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-naluhjee/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/analogy__us_1.mp3",
       "synonyms": [
         "comparison",
         "explains"
@@ -5852,8 +5852,8 @@
       "usefulness_score": 84,
       "definition": "Chosen without a clear reason or fair system.",
       "example_sentence": "The arbitrary response made the conversation easier to understand.",
-      "pronunciation": "/arbitrary/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/ahrbuh-treree/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/arbitrary__us_1.mp3",
       "synonyms": [
         "chosen",
         "without"
@@ -5873,8 +5873,8 @@
       "usefulness_score": 88,
       "definition": "Real, honest, and not copied or false.",
       "example_sentence": "The authentic response made the conversation easier to understand.",
-      "pronunciation": "/authentic/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/aw-thentik/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/authentic__us_1.mp3",
       "synonyms": [
         "honest",
         "copied"
@@ -5894,8 +5894,8 @@
       "usefulness_score": 80,
       "definition": "The ability to make independent choices.",
       "example_sentence": "The idea of autonomy appears often in society discussions.",
-      "pronunciation": "/autonomy/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/aw-tahnuhmee/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/autonomy__us_1.mp3",
       "synonyms": [
         "ability",
         "independent"
@@ -7280,8 +7280,8 @@
       "usefulness_score": 88,
       "definition": "Sudden or unexpectedly direct.",
       "example_sentence": "The abrupt response made the conversation easier to understand.",
-      "pronunciation": "/abrupt/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-bruhpt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/abrupt__us_1.mp3",
       "synonyms": [
         "sudden",
         "unexpectedly"
@@ -7300,9 +7300,9 @@
       "frequency_score": 66,
       "usefulness_score": 88,
       "definition": "To take in information, energy, or material.",
-      "example_sentence": "They used the word absorb while explaining how to handle the situation.",
-      "pronunciation": "/absorb/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "buildings can be designed to absorb and retain heat",
+      "pronunciation": "/uhb-zawrb/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/absorb__us_2_rr.mp3",
       "synonyms": [
         "information",
         "energy"
@@ -7321,9 +7321,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To make something happen faster.",
-      "example_sentence": "They used the word accelerate while explaining how to handle the situation.",
-      "pronunciation": "/accelerate/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "the car accelerated toward her",
+      "pronunciation": "/uhk-seluh-rayt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/accelerate__us_1.mp3",
       "synonyms": [
         "something",
         "happen"
@@ -7342,9 +7342,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To make space for a need or request.",
-      "example_sentence": "They used the word accommodate while explaining how to handle the situation.",
-      "pronunciation": "/accommodate/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "the cabins accommodate up to 6 people",
+      "pronunciation": "/uh-kahmuh-dayt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/accommodate__us_1.mp3",
       "synonyms": [
         "space",
         "request"
@@ -7363,9 +7363,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To gather gradually over time.",
-      "example_sentence": "They used the word accumulate while explaining how to handle the situation.",
-      "pronunciation": "/accumulate/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "investigators have yet to accumulate enough evidence",
+      "pronunciation": "/uh-kyoomyuh-layt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/accumulate__us_1.mp3",
       "synonyms": [
         "gather",
         "gradually"
@@ -7385,8 +7385,8 @@
       "usefulness_score": 88,
       "definition": "Next to or near something.",
       "example_sentence": "The adjacent response made the conversation easier to understand.",
-      "pronunciation": "/adjacent/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-jaysuhnt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/adjacent__us_1.mp3",
       "synonyms": [
         "something"
       ],
@@ -7405,8 +7405,8 @@
       "usefulness_score": 88,
       "definition": "Progress toward a better position or state.",
       "example_sentence": "The idea of advancement appears often in professional discussions.",
-      "pronunciation": "/advancement/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uhd-vantsmuhnt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/advancement__us_2.mp3",
       "synonyms": [
         "progress",
         "toward"
@@ -7424,8 +7424,8 @@
       "usefulness_score": 84,
       "definition": "Serious difficulty or misfortune.",
       "example_sentence": "The idea of adversity appears often in emotions discussions.",
-      "pronunciation": "/adversity/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/ad-vuhrsuhdee/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/adversity__us_2.mp3",
       "synonyms": [
         "serious",
         "difficulty"
@@ -7442,9 +7442,9 @@
       "frequency_score": 76,
       "usefulness_score": 88,
       "definition": "To give guidance or suggestions.",
-      "example_sentence": "They used the word advise while explaining how to handle the situation.",
-      "pronunciation": "/advise/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "I advised him to go home",
+      "pronunciation": "/uhd-vyz/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/advise__us_1.mp3",
       "synonyms": [
         "guidance",
         "suggestions"
@@ -7464,8 +7464,8 @@
       "usefulness_score": 80,
       "definition": "Related to beauty or artistic taste.",
       "example_sentence": "The aesthetic response made the conversation easier to understand.",
-      "pronunciation": "/aesthetic/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/es-thedik/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/aesthetic__us_1_rr.mp3",
       "synonyms": [
         "related",
         "beauty"
@@ -7485,8 +7485,8 @@
       "usefulness_score": 88,
       "definition": "A warm feeling of care or fondness.",
       "example_sentence": "The idea of affection appears often in relationships discussions.",
-      "pronunciation": "/affection/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-fekshuhn/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/affection__us_1.mp3",
       "synonyms": [
         "feeling",
         "fondness"
@@ -7504,8 +7504,8 @@
       "usefulness_score": 88,
       "definition": "A list of things to discuss or achieve.",
       "example_sentence": "The idea of agenda appears often in work discussions.",
-      "pronunciation": "/agenda/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-jenduh/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/agenda__us_1.mp3",
       "synonyms": [
         "things",
         "discuss"
@@ -7543,9 +7543,9 @@
       "frequency_score": 38,
       "usefulness_score": 80,
       "definition": "To make pain or difficulty less severe.",
-      "example_sentence": "They used the word alleviate while explaining how to handle the situation.",
-      "pronunciation": "/alleviate/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "he couldn't prevent her pain, only alleviate it",
+      "pronunciation": "/uh-leevee-ayt/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/alleviate__us_1.mp3",
       "synonyms": [
         "difficulty",
         "severe"
@@ -7565,8 +7565,8 @@
       "usefulness_score": 88,
       "definition": "A strong desire to achieve something.",
       "example_sentence": "The idea of ambition appears often in personality discussions.",
-      "pronunciation": "/ambition/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/am-bishuhn/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/ambition__us_3.mp3",
       "synonyms": [
         "strong",
         "desire"
@@ -7583,9 +7583,9 @@
       "frequency_score": 52,
       "usefulness_score": 84,
       "definition": "To make something stronger, louder, or more noticeable.",
-      "example_sentence": "They used the word amplify while explaining how to handle the situation.",
-      "pronunciation": "/amplify/",
-      "pronunciation_audio_url": null,
+      "example_sentence": "the accompanying chords have been amplified in our arrangement",
+      "pronunciation": "/ampluh-fy/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/amplify__us_1.mp3",
       "synonyms": [
         "something",
         "stronger"
@@ -7605,8 +7605,8 @@
       "usefulness_score": 84,
       "definition": "Skilled at studying parts and patterns.",
       "example_sentence": "The analytical response made the conversation easier to understand.",
-      "pronunciation": "/analytical/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/anuh-liduhkuhl/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/analytical__us_3.mp3",
       "synonyms": [
         "skilled",
         "studying"
@@ -7646,8 +7646,8 @@
       "usefulness_score": 88,
       "definition": "Recognition of value or gratitude.",
       "example_sentence": "The idea of appreciation appears often in emotions discussions.",
-      "pronunciation": "/appreciation/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-preeshee-ayshuhn/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/appreciation__us_1.mp3",
       "synonyms": [
         "recognition",
         "value"
@@ -7684,8 +7684,8 @@
       "usefulness_score": 84,
       "definition": "A hope or aim for future achievement.",
       "example_sentence": "The idea of aspiration appears often in personality discussions.",
-      "pronunciation": "/aspiration/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/aspuh-rayshuhn/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/aspiration__us_1.mp3",
       "synonyms": [
         "future",
         "achievement"
@@ -7703,8 +7703,8 @@
       "usefulness_score": 88,
       "definition": "Confidence or a promise that reduces doubt.",
       "example_sentence": "The idea of assurance appears often in communication discussions.",
-      "pronunciation": "/assurance/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-shooruhnts/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/assurance__us_1.mp3",
       "synonyms": [
         "confidence",
         "promise"
@@ -7722,8 +7722,8 @@
       "usefulness_score": 88,
       "definition": "Paying close and considerate attention.",
       "example_sentence": "The attentive response made the conversation easier to understand.",
-      "pronunciation": "/attentive/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-tentiv/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/attentive__us_1.mp3",
       "synonyms": [
         "paying",
         "close"
@@ -7743,8 +7743,8 @@
       "usefulness_score": 84,
       "definition": "The quality of being genuine and truthful.",
       "example_sentence": "The idea of authenticity appears often in personality discussions.",
-      "pronunciation": "/authenticity/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/aw-then-tisuhdee/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/authenticity__us_1.mp3",
       "synonyms": [
         "quality",
         "being"
@@ -7762,8 +7762,8 @@
       "usefulness_score": 88,
       "definition": "The state of being ready or able to be used.",
       "example_sentence": "The idea of availability appears often in work discussions.",
-      "pronunciation": "/availability/",
-      "pronunciation_audio_url": null,
+      "pronunciation": "/uh-vayluh-biluhdee/",
+      "pronunciation_audio_url": "https://audio.oxforddictionaries.com/en/mp3/availability__us_1.mp3",
       "synonyms": [
         "state",
         "being"

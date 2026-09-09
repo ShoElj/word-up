@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import { readFile, writeFile } from 'node:fs/promises';
 
-const WORD_BANK_PATH = 'data/word-bank-candidates.json';
-const CURRICULUM_PATH = 'data/wordup-curriculum-365.json';
-const OUTPUT_PATH = 'data/word-bank-quality-assessment.json';
+const WORD_BANK_PATH = process.argv[2] || 'data/word-bank-candidates.json';
+const CURRICULUM_PATH = process.argv[3] || 'data/wordup-curriculum-365.json';
+const OUTPUT_PATH = process.argv[4] || 'data/word-bank-quality-assessment.json';
 
 const PLACEHOLDER_EXAMPLE_PATTERN = /^they used the word .+ while explaining how to handle the situation\.$/i;
 
