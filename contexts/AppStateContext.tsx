@@ -48,7 +48,7 @@ type AppStateValue = {
   submitCompletedGame: (game: DailyGame) => Promise<void>;
   triggerHaptic: (kind?: 'selection' | 'success' | 'error') => Promise<void>;
   playSuccessSound: () => void;
-  playPronunciation: (audioUrl?: string) => Promise<boolean>;
+  playPronunciation: (word: string, audioUrl?: string) => Promise<boolean>;
 };
 
 const AppStateContext = createContext<AppStateValue | null>(null);
@@ -306,9 +306,9 @@ export function AppStateProvider({ children }: PropsWithChildren) {
   }, [settings.sound]);
 
   const playPronunciation = useCallback(
-    async (audioUrl?: string) => {
+    async (word: string, audioUrl?: string) => {
       if (!settings.sound) return false;
-      return playWordPronunciation(audioUrl);
+      return playWordPronunciation(word, audioUrl);
     },
     [settings.sound]
   );

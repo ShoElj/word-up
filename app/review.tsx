@@ -51,7 +51,7 @@ export default function ReviewScreen() {
 
   const listen = async () => {
     setAudioMessage('');
-    const played = await playPronunciation(word.audioUrl);
+    const played = await playPronunciation(word.word, word.audioUrl);
     if (!played) {
       setAudioMessage(settings.sound ? 'Pronunciation audio unavailable.' : 'Sound is off.');
     }
@@ -77,13 +77,9 @@ export default function ReviewScreen() {
         {word.partOfSpeech ? (
           <Text style={[styles.partOfSpeech, { color: colors.secondaryText }]}>{word.partOfSpeech}</Text>
         ) : null}
-        {word.audioUrl ? (
-          <>
-            <Button label="Listen" variant="secondary" onPress={listen} style={styles.listenButton} />
-            {audioMessage ? (
-              <Text style={[styles.audioMessage, { color: colors.secondaryText }]}>{audioMessage}</Text>
-            ) : null}
-          </>
+        <Button label="Listen" variant="secondary" onPress={listen} style={styles.listenButton} />
+        {audioMessage ? (
+          <Text style={[styles.audioMessage, { color: colors.secondaryText }]}>{audioMessage}</Text>
         ) : null}
       </View>
 

@@ -27,7 +27,7 @@ export default function WordDetailScreen() {
   }
 
   const listen = async () => {
-    await playPronunciation(result.audioUrl);
+    await playPronunciation(result.word, result.audioUrl);
   };
 
   const share = async () => {
@@ -47,9 +47,7 @@ export default function WordDetailScreen() {
       {result.partOfSpeech ? (
         <Text style={[styles.partOfSpeech, { color: colors.secondaryText }]}>{result.partOfSpeech}</Text>
       ) : null}
-      {result.audioUrl ? (
-        <Button label="Listen" variant="secondary" onPress={listen} style={styles.listen} />
-      ) : null}
+      <Button label="Listen" variant="secondary" onPress={listen} style={styles.listen} />
       <View style={styles.section}>
         <Text style={[styles.sectionLabel, { color: colors.secondaryText }]}>Definition</Text>
         <Text style={[styles.body, { color: colors.text }]}>{result.definition}</Text>
