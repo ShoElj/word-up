@@ -72,7 +72,7 @@ export default function StreakScreen() {
           <Text style={[styles.big, { color: colors.text }]}>{displayStreak}</Text>
           <Text style={[styles.sub, { color: colors.text }]}>days</Text>
         </View>
-        <ThreeDAsset label="Streak Flame asset slot" size={96} entrance={!hasAnimatedStreakCount} />
+        <ThreeDAsset label="Streak Flame asset slot" icon="flame" size={96} entrance={!hasAnimatedStreakCount} />
       </View>
       <View style={styles.stats}>
         <StatCard value={stats.currentStreak} label="Current" />
