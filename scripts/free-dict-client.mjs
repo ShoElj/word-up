@@ -3,6 +3,7 @@
 // at all, unlike the Oxford client — nothing here needs redaction.
 
 import { checkAudioAccessibility, compareWithWordUp } from './dictionary-shared.mjs';
+import { fetchViaNodeHttp } from './node-fetch-compat.mjs';
 
 export { checkAudioAccessibility, compareWithWordUp };
 
@@ -14,7 +15,7 @@ export function buildEntryUrl({ baseUrl = DEFAULT_BASE_URL, word }) {
   return `${normalizedBase}/${wordId}`;
 }
 
-export async function fetchFreeDictEntry({ word, baseUrl = DEFAULT_BASE_URL, fetchImpl = fetch, timeoutMs = 10000 }) {
+export async function fetchFreeDictEntry({ word, baseUrl = DEFAULT_BASE_URL, fetchImpl = fetchViaNodeHttp, timeoutMs = 10000 }) {
   const url = buildEntryUrl({ baseUrl, word });
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);

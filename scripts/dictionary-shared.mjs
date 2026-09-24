@@ -1,7 +1,9 @@
 // Logic shared across dictionary-source clients (Oxford, Free Dictionary API, etc.)
 // so each vendor-specific client only needs to handle fetching and field mapping.
 
-export async function checkAudioAccessibility(url, { fetchImpl = fetch, timeoutMs = 8000 } = {}) {
+import { fetchViaNodeHttp } from './node-fetch-compat.mjs';
+
+export async function checkAudioAccessibility(url, { fetchImpl = fetchViaNodeHttp, timeoutMs = 8000 } = {}) {
   if (!url) {
     return { url: null, checked: false, reachable: false };
   }

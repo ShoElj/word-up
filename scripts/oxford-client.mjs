@@ -1,4 +1,5 @@
 import { checkAudioAccessibility, compareWithWordUp } from './dictionary-shared.mjs';
+import { fetchViaNodeHttp } from './node-fetch-compat.mjs';
 
 export { checkAudioAccessibility, compareWithWordUp };
 
@@ -26,7 +27,7 @@ export async function fetchOxfordEntry({
   appKey,
   baseUrl,
   sourceLang = 'en-us',
-  fetchImpl = fetch,
+  fetchImpl = fetchViaNodeHttp,
   timeoutMs = 10000,
 }) {
   const url = buildEntriesUrl({ baseUrl, word, sourceLang });
