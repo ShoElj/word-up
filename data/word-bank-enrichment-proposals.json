@@ -1,0 +1,1058 @@
+{
+  "generatedAt": "2026-09-09T13:05:33.488Z",
+  "purpose": "Reviewable enrichment proposals for Sandbox-reachable A-words only. Definitions are never proposed for change. Nothing here is applied to word-bank-candidates.json, Supabase, or the curriculum automatically — review each entry before applying anything. NOTE: this snapshot reflects word-bank-candidates.json's state BEFORE apply-word-bank-enrichment.mjs was run against it; the 54 non-held-back proposals below have since been applied.",
+  "oxfordDataSource": "data/oxford-proof-of-concept-sample.json",
+  "proposalCount": 63,
+  "skippedCount": 0,
+  "proposals": [
+    {
+      "word": "Articulate",
+      "normalized_word": "articulate",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Able to express ideas clearly and effectively.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/articulate__us_2.mp3"
+        }
+      }
+    },
+    {
+      "word": "Ambiguous",
+      "normalized_word": "ambiguous",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Having more than one possible meaning.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/ambiguous__us_2.mp3"
+        }
+      }
+    },
+    {
+      "word": "Adaptable",
+      "normalized_word": "adaptable",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Able to change in response to new conditions.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adaptable__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Assertive",
+      "normalized_word": "assertive",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Confident in expressing needs or opinions.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/assertive__us_2.mp3"
+        }
+      }
+    },
+    {
+      "word": "Allocate",
+      "normalized_word": "allocate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To assign resources or time for a purpose.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/allocate__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Assumption",
+      "normalized_word": "assumption",
+      "part_of_speech": "noun",
+      "currentDefinition": "Something accepted as true without complete proof.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/assumption__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Accountable",
+      "normalized_word": "accountable",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Expected to explain actions or accept responsibility.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accountable__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Anxious",
+      "normalized_word": "anxious",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Worried or nervous about something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/anxious__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Assess",
+      "normalized_word": "assess",
+      "part_of_speech": "verb",
+      "currentDefinition": "To judge or estimate the nature or value of something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/assess__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Apply",
+      "normalized_word": "apply",
+      "part_of_speech": "verb",
+      "currentDefinition": "To use an idea, rule, or skill in a practical situation.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/apply__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Appreciate",
+      "normalized_word": "appreciate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To recognize the value or importance of something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/appreciate__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Accessible",
+      "normalized_word": "accessible",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Easy for people to reach, use, or understand.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accessible__us_1.mp3"
+        }
+      }
+    },
+    {
+      "word": "Accurate",
+      "normalized_word": "accurate",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Correct and free from major error.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accurate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/accurate/",
+          "to": "/akyuhruht/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Adapt",
+      "normalized_word": "adapt",
+      "part_of_speech": "verb",
+      "currentDefinition": "To change so something fits a new situation.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adapt__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/adapt/",
+          "to": "/uh-dapt/"
+        },
+        "example_sentence": {
+          "from": "They used the word adapt while explaining how to handle the situation.",
+          "to": "hospitals have had to be adapted for modern medical practice"
+        }
+      }
+    },
+    {
+      "word": "Adjust",
+      "normalized_word": "adjust",
+      "part_of_speech": "verb",
+      "currentDefinition": "To make a small change that improves fit or function.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adjust__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/adjust/",
+          "to": "/uh-juhst/"
+        },
+        "example_sentence": {
+          "from": "They used the word adjust while explaining how to handle the situation.",
+          "to": "he smoothed his hair and adjusted his tie"
+        }
+      }
+    },
+    {
+      "word": "Approach",
+      "normalized_word": "approach",
+      "part_of_speech": "noun",
+      "currentDefinition": "A way of dealing with a task or problem.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/approach__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/approach/",
+          "to": "/uh-prohch/"
+        }
+      }
+    },
+    {
+      "word": "Aware",
+      "normalized_word": "aware",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Noticing or knowing that something exists.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/aware__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/aware/",
+          "to": "/uh-wer/"
+        }
+      }
+    },
+    {
+      "word": "Ability",
+      "normalized_word": "ability",
+      "part_of_speech": "noun",
+      "currentDefinition": "The skill or power to do something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/ability__us_3.mp3"
+        },
+        "pronunciation": {
+          "from": "/ability/",
+          "to": "/uh-biluhdee/"
+        }
+      }
+    },
+    {
+      "word": "Active",
+      "normalized_word": "active",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Doing things with energy or movement.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/active__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/active/",
+          "to": "/aktiv/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Advice",
+      "normalized_word": "advice",
+      "part_of_speech": "noun",
+      "currentDefinition": "Guidance offered to help someone decide.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/advice__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/advice/",
+          "to": "/uhd-vys/"
+        }
+      }
+    },
+    {
+      "word": "Accurately",
+      "normalized_word": "accurately",
+      "part_of_speech": "adverb",
+      "currentDefinition": "In a way that is correct and exact.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accurately__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/accurately/",
+          "to": "/akyuhruhtlee/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Acknowledge",
+      "normalized_word": "acknowledge",
+      "part_of_speech": "verb",
+      "currentDefinition": "To accept or recognize that something is true.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/acknowledge__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/acknowledge/",
+          "to": "/uhk-nahluhj/"
+        },
+        "example_sentence": {
+          "from": "They used the word acknowledge while explaining how to handle the situation.",
+          "to": "the plight of the refugees was acknowledged by the authorities"
+        }
+      }
+    },
+    {
+      "word": "Advocate",
+      "normalized_word": "advocate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To publicly support an idea or cause.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/advocate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/advocate/",
+          "to": "/advuh-kayt/"
+        },
+        "example_sentence": {
+          "from": "They used the word advocate while explaining how to handle the situation.",
+          "to": "they advocated an ethical foreign policy"
+        }
+      }
+    },
+    {
+      "word": "Affirm",
+      "normalized_word": "affirm",
+      "part_of_speech": "verb",
+      "currentDefinition": "To state support or agreement clearly.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/affirm__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/affirm/",
+          "to": "/uh-fuhrm/"
+        },
+        "example_sentence": {
+          "from": "They used the word affirm while explaining how to handle the situation.",
+          "to": "he affirmed the country's commitment to peace"
+        }
+      }
+    },
+    {
+      "word": "Analyze",
+      "normalized_word": "analyze",
+      "part_of_speech": "verb",
+      "currentDefinition": "To study something carefully by looking at its parts.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/annalize__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/analyze/",
+          "to": "/anl-yz/"
+        },
+        "example_sentence": {
+          "from": "They used the word analyze while explaining how to handle the situation.",
+          "to": "we need to analyze our results more clearly"
+        }
+      },
+      "notes": [
+        "Audio filename (\"annalize__us_1.mp3\") and the converted respelling both look unusual for this word — listen to the audio and double check the pronunciation before publishing."
+      ]
+    },
+    {
+      "word": "Anticipate",
+      "normalized_word": "anticipate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To expect something and prepare for it.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/anticipate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/anticipate/",
+          "to": "/an-tisuh-payt/"
+        },
+        "example_sentence": {
+          "from": "They used the word anticipate while explaining how to handle the situation.",
+          "to": "she anticipated scorn on her return to the theater"
+        }
+      }
+    },
+    {
+      "word": "Appropriate",
+      "normalized_word": "appropriate",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Suitable for a particular situation.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/appropriate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/appropriate/",
+          "to": "/uh-prohpreeuht/"
+        }
+      }
+    },
+    {
+      "word": "Abstract",
+      "normalized_word": "abstract",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Based on ideas rather than physical things.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/abstract__us_4.mp3"
+        },
+        "pronunciation": {
+          "from": "/abstract/",
+          "to": "/ab-strakt/"
+        }
+      }
+    },
+    {
+      "word": "Adaptation",
+      "normalized_word": "adaptation",
+      "part_of_speech": "noun",
+      "currentDefinition": "A change that helps something fit its environment.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adaptation__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/adaptation/",
+          "to": "/adap-tayshuhn/"
+        }
+      }
+    },
+    {
+      "word": "Adequate",
+      "normalized_word": "adequate",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Good enough for a need or purpose.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adequate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/adequate/",
+          "to": "/aduhkwuht/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Advantage",
+      "normalized_word": "advantage",
+      "part_of_speech": "noun",
+      "currentDefinition": "A condition that makes success more likely.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/advantage__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/advantage/",
+          "to": "/uhd-vantij/"
+        }
+      }
+    },
+    {
+      "word": "Alignment",
+      "normalized_word": "alignment",
+      "part_of_speech": "noun",
+      "currentDefinition": "Agreement between goals, actions, or parts.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/alignment__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/alignment/",
+          "to": "/uh-lynmuhnt/"
+        }
+      }
+    },
+    {
+      "word": "Alternative",
+      "normalized_word": "alternative",
+      "part_of_speech": "noun",
+      "currentDefinition": "Another possible choice.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/alternative__us_2.mp3"
+        },
+        "pronunciation": {
+          "from": "/alternative/",
+          "to": "/awl-tuhrnuhdiv/"
+        }
+      }
+    },
+    {
+      "word": "Analogy",
+      "normalized_word": "analogy",
+      "part_of_speech": "noun",
+      "currentDefinition": "A comparison that explains an idea.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/analogy__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/analogy/",
+          "to": "/uh-naluhjee/"
+        }
+      }
+    },
+    {
+      "word": "Applicable",
+      "normalized_word": "applicable",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Relevant and able to be used.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/applicable__us_2_rr.mp3"
+        },
+        "pronunciation": {
+          "from": "/applicable/",
+          "to": "/apluhkuhbuhl/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Arbitrary",
+      "normalized_word": "arbitrary",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Chosen without a clear reason or fair system.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/arbitrary__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/arbitrary/",
+          "to": "/ahrbuh-treree/"
+        }
+      }
+    },
+    {
+      "word": "Authentic",
+      "normalized_word": "authentic",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Real, honest, and not copied or false.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/authentic__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/authentic/",
+          "to": "/aw-thentik/"
+        }
+      }
+    },
+    {
+      "word": "Autonomy",
+      "normalized_word": "autonomy",
+      "part_of_speech": "noun",
+      "currentDefinition": "The ability to make independent choices.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/autonomy__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/autonomy/",
+          "to": "/aw-tahnuhmee/"
+        }
+      }
+    },
+    {
+      "word": "Abrupt",
+      "normalized_word": "abrupt",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Sudden or unexpectedly direct.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/abrupt__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/abrupt/",
+          "to": "/uh-bruhpt/"
+        }
+      }
+    },
+    {
+      "word": "Absorb",
+      "normalized_word": "absorb",
+      "part_of_speech": "verb",
+      "currentDefinition": "To take in information, energy, or material.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/absorb__us_2_rr.mp3"
+        },
+        "pronunciation": {
+          "from": "/absorb/",
+          "to": "/uhb-zawrb/"
+        },
+        "example_sentence": {
+          "from": "They used the word absorb while explaining how to handle the situation.",
+          "to": "buildings can be designed to absorb and retain heat"
+        }
+      }
+    },
+    {
+      "word": "Accelerate",
+      "normalized_word": "accelerate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To make something happen faster.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accelerate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/accelerate/",
+          "to": "/uhk-seluh-rayt/"
+        },
+        "example_sentence": {
+          "from": "They used the word accelerate while explaining how to handle the situation.",
+          "to": "the car accelerated toward her"
+        }
+      }
+    },
+    {
+      "word": "Accommodate",
+      "normalized_word": "accommodate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To make space for a need or request.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accommodate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/accommodate/",
+          "to": "/uh-kahmuh-dayt/"
+        },
+        "example_sentence": {
+          "from": "They used the word accommodate while explaining how to handle the situation.",
+          "to": "the cabins accommodate up to 6 people"
+        }
+      }
+    },
+    {
+      "word": "Accumulate",
+      "normalized_word": "accumulate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To gather gradually over time.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/accumulate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/accumulate/",
+          "to": "/uh-kyoomyuh-layt/"
+        },
+        "example_sentence": {
+          "from": "They used the word accumulate while explaining how to handle the situation.",
+          "to": "investigators have yet to accumulate enough evidence"
+        }
+      }
+    },
+    {
+      "word": "Adjacent",
+      "normalized_word": "adjacent",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Next to or near something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adjacent__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/adjacent/",
+          "to": "/uh-jaysuhnt/"
+        }
+      }
+    },
+    {
+      "word": "Advancement",
+      "normalized_word": "advancement",
+      "part_of_speech": "noun",
+      "currentDefinition": "Progress toward a better position or state.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/advancement__us_2.mp3"
+        },
+        "pronunciation": {
+          "from": "/advancement/",
+          "to": "/uhd-vantsmuhnt/"
+        }
+      }
+    },
+    {
+      "word": "Adversity",
+      "normalized_word": "adversity",
+      "part_of_speech": "noun",
+      "currentDefinition": "Serious difficulty or misfortune.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/adversity__us_2.mp3"
+        },
+        "pronunciation": {
+          "from": "/adversity/",
+          "to": "/ad-vuhrsuhdee/"
+        }
+      }
+    },
+    {
+      "word": "Advise",
+      "normalized_word": "advise",
+      "part_of_speech": "verb",
+      "currentDefinition": "To give guidance or suggestions.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/advise__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/advise/",
+          "to": "/uhd-vyz/"
+        },
+        "example_sentence": {
+          "from": "They used the word advise while explaining how to handle the situation.",
+          "to": "I advised him to go home"
+        }
+      }
+    },
+    {
+      "word": "Aesthetic",
+      "normalized_word": "aesthetic",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Related to beauty or artistic taste.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/aesthetic__us_1_rr.mp3"
+        },
+        "pronunciation": {
+          "from": "/aesthetic/",
+          "to": "/es-thedik/"
+        }
+      }
+    },
+    {
+      "word": "Affection",
+      "normalized_word": "affection",
+      "part_of_speech": "noun",
+      "currentDefinition": "A warm feeling of care or fondness.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/affection__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/affection/",
+          "to": "/uh-fekshuhn/"
+        }
+      }
+    },
+    {
+      "word": "Agenda",
+      "normalized_word": "agenda",
+      "part_of_speech": "noun",
+      "currentDefinition": "A list of things to discuss or achieve.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/agenda__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/agenda/",
+          "to": "/uh-jenduh/"
+        }
+      }
+    },
+    {
+      "word": "Agile",
+      "normalized_word": "agile",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Able to move or adapt quickly.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/agile__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/agile/",
+          "to": "/ajuhl/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Alleviate",
+      "normalized_word": "alleviate",
+      "part_of_speech": "verb",
+      "currentDefinition": "To make pain or difficulty less severe.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/alleviate__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/alleviate/",
+          "to": "/uh-leevee-ayt/"
+        },
+        "example_sentence": {
+          "from": "They used the word alleviate while explaining how to handle the situation.",
+          "to": "he couldn't prevent her pain, only alleviate it"
+        }
+      }
+    },
+    {
+      "word": "Ambition",
+      "normalized_word": "ambition",
+      "part_of_speech": "noun",
+      "currentDefinition": "A strong desire to achieve something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/ambition__us_3.mp3"
+        },
+        "pronunciation": {
+          "from": "/ambition/",
+          "to": "/am-bishuhn/"
+        }
+      }
+    },
+    {
+      "word": "Amplify",
+      "normalized_word": "amplify",
+      "part_of_speech": "verb",
+      "currentDefinition": "To make something stronger, louder, or more noticeable.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/amplify__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/amplify/",
+          "to": "/ampluh-fy/"
+        },
+        "example_sentence": {
+          "from": "They used the word amplify while explaining how to handle the situation.",
+          "to": "the accompanying chords have been amplified in our arrangement"
+        }
+      }
+    },
+    {
+      "word": "Analytical",
+      "normalized_word": "analytical",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Skilled at studying parts and patterns.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/analytical__us_3.mp3"
+        },
+        "pronunciation": {
+          "from": "/analytical/",
+          "to": "/anuh-liduhkuhl/"
+        }
+      }
+    },
+    {
+      "word": "Anchor",
+      "normalized_word": "anchor",
+      "part_of_speech": "verb",
+      "currentDefinition": "To hold an idea or plan steady.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/anker__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/anchor/",
+          "to": "/angkuhr/"
+        },
+        "example_sentence": {
+          "from": "They used the word anchor while explaining how to handle the situation.",
+          "to": "The company's mission statement anchors every decision the team makes."
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing.",
+        "Example sentence manually overridden: WordUp's definition for anchor is figurative (\"To hold an idea or plan steady\"), but Oxford's verb sense and example are literal/nautical (\"the ship was anchored in the lee of the island\") — using it would contradict the definition it's paired with."
+      ]
+    },
+    {
+      "word": "Appreciation",
+      "normalized_word": "appreciation",
+      "part_of_speech": "noun",
+      "currentDefinition": "Recognition of value or gratitude.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/appreciation__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/appreciation/",
+          "to": "/uh-preeshee-ayshuhn/"
+        }
+      }
+    },
+    {
+      "word": "Artistry",
+      "normalized_word": "artistry",
+      "part_of_speech": "noun",
+      "currentDefinition": "Creative skill in making or performing something.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/artistry__us_2.mp3"
+        },
+        "pronunciation": {
+          "from": "/artistry/",
+          "to": "/ahrduhstree/"
+        }
+      },
+      "notes": [
+        "Converted pronunciation has no syllable breaks — Oxford's source respelling only marked stress once. Verify by ear before publishing."
+      ]
+    },
+    {
+      "word": "Aspiration",
+      "normalized_word": "aspiration",
+      "part_of_speech": "noun",
+      "currentDefinition": "A hope or aim for future achievement.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/aspiration__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/aspiration/",
+          "to": "/aspuh-rayshuhn/"
+        }
+      }
+    },
+    {
+      "word": "Assurance",
+      "normalized_word": "assurance",
+      "part_of_speech": "noun",
+      "currentDefinition": "Confidence or a promise that reduces doubt.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/assurance__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/assurance/",
+          "to": "/uh-shooruhnts/"
+        }
+      }
+    },
+    {
+      "word": "Attentive",
+      "normalized_word": "attentive",
+      "part_of_speech": "adjective",
+      "currentDefinition": "Paying close and considerate attention.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/attentive__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/attentive/",
+          "to": "/uh-tentiv/"
+        }
+      }
+    },
+    {
+      "word": "Authenticity",
+      "normalized_word": "authenticity",
+      "part_of_speech": "noun",
+      "currentDefinition": "The quality of being genuine and truthful.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/authenticity__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/authenticity/",
+          "to": "/aw-then-tisuhdee/"
+        }
+      }
+    },
+    {
+      "word": "Availability",
+      "normalized_word": "availability",
+      "part_of_speech": "noun",
+      "currentDefinition": "The state of being ready or able to be used.",
+      "changes": {
+        "pronunciation_audio_url": {
+          "from": null,
+          "to": "https://audio.oxforddictionaries.com/en/mp3/availability__us_1.mp3"
+        },
+        "pronunciation": {
+          "from": "/availability/",
+          "to": "/uh-vayluh-biluhdee/"
+        }
+      }
+    }
+  ],
+  "skipped": []
+}
