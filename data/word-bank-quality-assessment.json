@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-09T13:22:56.852Z",
+  "generatedAt": "2026-09-24T13:51:34.232Z",
   "purpose": "Local content-quality audit of existing WordUp word_bank candidates — no Oxford API calls, no writes to Supabase.",
   "totalApproved": 500,
   "summary": {
-    "placeholderExampleCount": 112,
-    "trivialPronunciationCount": 360,
-    "noAudioCount": 446,
-    "flaggedTotal": 446,
-    "flaggedInLiveCurriculum": 324
+    "placeholderExampleCount": 110,
+    "trivialPronunciationCount": 351,
+    "noAudioCount": 437,
+    "flaggedTotal": 437,
+    "flaggedInLiveCurriculum": 317
   },
   "flagged": [
     {
@@ -321,17 +321,6 @@
       "pronunciation": "/rez-uh-nayt/"
     },
     {
-      "word": "Accurate",
-      "normalized_word": "accurate",
-      "curriculumDay": 35,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The accurate response made the conversation easier to understand.",
-      "pronunciation": "/accurate/"
-    },
-    {
       "word": "Detail",
       "normalized_word": "detail",
       "curriculumDay": 36,
@@ -386,17 +375,6 @@
       ],
       "example_sentence": "The specific response made the conversation easier to understand.",
       "pronunciation": "/specific/"
-    },
-    {
-      "word": "Accurately",
-      "normalized_word": "accurately",
-      "curriculumDay": 41,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "She explained the result accurately so the team could trust it.",
-      "pronunciation": "/accurately/"
     },
     {
       "word": "Communicate",
@@ -1267,18 +1245,6 @@
       ],
       "example_sentence": "The logical response made the conversation easier to understand.",
       "pronunciation": "/logical/"
-    },
-    {
-      "word": "Analyze",
-      "normalized_word": "analyze",
-      "curriculumDay": 139,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word analyze while explaining how to handle the situation.",
-      "pronunciation": "/analyze/"
     },
     {
       "word": "Bias",
@@ -2156,17 +2122,6 @@
       "pronunciation": "/precedent/"
     },
     {
-      "word": "Artistry",
-      "normalized_word": "artistry",
-      "curriculumDay": 227,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The idea of artistry appears often in culture discussions.",
-      "pronunciation": "/artistry/"
-    },
-    {
       "word": "Communal",
       "normalized_word": "communal",
       "curriculumDay": 228,
@@ -2442,18 +2397,6 @@
       ],
       "example_sentence": "The tangible response made the conversation easier to understand.",
       "pronunciation": "/tangible/"
-    },
-    {
-      "word": "Anchor",
-      "normalized_word": "anchor",
-      "curriculumDay": 256,
-      "reasons": [
-        "placeholder_example",
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "They used the word anchor while explaining how to handle the situation.",
-      "pronunciation": "/anchor/"
     },
     {
       "word": "Clarity",
@@ -3198,17 +3141,6 @@
       "pronunciation": "/friction/"
     },
     {
-      "word": "Applicable",
-      "normalized_word": "applicable",
-      "curriculumDay": 332,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The applicable response made the conversation easier to understand.",
-      "pronunciation": "/applicable/"
-    },
-    {
       "word": "Delegate",
       "normalized_word": "delegate",
       "curriculumDay": 333,
@@ -3264,17 +3196,6 @@
       ],
       "example_sentence": "The idea of utility appears often in professional discussions.",
       "pronunciation": "/utility/"
-    },
-    {
-      "word": "Agile",
-      "normalized_word": "agile",
-      "curriculumDay": 339,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The agile response made the conversation easier to understand.",
-      "pronunciation": "/agile/"
     },
     {
       "word": "Baseline",
@@ -4077,17 +3998,6 @@
       "pronunciation": "/varied/"
     },
     {
-      "word": "Active",
-      "normalized_word": "active",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The active response made the conversation easier to understand.",
-      "pronunciation": "/active/"
-    },
-    {
       "word": "Balance",
       "normalized_word": "balance",
       "curriculumDay": null,
@@ -4254,17 +4164,6 @@
       ],
       "example_sentence": "They used the word transfer while explaining how to handle the situation.",
       "pronunciation": "/transfer/"
-    },
-    {
-      "word": "Adequate",
-      "normalized_word": "adequate",
-      "curriculumDay": null,
-      "reasons": [
-        "trivial_pronunciation",
-        "no_audio"
-      ],
-      "example_sentence": "The adequate response made the conversation easier to understand.",
-      "pronunciation": "/adequate/"
     },
     {
       "word": "Constraint",

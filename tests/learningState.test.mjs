@@ -385,10 +385,15 @@ test('today screen displays partOfSpeech when present', async () => {
   assert.match(source, /today\.category/);
 });
 
-test('today screen Listen button is conditional on audioUrl', async () => {
+test('today screen always shows a Listen button, passing word and audioUrl so on-device speech can fall back when there is no real audio', async () => {
   const { readFile } = await import('node:fs/promises');
   const source = await readFile('app/(tabs)/today.tsx', 'utf8');
-  assert.match(source, /today\.audioUrl/);
+  assert.match(source, /playPronunciation\(today\.word,\s*today\.audioUrl\)/);
+  assert.doesNotMatch(
+    source,
+    /today\.audioUrl\s*\?\s*\n?\s*<>/,
+    'the Listen button should not be hidden when audioUrl is missing — on-device speech covers that case'
+  );
 });
 
 test('word detail screen displays partOfSpeech and category when present', async () => {
@@ -398,8 +403,13 @@ test('word detail screen displays partOfSpeech and category when present', async
   assert.match(source, /result\.category/);
 });
 
-test('word detail screen Listen button is conditional on audioUrl', async () => {
+test('word detail screen always shows a Listen button, passing word and audioUrl so on-device speech can fall back when there is no real audio', async () => {
   const { readFile } = await import('node:fs/promises');
   const source = await readFile('app/word/[id].tsx', 'utf8');
-  assert.match(source, /result\.audioUrl/);
+  assert.match(source, /playPronunciation\(result\.word,\s*result\.audioUrl\)/);
+  assert.doesNotMatch(
+    source,
+    /result\.audioUrl\s*\?\s*\n?\s*<Button/,
+    'the Listen button should not be hidden when audioUrl is missing — on-device speech covers that case'
+  );
 });

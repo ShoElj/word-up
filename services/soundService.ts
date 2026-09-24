@@ -1,5 +1,6 @@
 import { requireOptionalNativeModule } from 'expo-modules-core';
 import type { AudioPlayer } from 'expo-audio';
+import * as Speech from 'expo-speech';
 
 const successSound = require('../assets/sounds/success.wav');
 
@@ -34,25 +35,33 @@ export async function playWordUpSuccessSound() {
   }
 }
 
-export async function playWordPronunciation(uri?: string) {
-  if (!uri) {
-    return false;
-  }
-
-  const Audio = await loadExpoAudio();
-  if (!Audio) {
-    return false;
-  }
-
+function speakWordAsFallback(word: string) {
   try {
-    if (!pronunciationPlayer || currentPronunciationUri !== uri) {
-      pronunciationPlayer = Audio.createAudioPlayer({ uri }, { downloadFirst: true });
-      currentPronunciationUri = uri;
-    }
-    await pronunciationPlayer.seekTo(0);
-    pronunciationPlayer.play();
+    Speech.stop();
+    Speech.speak(word, { language: 'en-US' });
     return true;
   } catch {
     return false;
   }
+}
+
+export async function playWordPronunciation(word: string, uri?: string) {
+  if (uri) {
+    const Audio = await loadExpoAudio();
+    if (Audio) {
+      try {
+        if (!pronunciationPlayer || currentPronunciationUri !== uri) {
+          pronunciationPlayer = Audio.createAudioPlayer({ uri }, { downloadFirst: true });
+          currentPronunciationUri = uri;
+        }
+        await pronunciationPlayer.seekTo(0);
+        pronunciationPlayer.play();
+        return true;
+      } catch {
+        // Fall through to the on-device speech fallback below.
+      }
+    }
+  }
+
+  return speakWordAsFallback(word);
 }

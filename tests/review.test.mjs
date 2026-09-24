@@ -253,10 +253,15 @@ test('review screen shows word, definition, example', async () => {
   assert.match(source, /word\.word/);
 });
 
-test('review screen Listen button is conditional on audioUrl', async () => {
+test('review screen always shows a Listen button, passing word and audioUrl so on-device speech can fall back when there is no real audio', async () => {
   const { readFile } = await import('node:fs/promises');
   const source = await readFile('app/review.tsx', 'utf8');
-  assert.match(source, /word\.audioUrl/);
+  assert.match(source, /playPronunciation\(word\.word,\s*word\.audioUrl\)/);
+  assert.doesNotMatch(
+    source,
+    /word\.audioUrl\s*\?\s*\n?\s*<>/,
+    'the Listen button should not be hidden when audioUrl is missing — on-device speech covers that case'
+  );
 });
 
 test('review screen shows empty state when history is empty', async () => {

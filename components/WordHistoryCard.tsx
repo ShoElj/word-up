@@ -13,7 +13,7 @@ export function WordHistoryCard({
   onListen,
 }: {
   result: WordCollectionEntry;
-  onListen?: (audioUrl?: string) => void;
+  onListen?: (word: string, audioUrl?: string) => void;
 }) {
   const { colors } = useTheme();
   const scale = useSharedValue(1);
@@ -50,7 +50,7 @@ export function WordHistoryCard({
           hitSlop={10}
           onPress={(event) => {
             event.stopPropagation();
-            onListen?.(result.audioUrl);
+            onListen?.(result.word, result.audioUrl);
           }}
           style={[styles.listen, { backgroundColor: colors.raised }]}
         >
