@@ -1,3 +1,7 @@
+import { checkAudioAccessibility, compareWithWordUp } from './dictionary-shared.mjs';
+
+export { checkAudioAccessibility, compareWithWordUp };
+
 const REDACTION_PLACEHOLDER = '[redacted]';
 
 export function buildEntriesUrl({ baseUrl, word, sourceLang = 'en-us' }) {
@@ -221,82 +225,3 @@ export function selectEntryForPartOfSpeech(oxfordJson, partOfSpeech) {
   };
 }
 
-export async function checkAudioAccessibility(url, { fetchImpl = fetch, timeoutMs = 8000 } = {}) {
-  if (!url) {
-    return { url: null, checked: false, reachable: false };
-  }
-
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-
-  try {
-    const response = await fetchImpl(url, { method: 'HEAD', signal: controller.signal });
-    return {
-      url,
-      checked: true,
-      reachable: response.ok,
-      status: response.status,
-      contentType: response.headers?.get?.('content-type') ?? null,
-      contentLengthBytes: response.headers?.get?.('content-length')
-        ? Number(response.headers.get('content-length'))
-        : null,
-    };
-  } catch (error) {
-    const isAbort = error?.name === 'AbortError';
-    return {
-      url,
-      checked: true,
-      reachable: false,
-      error: isAbort ? `Request timed out after ${timeoutMs}ms` : String(error?.message ?? error),
-    };
-  } finally {
-    clearTimeout(timeout);
-  }
-}
-
-export function compareWithWordUp(oxfordFields, wordUpRecord) {
-  if (!wordUpRecord) {
-    return {
-      hasWordUpRecord: false,
-      notes: ['This word does not exist in the current WordUp word_bank candidates.'],
-    };
-  }
-
-  const wordUpAudioUrl = wordUpRecord.pronunciation_audio_url ?? null;
-  const oxfordAudioFiles = oxfordFields.audioFiles;
-  const wordUpPartOfSpeech = wordUpRecord.part_of_speech ?? null;
-  const partOfSpeechMatches =
-    wordUpPartOfSpeech && oxfordFields.partsOfSpeech.length > 0
-      ? oxfordFields.partsOfSpeech.some((pos) => pos.toLowerCase() === wordUpPartOfSpeech.toLowerCase())
-      : null;
-
-  const notes = [];
-  if (!wordUpAudioUrl && oxfordAudioFiles.length > 0) {
-    notes.push(`WordUp has no audio for this word; Oxford provides ${oxfordAudioFiles.length} audio file(s).`);
-  }
-  if (wordUpAudioUrl && oxfordAudioFiles.length === 0) {
-    notes.push('WordUp has an audio URL on file but Oxford did not return one for this entry.');
-  }
-  if (wordUpRecord.pronunciation && oxfordFields.pronunciations.length > 0) {
-    notes.push('WordUp pronunciation is a hand-written respelling; Oxford pronunciation uses phonetic notation (see phoneticNotation/phoneticSpelling) — formats are not directly comparable.');
-  }
-  if (partOfSpeechMatches === false) {
-    notes.push(`Part of speech differs: WordUp has "${wordUpPartOfSpeech}", Oxford returned ${JSON.stringify(oxfordFields.partsOfSpeech)}.`);
-  }
-  if (oxfordFields.definitions.length > 1) {
-    notes.push(`Oxford returned ${oxfordFields.definitions.length} definitions/senses; WordUp stores exactly one.`);
-  }
-
-  return {
-    hasWordUpRecord: true,
-    wordUp: {
-      definition: wordUpRecord.definition ?? null,
-      partOfSpeech: wordUpPartOfSpeech,
-      pronunciation: wordUpRecord.pronunciation ?? null,
-      audioUrl: wordUpAudioUrl,
-      exampleSentence: wordUpRecord.example_sentence ?? null,
-    },
-    partOfSpeechMatches,
-    notes,
-  };
-}
