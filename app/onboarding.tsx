@@ -26,7 +26,7 @@ export default function OnboardingScreen() {
         Learn it, hear it, understand it, and build your vocabulary one day at a time.
       </Text>
       <View style={styles.asset}>
-        <ThreeDAsset label="Word Collection asset slot" size={150} entrance />
+        <ThreeDAsset label="Word Collection asset slot" icon="book" size={150} entrance />
       </View>
       <View style={styles.actions}>
         <Button label="Get started" onPress={start} />

@@ -73,7 +73,7 @@ export default function TodayScreen() {
           </FadeUp>
           <FadeScale delay={120}>
             <View style={[styles.wordCard, { backgroundColor: colors.surface, borderColor: colors.border }]}>
-              <ThreeDAsset label="Word Collection asset slot" size={72} entrance />
+              <ThreeDAsset label="Word Collection asset slot" icon="book" size={72} entrance />
               <Text style={[styles.word, { color: colors.text }]}>{today.word}</Text>
               {today.pronunciation ? (
                 <Text style={[styles.pronunciation, { color: colors.secondaryText }]}>{today.pronunciation}</Text>

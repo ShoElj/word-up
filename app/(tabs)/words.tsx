@@ -45,7 +45,7 @@ export default function WordsScreen() {
       </View>
       {history.length === 0 ? (
         <View style={styles.emptyState}>
-          <ThreeDAsset label="Word Collection asset slot" size={128} entrance />
+          <ThreeDAsset label="Word Collection asset slot" icon="book" size={128} entrance />
           <Text style={[styles.emptyTitle, { color: colors.text }]}>Your vocabulary journey starts here.</Text>
           <Text style={[styles.emptyCopy, { color: colors.secondaryText }]}>
             Learn today’s word to add your first word.

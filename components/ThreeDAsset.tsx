@@ -1,3 +1,4 @@
+import { Ionicons } from '@expo/vector-icons';
 import { Image, ImageSourcePropType, StyleSheet, Text, View, ViewStyle } from 'react-native';
 import Animated, { FadeIn, useReducedMotion, ZoomIn } from 'react-native-reanimated';
 
@@ -6,13 +7,14 @@ import { useTheme } from '@/contexts/ThemeContext';
 
 type ThreeDAssetProps = {
   source?: ImageSourcePropType;
+  icon?: React.ComponentProps<typeof Ionicons>['name'];
   size?: number;
   label: string;
   entrance?: boolean;
   style?: ViewStyle;
 };
 
-export function ThreeDAsset({ source, size = 88, label, entrance = false, style }: ThreeDAssetProps) {
+export function ThreeDAsset({ source, icon, size = 88, label, entrance = false, style }: ThreeDAssetProps) {
   const { colors } = useTheme();
   const reducedMotion = useReducedMotion();
   const content = (
@@ -31,6 +33,8 @@ export function ThreeDAsset({ source, size = 88, label, entrance = false, style 
     >
       {source ? (
         <Image source={source} resizeMode="contain" style={styles.image} />
+      ) : icon ? (
+        <Ionicons name={icon} size={size * 0.5} color={colors.primary} />
       ) : (
         <Text style={[styles.placeholder, { color: colors.secondaryText }]}>{label}</Text>
       )}
