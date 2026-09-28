@@ -368,6 +368,65 @@ test('Edge Function: SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY come from Deno.e
   assert.doesNotMatch(source, /EXPO_PUBLIC/);
 });
 
+// ─── Edge Function: rate limiting ──────────────────────────────────────────────
+
+test('Edge Function: rate limit is checked before any real DB work', async () => {
+  const source = await readFile('supabase/functions/daily-word/index.ts', 'utf8');
+  assert.match(source, /isWithinRateLimit/);
+  assert.match(source, /RATE_LIMITED/);
+  // The check must happen before getDailyWordRow is called for real work
+  const rateLimitIndex = source.indexOf('isWithinRateLimit(supabase');
+  const firstRealQueryIndex = source.indexOf('getDailyWordRow(supabase, today)');
+  assert.ok(rateLimitIndex > 0 && firstRealQueryIndex > rateLimitIndex);
+});
+
+test('Edge Function: rate limit uses HTTP 429', async () => {
+  const source = await readFile('supabase/functions/daily-word/index.ts', 'utf8');
+  assert.match(source, /RATE_LIMITED.*429|429.*RATE_LIMITED/s);
+});
+
+test('Edge Function: rate limit key is derived from x-forwarded-for, not client-supplied data', async () => {
+  const source = await readFile('supabase/functions/daily-word/index.ts', 'utf8');
+  assert.match(source, /x-forwarded-for/);
+  assert.doesNotMatch(source, /body\.clientKey/);
+  assert.doesNotMatch(source, /body\.ip/);
+});
+
+test('Edge Function: rate limiter fails open on error instead of blocking every user', async () => {
+  const source = await readFile('supabase/functions/daily-word/index.ts', 'utf8');
+  const fnBody = source.slice(
+    source.indexOf('async function isWithinRateLimit'),
+    source.indexOf('async function getCurriculumStartDate')
+  );
+  assert.match(fnBody, /if \(error\)\s*{\s*return true;/);
+});
+
+test('Edge Function: rate limit RPC uses server-computed max/window, not client input', async () => {
+  const source = await readFile('supabase/functions/daily-word/index.ts', 'utf8');
+  assert.match(source, /p_max_requests: rateLimitMaxRequests/);
+  assert.match(source, /p_window_seconds: rateLimitWindowSeconds/);
+});
+
+test('migration: daily_word_rate_limit table is locked down like every other table', async () => {
+  const migration = await readFile(
+    'supabase/migrations/20260928090000_add_daily_word_rate_limit.sql',
+    'utf8'
+  );
+  assert.match(migration, /create table if not exists public\.daily_word_rate_limit/);
+  assert.match(migration, /alter table public\.daily_word_rate_limit enable row level security/);
+  assert.match(migration, /revoke all on table public\.daily_word_rate_limit from anon/);
+  assert.match(migration, /revoke all on table public\.daily_word_rate_limit from authenticated/);
+});
+
+test('migration: check_and_increment_rate_limit is restricted to service_role only', async () => {
+  const migration = await readFile(
+    'supabase/migrations/20260928090000_add_daily_word_rate_limit.sql',
+    'utf8'
+  );
+  assert.match(migration, /revoke all on function public\.check_and_increment_rate_limit\(text, integer, integer\) from public/);
+  assert.match(migration, /grant execute on function public\.check_and_increment_rate_limit\(text, integer, integer\) to service_role/);
+});
+
 // ─── validateDailyPuzzlePayload: curriculum-length words ──────────────────────
 
 test('dailyWordCore: validateDailyPuzzlePayload accepts curriculum-length words', async () => {

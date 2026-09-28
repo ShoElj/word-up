@@ -7,6 +7,13 @@ type DailyWordRequest = {
 const defaultCurriculumStartDate = '2026-09-15';
 const curriculumLengthDays = 365;
 
+// The anon key that authorizes calls to this function is necessarily public
+// (it ships inside the app bundle), so anyone can script repeated calls.
+// There's nothing sensitive to leak and writes are idempotent, but unbounded
+// calls still cost real Supabase compute — this caps it per client IP.
+const rateLimitMaxRequests = 60;
+const rateLimitWindowSeconds = 600;
+
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
@@ -63,6 +70,29 @@ function curriculumDayForDate(dateKey: string, startDate: string) {
 
 function isDateKey(value: string) {
   return /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
+
+function clientKeyForRequest(request: Request) {
+  const forwardedFor = request.headers.get('x-forwarded-for');
+  const firstIp = forwardedFor?.split(',')[0]?.trim();
+  return firstIp || 'unknown';
+}
+
+async function isWithinRateLimit(supabase: ReturnType<typeof createClient>, clientKey: string) {
+  const { data, error } = await supabase.rpc('check_and_increment_rate_limit', {
+    p_key: clientKey,
+    p_max_requests: rateLimitMaxRequests,
+    p_window_seconds: rateLimitWindowSeconds,
+  });
+
+  // Fail open: a rate-limiter outage should never take down the whole app for
+  // every user. The limiter is a cost guard, not a security boundary — there's
+  // nothing sensitive behind it to protect by failing closed instead.
+  if (error) {
+    return true;
+  }
+
+  return data !== false;
 }
 
 async function getCurriculumStartDate(supabase: ReturnType<typeof createClient>) {
@@ -185,6 +215,11 @@ Deno.serve(async (request) => {
     const supabase = createClient(supabaseUrl, serviceRoleKey, {
       auth: { persistSession: false, autoRefreshToken: false },
     });
+
+    const clientKey = clientKeyForRequest(request);
+    if (!(await isWithinRateLimit(supabase, clientKey))) {
+      return json({ error: 'RATE_LIMITED' }, 429);
+    }
 
     const { data, error } = await getDailyWordRow(supabase, today);
 
